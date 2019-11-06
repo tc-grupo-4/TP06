@@ -392,7 +392,7 @@ status open
 \begin_inset Graphics
 	filename Resources/Circuito.png
 	lyxscale 50
-	scale 50
+	scale 70
 
 \end_inset
 
@@ -619,6 +619,13 @@ reference "1_5"
 
 \begin_layout Subsubsection
 Diodos en serie
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Diodos-en-serie"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -660,7 +667,349 @@ ente.
 \begin_inset Formula $\frac{R_{3}}{R_{4}+R_{T}}<2$
 \end_inset
 
+.
+\end_layout
 
+\begin_layout Subsubsection
+Controlador de respuesta en frecuencia de los diodos
+\end_layout
+
+\begin_layout Standard
+Debido al comportamiento no lineal de los diodos, como se puede ver en la
+ Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "1_6"
+
+\end_inset
+
+, el cambio abrupto en la tensión de 
+\emph on
+Gate
+\emph default
+ se deberá controlar para que las componentes de alta frecuencia de ese
+ comportamiento producido por los diodos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/Diodo.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Curva de un diodo
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "1_6"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para resolver este problema de altas frecuencias generadas por los cambios
+ abruptos, simplemente se añade al circuito un filtro pasivo de primer orden
+ con comportamiento de pasabajos.
+ Este filtro se logra con los componentes 
+\begin_inset Formula $C_{3}$
+\end_inset
+
+ y 
+\begin_inset Formula $R_{x}$
+\end_inset
+
+, dado que el pasabajos tendrá una constante de tiempo de establecimiento
+ de 
+\begin_inset Formula $\tau=C_{3}R_{x}$
+\end_inset
+
+, estos componentes limitarán el comportamiendo indeseado de los diodos
+ y mantendran la tensión de gate con pocas variaciones,esto es debido a
+ la necesidad de controlar muy precisamente la resistencia 
+\begin_inset Formula $R_{DS}$
+\end_inset
+
+ del transistor.
+ En principio, llamando 
+\begin_inset Formula $f_{0}$
+\end_inset
+
+ a la frecuencia de oscilación del oscilador de 
+\emph on
+Wien 
+\emph default
+a realizar, se propone que se cumpla la siguiente inecuación:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{1}{f_{0}}<5C_{3}R_{x}\label{eq:1_3}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Controlador de amplitud de oscilación
+\end_layout
+
+\begin_layout Standard
+Como uno bien se puede imaginar en la subsección 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Diodos-en-serie"
+
+\end_inset
+
+, la tensión de umbral entre los diodos determina la tensión máxima de oscilació
+n del circuito, es decir, para una tensión mayor a la tensión umbral de
+ ambos diodos, la salida de la sinusoidal se verá recortada por ese tope
+ de tensión.
+ Para esto, la solución mas intuitiva, es agregar una caida de tensión variable
+ entre los nodos de los diodos, para ello, lo unico que se debe hacer es
+ conecta una resistencia variable en serie con los diodos que genere una
+ caida de tensión variable, y asi, se podría ajustar el valor máximo de
+ la tension pico de la señal.
+\end_layout
+
+\begin_layout Standard
+Otra manera un poco mas sofisticada de enfrentar este problema es agregar
+ un circuito inversor
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Se podría utilizar un circuito no inversor, pero no se lo menciona ya que
+ no presenta ventajas frente a la resistencia en serie con los diodos
+\end_layout
+
+\end_inset
+
+ a la salida del oscilador
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Este método queda a discreción de el presupuesto destinado a realizar el
+ oscilador.
+\end_layout
+
+\end_inset
+
+.
+ La ventaja que se obtiene es que, a diferencia del metodo anterior donde
+ solo se podia aumentar la tensión máxima de salida, en este caso, se puede
+ controlar, tanto aumentando la tensión maxima de salida como atenuandola.
+ El hecho de que invierta la señal no sería un problema ya que al ser un
+ oscilador la fase de 0° uno la define donde quiere, por lo tanto, se puede
+ interpretar a la salida con un defasaje de 0°.
+ Sin embargo, la gran desventaja de esta solución es el presupuesto de construcc
+ión del mismo, ya que se deben agregar tanto mas componentes pasivos como
+ activos, y el consumo de corriente del circuito resultante tambien aumentará
+ debido a la alimentacion del segundo amplificador.
+ 
+\end_layout
+
+\begin_layout Standard
+Estos dos metodos fueron simulados y los resultados se ven en la Figura
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "1_7"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/Controlador de amplitud de oscilación.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cambios en el comportamiendo del circuito para diferentes controladores
+ de amplitud de oscilación
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "1_7"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/Circuito Controlador de amplitud por res.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Circuito con controlador de amplitud por resistencia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/Circuito Controlador de amplitud por inv.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Circuito con controlador de amplitud por etapa inversora
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Máxima frecuencia de oscilación
+\end_layout
+
+\begin_layout Standard
+Si bien como se ha visto en el análisis anterior, en ningun momento aparece
+ un limite en la frecuencia de oscilación, esto se debe a que se trabajó
+ con amplificadores operacionales ideales.
+ Cuando se realiza el análisis con amplificadores operacionales reales,
+ los limites comienzan a quedar determinados por el 
+\emph on
+Gain Bandwidth Product
+\emph default
+ y el 
+\emph on
+Slew Rate.
+ 
+\emph default
+Al simular el circuito con amplificadores reales, como con el LM833 o el
+ TL082, se observó que el limite de frecuencias a las cuales el oscilador
+ dejaba de funcionar dependía del tiempo de establecimiento que estuvieramos
+ dispuestos a esperar.
+ Es por eso que para tiempos de establecimiento relativamente razonables,
+ en las simuaciones quedó en evidencia que que las frecuencias disponibles
+ para realizar el oscilador no podian superar los 500(kHz).
+\end_layout
+
+\begin_layout Subsection
+Análisis de sensibilidades
 \end_layout
 
 \end_body
