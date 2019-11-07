@@ -75,9 +75,9 @@ se llega a la ecuación mencionada a continuación:
 T(f)=\frac{1+\frac{R_{2}}{R_{1}}}{3+j\left(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right)}\label{eq:1_1}
 \end{equation}
 
-\[
-f_{0}=\frac{1}{2\pi RC}
-\]
+\begin{equation}
+f_{0}=\frac{1}{2\pi RC}\label{eq:1_1_1}
+\end{equation}
 
 Por lo tanto, si se remplaza \emph{f} por la frecuencia $f_{0}$,
 se obtiene
@@ -274,6 +274,106 @@ en evidencia que que las frecuencias disponibles para realizar el
 oscilador no podian superar los 500(kHz).
 
 \subsection{Análisis de sensibilidades}
+
+Se propone calcular analíticamente las sensibilidades del circuito
+respecto de los componentes de lazo de realimentación positiva. Para
+esto, primero que nada, es necesario calcular la funcion de la realimentación
+positiva. Por lo tanto, a continuación se procederá a calcular la
+ganancia de realimentación positiva del circuito\footnote{Si bien se podría utilizar la ecuación 10.5 sacada de la pagina 486
+del libro, esto no se debe hacer, debido a que en el libro se considera
+que $C_{2}$ y $C_{1}$ son iguales, y $R_{2}$ y $R_{1}$ también,
+y para el calculo de sensibilidades es necesario considerarlos como
+2 componentes distintos.}. Para esto, observando la Figura \ref{1_3}, se plantea por el nodo
+$V_{p}$ la siguiente ecuación
+
+\[
+\frac{V_{p}-V_{o}}{\frac{1}{sC_{1}}+R_{1}}=-V_{p}\left(sC_{2}+\frac{1}{R_{2}}\right)^{-1}
+\]
+
+\begin{equation}
+\Rightarrow\beta(s)=\frac{V_{p}}{V_{o}}=\frac{sC_{1}R_{2}}{s^{2}C_{1}C_{2}R_{1}R_{2}+s\left(C_{1}R_{1}+C_{1}R_{2}+C_{2}R_{2}\right)+1}\label{eq:1_4}
+\end{equation}
+
+A partir de la ganancia de realimentación positiva de nuestro circuito
+calculada en la ecuación \ref{eq:1_4}, de esta manera, operando adecuadamente
+con la ganancia del circuito no inversor $(A=1+\frac{R_{3}}{R_{4}})$,
+la transferencia de la ecuación \ref{eq:1_2} queda reescrita de la
+siguiente manera:
+
+\[
+T(s)=\frac{sC_{1}R_{2}\left(1+\frac{R_{3}}{R_{4}}\right)}{s^{2}C_{1}C_{2}R_{1}R_{2}+s\left(C_{1}R_{1}+C_{1}R_{2}+C_{2}R_{2}\right)+1}
+\]
+
+Por último, las ecuaciónes de $\omega_{0}$ y \emph{Q }quedan definidas
+por:
+
+\[
+\omega_{0}=\sqrt{\frac{1}{C_{2}R_{2}C_{1}R_{1}}}
+\]
+
+\[
+Q=\frac{\sqrt{C_{1}C_{2}R_{1}R_{2}}}{C_{1}R_{1}+C_{1}R_{2}+C_{2}R_{2}}
+\]
+
+De esta manera las sensibilidades quedaran definidas por la formula
+\ref{eq:1_5}, y calculando respectivamente cada una de ellas los
+resultados son los que se muestran en las ecuaciones posteriores.
+
+\begin{equation}
+S_{x_{k}}^{f(\bar{X})}=\left.\frac{\partial f(\bar{X})}{\partial x_{k}}\frac{x_{k}}{f(\bar{X})}\right|_{\bar{X}=\bar{X}_{0}}\label{eq:1_5}
+\end{equation}
+
+$S_{C_{1}}^{\omega_{0}}=S_{C_{2}}^{\omega_{0}}=S_{R_{1}}^{\omega_{0}}=S_{R_{2}}^{\omega_{0}}=-\frac{1}{2}$
+
+$S_{C_{1}}^{Q}=-\frac{1}{2}\frac{3C_{1}R_{1}+3C_{1}R_{2}+C_{2}R_{2}}{C_{1}R_{1}+C_{1}R_{2}+C_{2}R_{2}}$
+
+$S_{C_{2}}^{Q}=-\frac{1}{2}\frac{C_{1}R_{1}+C_{1}R_{2}+3C_{2}R_{2}}{C_{1}R_{1}+C_{1}R_{2}+C_{2}R_{2}}$
+
+$S_{R_{1}}^{Q}=-\frac{1}{2}\frac{3C_{1}R_{1}+3CR_{2}+C_{2}R_{2}}{C_{1}R_{1}+C_{1}R_{2}+C_{2}R_{2}}$
+
+$S_{R_{2}}^{Q}=-\frac{1}{2}\frac{C_{1}R_{1}+3C_{1}R_{2}+3C_{2}R_{2}}{C_{1}R_{1}+C_{1}R_{2}+C_{2}R_{2}}$
+
+Si se reemplaza por los valores tal que $C_{1}=C_{2}=C$ y $R_{1}=R_{2}=R$,
+entonces los valores de las sensibilidades quedaran como:
+
+\[
+S_{C}^{\omega_{0}}=S_{R}^{\omega_{0}}=1
+\]
+
+\[
+S_{C}^{Q}=S_{R}^{Q}=0
+\]
+
+\section{Implementación}
+
+A lo largo de esta sección nos centraremos en desarrollar el proceso
+de implementación del circuito analizado anteriormente. Como primera
+etapa, nos centraremos en analizar los componentes que fijan la frecuencia
+de oscilación, que es lo primordial en nuestro diseño.
+
+\subsection{Frecuencia de oscilación}
+
+Como se puede observar en la ecuación \ref{eq:1_1_1}, si se toman
+valores iguales de $R_{1}=R_{2}=R$ y $C_{1}=C_{2}=C$, entonces con
+fijar un valor arbitrariamente, el valor del otro componente quedará
+determinado por ese valor, y la frecuencia de operación de nuestro
+oscilador. Como nuestra frecuencia de oscilación es de $f_{0}=70\left(kHz\right)$,
+fijando el valor del capacitor a un valor comercial conocido, como
+$C=10\left(nF\right)$\footnote{Se utilizó este valor para usar los mismos valores que los capacitores
+de desacople y obtener un solo valor de capacitor en todo el PCB}, la resistencia por lo tanto quedara fijada y de valor $R=227.36\left(\Omega\right)$.
+Debido al hecho de que ese valor de resistencia no es un valor comercial,
+se decidió aproximar ese valor al valor comercial más cercano, sea
+$R=220(\Omega)$, resultando en un error relativo de resistencia de
+$Error\approx3\%$. De esta manera la frecuencia de operación resultante
+queda de valor:
+
+\[
+f_{0}=72.3\left(kHz\right)
+\]
+
+\[
+Error\,Relativo=3.34\%
+\]
 
 
 \end{document}
