@@ -318,9 +318,9 @@ T(f)=\frac{1+\frac{R_{2}}{R_{1}}}{3+j\left(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-f_{0}=\frac{1}{2\pi RC}
-\]
+\begin{equation}
+f_{0}=\frac{1}{2\pi RC}\label{eq:1_1_1}
+\end{equation}
 
 \end_inset
 
@@ -465,6 +465,13 @@ Control Automático de Ganancia o CAG en español
 
 \emph on
 Automatic Amplitude Control (AAC)
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Automatic-Amplitude-Control"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1132,9 +1139,9 @@ quedan definidas por:
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-\omega_{0}=\sqrt{\frac{1}{C_{2}R_{2}C_{1}R_{1}}}
-\]
+\begin{equation}
+\omega_{0}=\sqrt{\frac{1}{C_{2}R_{2}C_{1}R_{1}}}\label{eq:1_6}
+\end{equation}
 
 \end_inset
 
@@ -1244,6 +1251,19 @@ S_{C}^{Q}=S_{R}^{Q}=0
 
 \end_layout
 
+\begin_layout Subsection
+Polos y ceros del circuito
+\end_layout
+
+\begin_layout Standard
+Se procedió a hacer un análisis de los diagramas de polos y ceros de distintas
+ etapas del circuito para cada situación del mismo.
+\end_layout
+
+\begin_layout Subsubsection
+Polos y ceros de la ganancia de lazo abierto.
+\end_layout
+
 \begin_layout Section
 Implementación
 \end_layout
@@ -1257,6 +1277,1015 @@ A lo largo de esta sección nos centraremos en desarrollar el proceso de
 
 \begin_layout Subsection
 Frecuencia de oscilación
+\end_layout
+
+\begin_layout Standard
+Como se puede observar en la ecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1_1_1"
+
+\end_inset
+
+, si se toman valores iguales de 
+\begin_inset Formula $R_{1}=R_{2}=R$
+\end_inset
+
+ y 
+\begin_inset Formula $C_{1}=C_{2}=C$
+\end_inset
+
+, entonces con fijar un valor arbitrariamente, el valor del otro componente
+ quedará determinado por ese valor, y la frecuencia de operación de nuestro
+ oscilador.
+ Como nuestra frecuencia de oscilación es de 
+\begin_inset Formula $f_{0}=70\left(kHz\right)$
+\end_inset
+
+, fijando el valor del capacitor a un valor comercial conocido, como 
+\begin_inset Formula $C=10\left(nF\right)$
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Se utilizó este valor para usar los mismos valores que los capacitores de
+ desacople y obtener un solo valor de capacitor en todo el PCB
+\end_layout
+
+\end_inset
+
+, la resistencia por lo tanto quedara fijada y de valor 
+\begin_inset Formula $R=227.36\left(\Omega\right)$
+\end_inset
+
+.
+ Debido al hecho de que ese valor de resistencia no es un valor comercial,
+ se decidió aproximar ese valor al valor comercial más cercano, sea 
+\begin_inset Formula $R=220(\Omega)$
+\end_inset
+
+, resultando en un error relativo de resistencia de 
+\begin_inset Formula $Error\approx3\%$
+\end_inset
+
+.
+ De esta manera la frecuencia de operación resultante queda de valor:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{0}=72.3\left(kHz\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Error\,Relativo=3.34\%
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como se ve en las ecuaciones anteriores, el error relativo de la frecuencia
+ es demasiado alto, es por esto, que para lograr ajustar la frecuencia al
+ valor deseado de 70(kHz), si introducirá un preset en el lugar de la resistenci
+a 
+\begin_inset Formula $R_{2}$
+\end_inset
+
+, y utilizando la ecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1_6"
+
+\end_inset
+
+, se la ajustara convenientemente de modo que la frecuencia sea la deseada.
+ Utilizando este método, se espera obtener un error realtivo de frecuencia
+ mucho menor, del orden del 0.5%.
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Automatic Amplitude Control (AAC)
+\end_layout
+
+\begin_layout Subsubsection
+Controlador de frecuencia
+\end_layout
+
+\begin_layout Standard
+Como se mencionó en la sección 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Automatic-Amplitude-Control"
+
+\end_inset
+
+, hay varias reglas que se deben tener en cuenta a la hora de sieñar los
+ valores de los componentes del AAC.
+ En principio, como se propuso en la inecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1_3"
+
+\end_inset
+
+, se decide tomar el capacitor 
+\begin_inset Formula $C_{3}=1(\mu F)$
+\end_inset
+
+, para utilizar solo un tipo de valor de capacitor en todo nuestro circuito,
+ y por ende, el valor de la resistencia quedará fijo en 
+\begin_inset Formula $R_{x}>285.71\Omega$
+\end_inset
+
+.
+ Por ende, para lograr una buena relación entre impedancias, se eligió un
+ valor de 
+\begin_inset Formula $R_{x}=100(k\Omega)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+CHEQUEAR ESTOS VALORES
+\end_layout
+
+\begin_layout Subsubsection
+Elección de la resistencia del transistor JFET-N
+\end_layout
+
+\begin_layout Standard
+Debido a las relaciones mencionadas en la sección 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Diodos-en-serie"
+
+\end_inset
+
+, se deben cumplir ciertas relaciónes entre las resistencias 
+\begin_inset Formula $R_{3}$
+\end_inset
+
+, 
+\begin_inset Formula $R_{4}$
+\end_inset
+
+ y 
+\begin_inset Formula $R_{T}$
+\end_inset
+
+, estas relaciones (que fueron explicadas anteriormente), quedan sintetizadas
+ en las siguientes expresiones:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\{ \begin{array}{c}
+\frac{R_{3}}{R_{4}}=K_{1}\\
+\frac{R_{3}}{R_{4}+R_{T}}=K_{2}
+\end{array}\right.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+K_{1}>2\,\,;\,\,K_{2}<2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Debido a que se elige un tiempo de establecimiento del oscilador relativamente
+ corto, se elige arbitrariamente 
+\begin_inset Formula $K_{1}=2.2$
+\end_inset
+
+ y 
+\begin_inset Formula $K_{2}=1.8$
+\end_inset
+
+, mateniendo simetría entre ambas constantes y siendo lo suficintemente
+ dstantes del 2 como para ajustar rapidamente cualquier variación respecto
+ del 2.
+ Como se puede observar en la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "1_5"
+
+\end_inset
+
+, el valor de la resistencia del transistor 
+\begin_inset Formula $R_{T}$
+\end_inset
+
+, varia dependiendo de la polarización del mismo, es or esto, que se elige
+ polarizarlo con la mayor resistencia posible.
+ Por esta razon, y como se puede ver en la figura, la impedancia del transistor
+ varía abruptamente para valores entre 0 y 3 (mV) de 
+\begin_inset Formula $V_{GS}$
+\end_inset
+
+, es por esto que vamos a considerar esta resistencia como 
+\begin_inset Formula $0(\Omega)$
+\end_inset
+
+ cuando el transistor se encuentre apagado y como 
+\begin_inset Formula $\sim550(\Omega)$
+\end_inset
+
+ cuando el transistor se encuentra encendido.
+ Por lo tanto 
+\begin_inset Formula $R_{T}\approx550(\Omega)$
+\end_inset
+
+, por ende los valores de las otras resistencias quedarán bien determinadas
+ por los valores:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R_{3}=5.4(k\Omega)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R_{4}=2.4(k\Omega)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si bien estos valores son correctos, solo falta ajustarlos de manera que
+ se encuentren dentro de valores comerciales de resistencias, es por eso
+ que los valores quedarán:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{3}=CORREGIR
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{4}=CORREGIR
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Selección de amplificadores operacionales
+\end_layout
+
+\begin_layout Standard
+Para la seleccion del amplificador operacional a utilizar, se tuvieron en
+ cuenta solo aquellos que se encontraban disponibles al dia de la fecha
+ de imlementación del circuito en el pañol de la universidad.
+ Esto se debe, a que en trabajos prácticos anteriores, esto no fue tenido
+ en cuenta y a la hora de implementar el circuito fue necesario realizar
+ muchos cambios debido a esto.
+ Los amplificadores disponibles en el pañol y sus respectivas características
+ se pueden observar en el cuadro 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "1_8"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amplificador
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GBP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{Vol}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Slew Rate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Z_{in}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+THD
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TL082
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3(MHz)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+200
+\begin_inset Formula $\left(\frac{V}{mV}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $13(\frac{V}{\mu s})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10^{12}(\Omega)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<0.0003
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TL072
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3(MHz)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+200
+\begin_inset Formula $\left(\frac{V}{mV}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $13(\frac{V}{\mu s})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10^{12}(\Omega)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<0.0003
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LM741
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.5(MHz)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+200
+\begin_inset Formula $\left(\frac{V}{mV}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.5(\frac{V}{\mu s})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2^{6}(\Omega)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<0.0006
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LM324
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Características de amplificadores operacionales disponibles
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "1_8"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Viendo esos valores y utilizando la ecuación (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1_7"
+
+\end_inset
+
+) de selección propuesta
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+A mayor valor, mejor es el opamp analizado
+\end_layout
+
+\end_inset
+
+, se obtiene que para esos valores de ponderación, el amplificador operacional
+ optimo a utilizar es el TL082 o igualmente el TL072
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Los valores obtenidos con la ecuación dan como resultado que ambos operacionales
+ son igual de capaces para los valores de ponderación propuestos, sin embargo,
+ se decidió utilizar el TL82 debido a que es un integrado mas pequeño y
+ por ende el desarrollo del PCB queda mas compacto.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Valor=\frac{GBP}{10\cdot10^{6}}\cdot0.5+\frac{A_{Vol}}{100}\cdot0.2+\frac{SR}{10}\cdot0.1+\frac{Z_{in}}{10^{12}}\cdot0.1+\frac{THD}{10^{-4}}\cdot0.1\label{eq:1_7}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+tl082 2.43
+\end_layout
+
+\begin_layout Standard
+lm741 1.755
+\end_layout
+
+\begin_layout Subsection
+Diseño del PCB
+\end_layout
+
+\begin_layout Standard
+Por ultimo, el PCB implementado desarrollado con el programa 
+\emph on
+Altium Designer
+\emph default
+, quedo como se pueden ver en las Figuras 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "1_10"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "1_11"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquemático
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "1_10"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+PCB
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "1_11"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Simulaciones y mediciones
+\end_layout
+
+\begin_layout Subsection
+Distorsión Armónica
+\end_layout
+
+\begin_layout Standard
+Debido a imperfecciones propias de la realidad, la generación de señales
+ senoidales completamente puras es imposible.
+ Es por ello que es necesario realizar un análisis de cuantá es la distorsión
+ armonica de nuestro oscilador.
+ Para realizar estos análisis se hace uso del llamado 
+\emph on
+Total Harmonic Distortion, 
+\emph default
+que es un parámetro que da cuenta de cuanto esta distorsionada nuestra señal
+ respecto al armónico principal.
+ Si realizamos una 
+\emph on
+Fast Fourier Transform
+\emph default
+ (FFT) a la señal generada por el oscilador, podemos observar mas detalladamente
+ la componente de potencia que tienen todos los armonicos de la señal, esta
+ imagen se puede observar en la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "1_12"
+
+\end_inset
+
+.
+ Como se puede observar, es notorio que cuanto mas grande sea el armonico,
+ mas atenuado estará.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/FFT SIMULADO.png
+	lyxscale 50
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+FFT de la señal generada
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "1_12"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si se mide la potencia de los primeros 5 armónicos siguientes al armonico
+ principal, la distorsión armónica da como resultado lo siguiente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+THD=0.0206
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otro lado, al medir el espectro en frecuencia de la señal con una FFT
+ en el osciloscopio, el resultado fue el que se muestra en la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "1_13"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+FFT de la señal generada
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "1_13"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A su vez, al calcular la distorsión armonica se obtuvo que:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+THD=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Transistor en estado estacionario
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body

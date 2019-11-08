@@ -8,6 +8,15 @@
 \setlength{\parindent}{0bp}
 \usepackage{textcomp}
 \usepackage{graphicx}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+\makeatother
+
 \usepackage{babel}
 \addto\shorthandsspanish{\spanishdeactivate{~<>}}
 
@@ -115,7 +124,7 @@ las falencias constructivas de los elementos resistivos, que generan
 un determinado error en el cociente, para llevarlo al valor esperado
 de 2.
 
-\subsection{\emph{Automatic Amplitude Control (AAC)}}
+\subsection{\emph{Automatic Amplitude Control (AAC)\label{subsec:Automatic-Amplitude-Control}}}
 
 \subsubsection{Transistor JFET-N}
 
@@ -307,9 +316,9 @@ T(s)=\frac{sC_{1}R_{2}\left(1+\frac{R_{3}}{R_{4}}\right)}{s^{2}C_{1}C_{2}R_{1}R_
 Por último, las ecuaciónes de $\omega_{0}$ y \emph{Q }quedan definidas
 por:
 
-\[
-\omega_{0}=\sqrt{\frac{1}{C_{2}R_{2}C_{1}R_{1}}}
-\]
+\begin{equation}
+\omega_{0}=\sqrt{\frac{1}{C_{2}R_{2}C_{1}R_{1}}}\label{eq:1_6}
+\end{equation}
 
 \[
 Q=\frac{\sqrt{C_{1}C_{2}R_{1}R_{2}}}{C_{1}R_{1}+C_{1}R_{2}+C_{2}R_{2}}
@@ -344,6 +353,13 @@ S_{C}^{\omega_{0}}=S_{R}^{\omega_{0}}=1
 S_{C}^{Q}=S_{R}^{Q}=0
 \]
 
+\subsection{Polos y ceros del circuito}
+
+Se procedió a hacer un análisis de los diagramas de polos y ceros
+de distintas etapas del circuito para cada situación del mismo.
+
+\subsubsection{Polos y ceros de la ganancia de lazo abierto.}
+
 \section{Implementación}
 
 A lo largo de esta sección nos centraremos en desarrollar el proceso
@@ -374,6 +390,198 @@ f_{0}=72.3\left(kHz\right)
 \[
 Error\,Relativo=3.34\%
 \]
+
+Como se ve en las ecuaciones anteriores, el error relativo de la frecuencia
+es demasiado alto, es por esto, que para lograr ajustar la frecuencia
+al valor deseado de 70(kHz), si introducirá un preset en el lugar
+de la resistencia $R_{2}$, y utilizando la ecuación \ref{eq:1_6},
+se la ajustara convenientemente de modo que la frecuencia sea la deseada.
+Utilizando este método, se espera obtener un error realtivo de frecuencia
+mucho menor, del orden del 0.5\%.
+
+\subsection{\emph{Automatic Amplitude Control (AAC)}}
+
+\subsubsection{Controlador de frecuencia}
+
+Como se mencionó en la sección \ref{subsec:Automatic-Amplitude-Control},
+hay varias reglas que se deben tener en cuenta a la hora de sieñar
+los valores de los componentes del AAC. En principio, como se propuso
+en la inecuación \ref{eq:1_3}, se decide tomar el capacitor $C_{3}=1(\mu F)$,
+para utilizar solo un tipo de valor de capacitor en todo nuestro circuito,
+y por ende, el valor de la resistencia quedará fijo en $R_{x}>285.71\Omega$.
+Por ende, para lograr una buena relación entre impedancias, se eligió
+un valor de $R_{x}=100(k\Omega)$.
+
+CHEQUEAR ESTOS VALORES
+
+\subsubsection{Elección de la resistencia del transistor JFET-N}
+
+Debido a las relaciones mencionadas en la sección \ref{subsec:Diodos-en-serie},
+se deben cumplir ciertas relaciónes entre las resistencias $R_{3}$,
+$R_{4}$ y $R_{T}$, estas relaciones (que fueron explicadas anteriormente),
+quedan sintetizadas en las siguientes expresiones:
+
+\[
+\left\{ \begin{array}{c}
+\frac{R_{3}}{R_{4}}=K_{1}\\
+\frac{R_{3}}{R_{4}+R_{T}}=K_{2}
+\end{array}\right.
+\]
+
+\[
+K_{1}>2\,\,;\,\,K_{2}<2
+\]
+
+Debido a que se elige un tiempo de establecimiento del oscilador relativamente
+corto, se elige arbitrariamente $K_{1}=2.2$ y $K_{2}=1.8$, mateniendo
+simetría entre ambas constantes y siendo lo suficintemente dstantes
+del 2 como para ajustar rapidamente cualquier variación respecto del
+2. Como se puede observar en la Figura \ref{1_5}, el valor de la
+resistencia del transistor $R_{T}$, varia dependiendo de la polarización
+del mismo, es or esto, que se elige polarizarlo con la mayor resistencia
+posible. Por esta razon, y como se puede ver en la figura, la impedancia
+del transistor varía abruptamente para valores entre 0 y 3 (mV) de
+$V_{GS}$, es por esto que vamos a considerar esta resistencia como
+$0(\Omega)$ cuando el transistor se encuentre apagado y como $\sim550(\Omega)$
+cuando el transistor se encuentra encendido. Por lo tanto $R_{T}\approx550(\Omega)$,
+por ende los valores de las otras resistencias quedarán bien determinadas
+por los valores:
+
+$R_{3}=5.4(k\Omega)$
+
+$R_{4}=2.4(k\Omega)$
+
+Si bien estos valores son correctos, solo falta ajustarlos de manera
+que se encuentren dentro de valores comerciales de resistencias, es
+por eso que los valores quedarán:
+
+\[
+R_{3}=CORREGIR
+\]
+
+\[
+R_{4}=CORREGIR
+\]
+
+\subsection{Selección de amplificadores operacionales}
+
+Para la seleccion del amplificador operacional a utilizar, se tuvieron
+en cuenta solo aquellos que se encontraban disponibles al dia de la
+fecha de imlementación del circuito en el pañol de la universidad.
+Esto se debe, a que en trabajos prácticos anteriores, esto no fue
+tenido en cuenta y a la hora de implementar el circuito fue necesario
+realizar muchos cambios debido a esto. Los amplificadores disponibles
+en el pañol y sus respectivas características se pueden observar en
+el cuadro \ref{1_8}.
+
+\begin{table}[h]
+\begin{centering}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline 
+Amplificador & GBP & $A_{Vol}$ & \emph{Slew Rate} & $Z_{in}$ & THD\tabularnewline
+\hline 
+\hline 
+TL082 & 3(MHz) & 200$\left(\frac{V}{mV}\right)$ & $13(\frac{V}{\mu s})$ & $10^{12}(\Omega)$ & <0.0003\tabularnewline
+\hline 
+TL072 & 3(MHz) & 200$\left(\frac{V}{mV}\right)$ & $13(\frac{V}{\mu s})$ & $10^{12}(\Omega)$ & <0.0003\tabularnewline
+\hline 
+LM741 & 1.5(MHz) & 200$\left(\frac{V}{mV}\right)$ & $0.5(\frac{V}{\mu s})$ & $2^{6}(\Omega)$ & <0.0006\tabularnewline
+\hline 
+LM324 &  &  &  &  & \tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+\caption{Características de amplificadores operacionales disponibles}
+\label{1_8}
+
+\end{table}
+
+Viendo esos valores y utilizando la ecuación (\ref{eq:1_7}) de selección
+propuesta\footnote{A mayor valor, mejor es el opamp analizado}, se
+obtiene que para esos valores de ponderación, el amplificador operacional
+optimo a utilizar es el TL082 o igualmente el TL072\footnote{Los valores obtenidos con la ecuación dan como resultado que ambos
+operacionales son igual de capaces para los valores de ponderación
+propuestos, sin embargo, se decidió utilizar el TL82 debido a que
+es un integrado mas pequeño y por ende el desarrollo del PCB queda
+mas compacto.}.
+
+\begin{equation}
+Valor=\frac{GBP}{10\cdot10^{6}}\cdot0.5+\frac{A_{Vol}}{100}\cdot0.2+\frac{SR}{10}\cdot0.1+\frac{Z_{in}}{10^{12}}\cdot0.1+\frac{THD}{10^{-4}}\cdot0.1\label{eq:1_7}
+\end{equation}
+
+tl082 2.43
+
+lm741 1.755
+
+\subsection{Diseño del PCB}
+
+Por ultimo, el PCB implementado desarrollado con el programa \emph{Altium
+Designer}, quedo como se pueden ver en las Figuras \ref{1_10} y \ref{1_11}.
+
+\begin{figure}[h]
+
+\caption{Esquemático}
+
+\label{1_10}
+\end{figure}
+
+\begin{figure}[h]
+
+\caption{PCB}
+\label{1_11}
+
+\end{figure}
+
+\section{Simulaciones y mediciones}
+
+\subsection{Distorsión Armónica}
+
+Debido a imperfecciones propias de la realidad, la generación de señales
+senoidales completamente puras es imposible. Es por ello que es necesario
+realizar un análisis de cuantá es la distorsión armonica de nuestro
+oscilador. Para realizar estos análisis se hace uso del llamado \emph{Total
+Harmonic Distortion, }que es un parámetro que da cuenta de cuanto
+esta distorsionada nuestra señal respecto al armónico principal. Si
+realizamos una \emph{Fast Fourier Transform} (FFT) a la señal generada
+por el oscilador, podemos observar mas detalladamente la componente
+de potencia que tienen todos los armonicos de la señal, esta imagen
+se puede observar en la Figura \ref{1_12}. Como se puede observar,
+es notorio que cuanto mas grande sea el armonico, mas atenuado estará.
+
+\begin{figure}[h]
+\begin{centering}
+\includegraphics[scale=0.7]{\string"Resources/FFT SIMULADO\string".png}
+\par\end{centering}
+\caption{FFT de la señal generada}
+\label{1_12}
+
+\end{figure}
+
+Si se mide la potencia de los primeros 5 armónicos siguientes al armonico
+principal, la distorsión armónica da como resultado lo siguiente:
+
+\[
+THD=0.0206
+\]
+
+Por otro lado, al medir el espectro en frecuencia de la señal con
+una FFT en el osciloscopio, el resultado fue el que se muestra en
+la Figura \ref{1_13}.
+
+\begin{figure}[h]
+
+\caption{FFT de la señal generada}
+\label{1_13}
+
+\end{figure}
+
+A su vez, al calcular la distorsión armonica se obtuvo que:
+
+\[
+THD=
+\]
+
+\subsection{Transistor en estado estacionario}
 
 
 \end{document}
