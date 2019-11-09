@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=VCC Pin=5V-1
+Removed Pin From Net: NetName=GND Pin=5V-2
+Removed Pin From Net: NetName=NetC3_1 Pin=FM IN-1
+Removed Pin From Net: NetName=GND Pin=FM IN-2
+Removed Pin From Net: NetName=GND Pin=OUT-2
+Added Pin To Net: NetName=GND Pin=5V-1
+Added Pin To Net: NetName=VCC Pin=5V-2
+Added Pin To Net: NetName=GND Pin=FM IN-1
+Added Pin To Net: NetName=NetC3_1 Pin=FM IN-2
+Added Pin To Net: NetName=GND Pin=OUT-1
+Added Pin To Net: NetName=NetOUT_2 Pin=OUT-2
+Added Pin To Net: NetName=NetOUT_2 Pin=RS-2
+Added Net: Name=NetOUT_2
+Added Room: Name=Sheet1
