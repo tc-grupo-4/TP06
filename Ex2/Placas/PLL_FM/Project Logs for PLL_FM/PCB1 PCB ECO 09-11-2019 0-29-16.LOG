@@ -1,0 +1,14 @@
+Change Component DesignItemId : Designator=5V Old DesignItemId=MOLEX2 New DesignItemId=BORNERA 2
+Change Component DesignItemId : Designator=FM IN Old DesignItemId=MOLEX2 New DesignItemId=BORNERA 2
+Change Component DesignItemId : Designator=OUT Old DesignItemId=MOLEX2 New DesignItemId=BORNERA 2
+Change Component Footprint: Designator=5V Old Footprint=MOLEX2 New Footprint=BORNERA2
+Change Component Footprint: Designator=FM IN Old Footprint=MOLEX2 New Footprint=BORNERA2
+Change Component Footprint: Designator=OUT Old Footprint=MOLEX2 New Footprint=BORNERA2
+Change Component Comment : Designator=FM IN Old Comment= New Comment=BORNERA 2
+Change Component Comment : Designator=OUT Old Comment= New Comment=BORNERA 2
+Added Component: Designator=VCO OUT(BORNERA2)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=VCO OUT-1
+Added Pin To Net: NetName=NetU1_3 Pin=VCO OUT-2
+Added Member To Class: ClassName=Sheet1 Member=Component VCO OUT BORNERA 2
+Added Room: Name=Sheet1
