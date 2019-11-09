@@ -501,7 +501,7 @@ status open
 \begin_inset Graphics
 	filename Resources/ids VS vds.png
 	lyxscale 50
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -551,18 +551,74 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Resources/RDS vs VDS 1.png
 	lyxscale 50
-	scale 40
+	scale 30
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Para grandes variaciones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Resources/RDS vs VDS 2.png
 	lyxscale 50
-	scale 40
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Para pequeñas variaciones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -782,7 +838,7 @@ a realizar, se propone que se cumpla la siguiente inecuación:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\frac{1}{f_{0}}<5C_{3}R_{x}\label{eq:1_3}
+\frac{1}{f_{0}}<10^{3}C_{3}R_{x}\label{eq:1_3}
 \end{equation}
 
 \end_inset
@@ -1424,7 +1480,7 @@ reference "eq:1_3"
 \end_inset
 
 , se decide tomar el capacitor 
-\begin_inset Formula $C_{3}=10(\mu F)$
+\begin_inset Formula $C_{3}=10(nF)$
 \end_inset
 
 , para utilizar solo un tipo de valor de capacitor en todo nuestro circuito,
