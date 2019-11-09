@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=VJ Pin=Q1-1
+Removed Pin From Net: NetName=Vg Pin=Q1-2
+Removed Pin From Net: NetName=GND Pin=Q1-3
+Removed Member From Class: ClassName=Esquematico Member=Q1
+Added Component: Designator=Q?(*TO92F)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "MPF102"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-226-3 ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/MPF102/ON%20Semiconductor/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VJ Pin=Q?-1
+Added Pin To Net: NetName=GND Pin=Q?-2
+Added Pin To Net: NetName=Vg Pin=Q?-3
+Added Member To Class: ClassName=Esquematico Member=Component Q? MPF102
+Added Room: Name=Esquematico

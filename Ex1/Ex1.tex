@@ -415,6 +415,14 @@ se la ajustara convenientemente de modo que la frecuencia sea la deseada.
 Utilizando este método, se espera obtener un error realtivo de frecuencia
 mucho menor, del orden del 0.5\%.
 
+Sin embargo, al recurrir a las simulaciónes se observo que la frecuencia
+que se obtenia dadas esas resistencias, era mayor a la obtenida en
+la simulación, es por esto, que empiricamente se comprobó que para
+llegar a la frecuencia deseada de 70(kHz), era necesario utilizar
+resistencias de 195 ohms. Esto fue particularmente bueno ya que se
+pueden generar con un paralelo de 2 resistencias de 390 ohms que son
+parte del estandard E12 al 1\% de error.
+
 \subsection{\emph{Automatic Amplitude Control (AAC)}}
 
 \subsubsection{Controlador de frecuencia}
@@ -563,14 +571,18 @@ Por ultimo, el PCB implementado desarrollado con el programa \emph{Altium
 Designer}, quedo como se pueden ver en las Figuras \ref{1_10} y \ref{1_11}.
 
 \begin{figure}[h]
-
+\begin{centering}
+\includegraphics[scale=0.5]{Resources/Esquemático}
+\par\end{centering}
 \caption{Esquemático}
 
 \label{1_10}
 \end{figure}
 
 \begin{figure}[h]
-
+\begin{centering}
+\includegraphics[scale=0.25]{Resources/PCB}
+\par\end{centering}
 \caption{PCB}
 \label{1_11}
 
@@ -584,7 +596,6 @@ pertinentes del circuito y las mediciones del mismo. En la Figura
 funcionando.
 
 \begin{figure}[h]
-
 \caption{Oscilación del circuito}
 \label{1_16}
 

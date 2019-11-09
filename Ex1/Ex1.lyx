@@ -1452,6 +1452,16 @@ reference "eq:1_6"
  mucho menor, del orden del 0.5%.
 \end_layout
 
+\begin_layout Standard
+Sin embargo, al recurrir a las simulaciónes se observo que la frecuencia
+ que se obtenia dadas esas resistencias, era mayor a la obtenida en la simulació
+n, es por esto, que empiricamente se comprobó que para llegar a la frecuencia
+ deseada de 70(kHz), era necesario utilizar resistencias de 195 ohms.
+ Esto fue particularmente bueno ya que se pueden generar con un paralelo
+ de 2 resistencias de 390 ohms que son parte del estandard E12 al 1% de
+ error.
+\end_layout
+
 \begin_layout Subsection
 
 \emph on
@@ -2250,6 +2260,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/Esquemático.pdf
+	lyxscale 50
+	scale 50
+
+\end_inset
+
 
 \end_layout
 
@@ -2287,6 +2305,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/PCB.pdf
+	lyxscale 25
+	scale 25
+
+\end_inset
+
 
 \end_layout
 
