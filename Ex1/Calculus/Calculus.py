@@ -1,20 +1,21 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from math import *
+import control as cl
 
+def plotPolesAndZeros(num,den):
+    sistema = cl.TransferFunction(num,den)
+    cl.pzmap(sistema,Plot=True)
+    plt.show()
+    return
 
-Rt = 0
-R4 = 2.4e3+Rt
+C = 1e-9
+R = 2050
+Rt = 540
 R3 = 5.4e3
-wp = 10
-Av = 100e3
+R4 = 2.4e3 +Rt
+K=1+R3/R4
 
-
-pol = (Av*wp)/(1+R3/R4) - 1
-
-mod = (pol**2)**0.5
-pha = atan(np.imag(pol)/np.real(pol))+3.142
-
-plt.polar(pha,mod,marker='x', color='black')
-plt.title("Diagrama de polos y ceros")
-plt.show()
+num = [C**2 * R**2 * K, 3*C*R*K , K]
+den = [C**2 * R**2 , C*R*(2-R3/R4) , 1]
+plotPolesAndZeros(num, den)

@@ -15,6 +15,9 @@
 %% Because html converters don't know tabularnewline
 \providecommand{\tabularnewline}{\\}
 
+\@ifundefined{showcaptionsetup}{}{%
+ \PassOptionsToPackage{caption=false}{subfig}}
+\usepackage{subfig}
 \makeatother
 
 \usepackage{babel}
@@ -134,7 +137,7 @@ Figura \ref{1_4}.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.5]{\string"Resources/ids VS vds\string".png}
+\includegraphics[scale=0.4]{\string"Resources/ids VS vds\string".png}
 \par\end{centering}
 \caption{$I_{DS}$ en función de $V_{DS}$, para valores de VGS entre -3 (V)
 (linea negra) y 0.5(V) (linea azul) }
@@ -144,7 +147,15 @@ Figura \ref{1_4}.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.4]{\string"Resources/RDS vs VDS 1\string".png}\includegraphics[scale=0.4]{\string"Resources/RDS vs VDS 2\string".png}
+\subfloat[Para grandes variaciones]{\begin{centering}
+\includegraphics[scale=0.3]{\string"Resources/RDS vs VDS 1\string".png}
+\par\end{centering}
+
+}\subfloat[Para pequeñas variaciones]{\begin{centering}
+\includegraphics[scale=0.3]{\string"Resources/RDS vs VDS 2\string".png}
+\par\end{centering}
+
+}
 \par\end{centering}
 \caption{$R_{DS}$en función de $V_{DS}$ para valores de $V_{GS}$ entre -2.5(V)
 (linea negra) y 0.5(V) (linea verde)}
@@ -313,6 +324,13 @@ siguiente manera:
 T(s)=\frac{sC_{1}R_{2}\left(1+\frac{R_{3}}{R_{4}}\right)}{s^{2}C_{1}C_{2}R_{1}R_{2}+s\left(C_{1}R_{1}+C_{1}R_{2}+C_{2}R_{2}\right)+1}
 \]
 
+Por lo tanto, considerando $C_{1}=C_{2}=C$ y $R_{1}=R_{2}=R$, la
+transferencia queda definida como:
+
+\[
+\Rightarrow H(s)=\frac{A}{1-T(s)}=\frac{(1+\frac{R_{3}}{R_{4}})\cdot[(sCR)^{2}+s3CR+1]}{(s\cdot CR)^{2}+s\cdot CR(2-\frac{R_{3}}{R_{4}})+1}
+\]
+
 Por último, las ecuaciónes de $\omega_{0}$ y \emph{Q }quedan definidas
 por:
 
@@ -357,8 +375,6 @@ S_{C}^{Q}=S_{R}^{Q}=0
 
 Se procedió a hacer un análisis de los diagramas de polos y ceros
 de distintas etapas del circuito para cada situación del mismo.
-
-\subsubsection{Polos y ceros de la ganancia de lazo abierto.}
 
 \section{Implementación}
 
@@ -406,13 +422,11 @@ mucho menor, del orden del 0.5\%.
 Como se mencionó en la sección \ref{subsec:Automatic-Amplitude-Control},
 hay varias reglas que se deben tener en cuenta a la hora de sieñar
 los valores de los componentes del AAC. En principio, como se propuso
-en la inecuación \ref{eq:1_3}, se decide tomar el capacitor $C_{3}=1(\mu F)$,
+en la inecuación \ref{eq:1_3}, se decide tomar el capacitor $C_{3}=10(\mu F)$,
 para utilizar solo un tipo de valor de capacitor en todo nuestro circuito,
 y por ende, el valor de la resistencia quedará fijo en $R_{x}>285.71\Omega$.
 Por ende, para lograr una buena relación entre impedancias, se eligió
-un valor de $R_{x}=100(k\Omega)$.
-
-CHEQUEAR ESTOS VALORES
+un valor de $R_{x}=10(k\Omega)$.
 
 \subsubsection{Elección de la resistencia del transistor JFET-N}
 
@@ -453,15 +467,48 @@ $R_{4}=2.4(k\Omega)$
 
 Si bien estos valores son correctos, solo falta ajustarlos de manera
 que se encuentren dentro de valores comerciales de resistencias, es
-por eso que los valores quedarán:
+por eso que se los implementará con resistencias en resie y paralelo
+para llegar a un valor lo más cercano posible.
 
-\[
-R_{3}=CORREGIR
-\]
+\subsubsection{Polos y ceros}
 
-\[
-R_{4}=CORREGIR
-\]
+Por lo tanto, teniendo ya definidos estos valores a utilizar, ya es
+posible realizar un diagrama de polos y ceros del circuito, estos
+se pueden observar en las Figuras .
+\begin{center}
+\begin{figure}[h]
+\begin{centering}
+\subfloat[Sin la resistencia del transistor]{\begin{centering}
+\includegraphics[scale=0.4]{\string"Resources/PolosYCeros para lazo abierto SIN TRANS\string".png}
+\par\end{centering}
+}\subfloat[Con la resistencia del transistor]{\begin{centering}
+\includegraphics[scale=0.4]{\string"Resources/PolosYCeros para lazo abierto CON TRANS\string".png}
+\par\end{centering}
+
+}
+\par\end{centering}
+\begin{centering}
+\caption{Diagrama de polos y ceros para la ganancia de lazo}
+\par\end{centering}
+\end{figure}
+\par\end{center}
+
+\begin{center}
+\begin{figure}[h]
+\begin{centering}
+\subfloat[Sin la resistencia del transistor]{\begin{centering}
+\includegraphics[scale=0.4]{\string"Resources/PolosYCeros para H SIN TRANS\string".png}
+\par\end{centering}
+
+}\subfloat[Con la resistencia del transistor]{\begin{centering}
+\includegraphics[scale=0.4]{\string"Resources/PolosYCeros para H CON TRANS\string".png}
+\par\end{centering}
+
+}
+\par\end{centering}
+\centering{}\caption{Diagrama de polos y ceros para la transferencia del circuito}
+\end{figure}
+\par\end{center}
 
 \subsection{Selección de amplificadores operacionales}
 
@@ -487,13 +534,10 @@ TL072 & 3(MHz) & 200$\left(\frac{V}{mV}\right)$ & $13(\frac{V}{\mu s})$ & $10^{1
 \hline 
 LM741 & 1.5(MHz) & 200$\left(\frac{V}{mV}\right)$ & $0.5(\frac{V}{\mu s})$ & $2^{6}(\Omega)$ & <0.0006\tabularnewline
 \hline 
-LM324 &  &  &  &  & \tabularnewline
-\hline 
 \end{tabular}
 \par\end{centering}
 \caption{Características de amplificadores operacionales disponibles}
 \label{1_8}
-
 \end{table}
 
 Viendo esos valores y utilizando la ecuación (\ref{eq:1_7}) de selección
@@ -533,6 +577,18 @@ Designer}, quedo como se pueden ver en las Figuras \ref{1_10} y \ref{1_11}.
 \end{figure}
 
 \section{Simulaciones y mediciones}
+
+A lo largo de esta sección nos centraremos en realizar las simulaciones
+pertinentes del circuito y las mediciones del mismo. En la Figura
+\ref{1_16}, se puede observar una simulación y medición del circuito
+funcionando.
+
+\begin{figure}[h]
+
+\caption{Oscilación del circuito}
+\label{1_16}
+
+\end{figure}
 
 \subsection{Distorsión Armónica}
 
@@ -583,5 +639,50 @@ THD=
 
 \subsection{Transistor en estado estacionario}
 
+\subsubsection{Resistencia dinámica}
 
+Luego de que se llego al estado estacionario del circuito, es decir
+cuando termino el tiempo transitorio desde que se lo conecto a una
+fuente, la resistencia dinámica del transistor debería quedar en un
+valor, de tal manera que la relación de impedancias $\frac{R_{3}}{R_{4}+R_{T}}=2$,
+para esto, despejando de los valores de las reistencias, $R_{T}$
+deberia tener un valor cercano a $300(\Omega)$. Esto se verifica
+al ver la Figura \ref{1_14}, que muestra la simulación hecha con
+LTSpice.
+
+\begin{figure}[h]
+\begin{centering}
+\includegraphics[scale=0.7]{\string"Resources/Resistencia transistor SIMULADO\string".png}
+\par\end{centering}
+\caption{Simulación de resistencia del transistor en el estado estacionario}
+\label{1_14}
+
+\end{figure}
+
+\subsubsection{Tensión de Gate}
+
+Para lograr obtener los valores de resistencia aproximadamente dentro
+del rango requerido, es necesario que la tensión de gate a su vez
+tenga pequeñas variaciones cerca de un intervalo. Si se simula la
+tensión de gate en el estado estacionario, el resultado se puede observar
+en la Figura \ref{1_15}.
+
+\begin{figure}[h]
+\begin{centering}
+\includegraphics[scale=0.6]{\string"Resources/Tension de gate SIMULADA\string".png}
+\par\end{centering}
+\caption{Tensión de gate en el estado estacionario}
+
+\label{1_15}
+\end{figure}
+
+\begin{figure}[h]
+
+\caption{Medición de la tensión de gate}
+
+\end{figure}
+
+Como se puede observar, la tensión de gate tiene variaciones máximas
+de 0.2(mV), por lo cual, a fines prácticos, y considerando el ruido
+electromagnético de laboratorio, se la puede considerar constante.
 \end{document}

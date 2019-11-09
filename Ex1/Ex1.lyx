@@ -501,7 +501,7 @@ status open
 \begin_inset Graphics
 	filename Resources/ids VS vds.png
 	lyxscale 50
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -551,18 +551,74 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Resources/RDS vs VDS 1.png
 	lyxscale 50
-	scale 40
+	scale 30
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Para grandes variaciones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename Resources/RDS vs VDS 2.png
 	lyxscale 50
-	scale 40
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Para pequeñas variaciones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -1126,6 +1182,29 @@ T(s)=\frac{sC_{1}R_{2}\left(1+\frac{R_{3}}{R_{4}}\right)}{s^{2}C_{1}C_{2}R_{1}R_
 \end_layout
 
 \begin_layout Standard
+Por lo tanto, considerando 
+\begin_inset Formula $C_{1}=C_{2}=C$
+\end_inset
+
+ y 
+\begin_inset Formula $R_{1}=R_{2}=R$
+\end_inset
+
+, la transferencia queda definida como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow H(s)=\frac{A}{1-T(s)}=\frac{(1+\frac{R_{3}}{R_{4}})\cdot[(sCR)^{2}+s3CR+1]}{(s\cdot CR)^{2}+s\cdot CR(2-\frac{R_{3}}{R_{4}})+1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Por último, las ecuaciónes de 
 \begin_inset Formula $\omega_{0}$
 \end_inset
@@ -1258,10 +1337,6 @@ Polos y ceros del circuito
 \begin_layout Standard
 Se procedió a hacer un análisis de los diagramas de polos y ceros de distintas
  etapas del circuito para cada situación del mismo.
-\end_layout
-
-\begin_layout Subsubsection
-Polos y ceros de la ganancia de lazo abierto.
 \end_layout
 
 \begin_layout Section
@@ -1405,7 +1480,7 @@ reference "eq:1_3"
 \end_inset
 
 , se decide tomar el capacitor 
-\begin_inset Formula $C_{3}=1(\mu F)$
+\begin_inset Formula $C_{3}=10(\mu F)$
 \end_inset
 
 , para utilizar solo un tipo de valor de capacitor en todo nuestro circuito,
@@ -1416,14 +1491,10 @@ reference "eq:1_3"
 .
  Por ende, para lograr una buena relación entre impedancias, se eligió un
  valor de 
-\begin_inset Formula $R_{x}=100(k\Omega)$
+\begin_inset Formula $R_{x}=10(k\Omega)$
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-CHEQUEAR ESTOS VALORES
 \end_layout
 
 \begin_layout Subsubsection
@@ -1544,14 +1615,115 @@ reference "1_5"
 \begin_layout Standard
 Si bien estos valores son correctos, solo falta ajustarlos de manera que
  se encuentren dentro de valores comerciales de resistencias, es por eso
- que los valores quedarán:
+ que se los implementará con resistencias en resie y paralelo para llegar
+ a un valor lo más cercano posible.
+\end_layout
+
+\begin_layout Subsubsection
+Polos y ceros
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-R_{3}=CORREGIR
-\]
+Por lo tanto, teniendo ya definidos estos valores a utilizar, ya es posible
+ realizar un diagrama de polos y ceros del circuito, estos se pueden observar
+ en las Figuras .
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/PolosYCeros para lazo abierto SIN TRANS.png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sin la resistencia del transistor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/PolosYCeros para lazo abierto CON TRANS.png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Con la resistencia del transistor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama de polos y ceros para la ganancia de lazo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -1559,10 +1731,100 @@ R_{3}=CORREGIR
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-R_{4}=CORREGIR
-\]
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/PolosYCeros para H SIN TRANS.png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sin la resistencia del transistor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/PolosYCeros para H CON TRANS.png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Con la resistencia del transistor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama de polos y ceros para la transferencia del circuito
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -1600,7 +1862,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="6">
+<lyxtabular version="3" rows="4" columns="6">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -1805,7 +2067,7 @@ TL072
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1814,7 +2076,7 @@ LM741
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1823,7 +2085,7 @@ LM741
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1836,7 +2098,7 @@ LM741
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1848,7 +2110,7 @@ LM741
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1860,67 +2122,11 @@ LM741
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-<0.0006
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-LM324
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+<0.0006
 \end_layout
 
 \end_inset
@@ -1949,10 +2155,6 @@ name "1_8"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2120,6 +2322,57 @@ name "1_11"
 Simulaciones y mediciones
 \end_layout
 
+\begin_layout Standard
+A lo largo de esta sección nos centraremos en realizar las simulaciones
+ pertinentes del circuito y las mediciones del mismo.
+ En la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "1_16"
+
+\end_inset
+
+, se puede observar una simulación y medición del circuito funcionando.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Oscilación del circuito
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "1_16"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Distorsión Armónica
 \end_layout
@@ -2282,6 +2535,184 @@ THD=
 
 \begin_layout Subsection
 Transistor en estado estacionario
+\end_layout
+
+\begin_layout Subsubsection
+Resistencia dinámica
+\end_layout
+
+\begin_layout Standard
+Luego de que se llego al estado estacionario del circuito, es decir cuando
+ termino el tiempo transitorio desde que se lo conecto a una fuente, la
+ resistencia dinámica del transistor debería quedar en un valor, de tal
+ manera que la relación de impedancias 
+\begin_inset Formula $\frac{R_{3}}{R_{4}+R_{T}}=2$
+\end_inset
+
+, para esto, despejando de los valores de las reistencias, 
+\begin_inset Formula $R_{T}$
+\end_inset
+
+ deberia tener un valor cercano a 
+\begin_inset Formula $300(\Omega)$
+\end_inset
+
+.
+ Esto se verifica al ver la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "1_14"
+
+\end_inset
+
+, que muestra la simulación hecha con LTSpice.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/Resistencia transistor SIMULADO.png
+	lyxscale 50
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Simulación de resistencia del transistor en el estado estacionario
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "1_14"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Tensión de Gate
+\end_layout
+
+\begin_layout Standard
+Para lograr obtener los valores de resistencia aproximadamente dentro del
+ rango requerido, es necesario que la tensión de gate a su vez tenga pequeñas
+ variaciones cerca de un intervalo.
+ Si se simula la tensión de gate en el estado estacionario, el resultado
+ se puede observar en la Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "1_15"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/Tension de gate SIMULADA.png
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tensión de gate en el estado estacionario
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "1_15"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Medición de la tensión de gate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como se puede observar, la tensión de gate tiene variaciones máximas de
+ 0.2(mV), por lo cual, a fines prácticos, y considerando el ruido electromagnétic
+o de laboratorio, se la puede considerar constante.
 \end_layout
 
 \end_body
