@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=C2b-1
+Change Component Footprint: Designator=C2b Old Footprint=RAD-0.3 New Footprint=CAP200
+Change component parameters: Designator = "C2b"; Footprint = "CAP200"; UniqueID = "\GRPACECK"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC2b_1 Pin=C2b-1
+Added Pin To Net: NetName=NetC2b_1 Pin=R4b-1
+Added Net: Name=NetC2b_1
+Added Room: Name=Sheet1
