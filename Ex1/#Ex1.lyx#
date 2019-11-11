@@ -389,22 +389,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-A su vez, al calcular la distorsión armonica se obtuvo que:
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula 
-\[
-THD=
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
 \begin_inset Graphics
 	filename Resources/Circuito.png
 	lyxscale 50
@@ -2577,8 +2561,7 @@ name "1_13"
 \end_layout
 
 \begin_layout Standard
-Donde se puede observar que la distorsión armónica es prácticamente igual
- a la simulada.
+
 \end_layout
 
 \begin_layout Subsection

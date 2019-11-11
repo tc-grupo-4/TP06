@@ -6,6 +6,7 @@
 \usepackage{geometry}
 \geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm,headheight=2cm,headsep=2cm}
 \setlength{\parindent}{0bp}
+\usepackage{float}
 \usepackage{textcomp}
 \usepackage{graphicx}
 
@@ -40,7 +41,7 @@ Dado un sistema realimentado negativamente, siendo \emph{A }la ganancia
 de lazo abierto y $\beta$ la ganancia de realimentación, entonces
 se define $T(s)=A(s)\beta(s)$ como la ganancia de lazo de realimentación.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \includegraphics{Resources/Realimentado}
 \par\end{centering}
@@ -71,7 +72,7 @@ Dado un circuito como el que se muestra en la Figura \ref{1_1}, se
 podrá calcular como se mencionó previamente, la ganancia de lazo de
 realimentación. 
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \includegraphics{Resources/CircuitoWien.PNG}
 \par\end{centering}
@@ -108,7 +109,13 @@ generará un puente balanceado a lo largo de la frecuencia $f_{0}$.
 A lo largo de esta sección nos centraremos en analizar el circuito
 propuesto por la cátedra que se puede observar en la Figura \ref{1_3}.
 
-\begin{figure}[h]
+\begin{figure}[H]
+\begin{centering}
+A su vez, al calcular la distorsión armonica se obtuvo que:
+\par\end{centering}
+\[
+THD=
+\]
 \begin{centering}
 \includegraphics[scale=0.7]{Resources/Circuito}
 \par\end{centering}
@@ -135,7 +142,7 @@ Para poder entender el funcionamiento del AAC, es necesario primero
 entender como se comporta un JFET-N, para eso, se puede observar la
 Figura \ref{1_4}.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \includegraphics[scale=0.4]{\string"Resources/ids VS vds\string".png}
 \par\end{centering}
@@ -145,7 +152,7 @@ Figura \ref{1_4}.
 
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \subfloat[Para grandes variaciones]{\begin{centering}
 \includegraphics[scale=0.3]{\string"Resources/RDS vs VDS 1\string".png}
@@ -195,7 +202,7 @@ en la Figura \ref{1_6}, el cambio abrupto en la tensión de \emph{Gate}
 se deberá controlar para que las componentes de alta frecuencia de
 ese comportamiento producido por los diodos.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \includegraphics[scale=0.5]{Resources/Diodo}
 \par\end{centering}
@@ -252,7 +259,7 @@ del segundo amplificador.
 Estos dos metodos fueron simulados y los resultados se ven en la Figura
 \ref{1_7}.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \includegraphics[scale=0.5]{\string"Resources/Controlador de amplitud de oscilación\string".png}
 \par\end{centering}
@@ -262,7 +269,7 @@ de amplitud de oscilación}
 
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \includegraphics[scale=0.5]{\string"Resources/Circuito Controlador de amplitud por res\string".png}
 \par\end{centering}
@@ -270,7 +277,7 @@ de amplitud de oscilación}
 
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \includegraphics[scale=0.5]{\string"Resources/Circuito Controlador de amplitud por inv\string".png}
 \par\end{centering}
@@ -484,7 +491,7 @@ Por lo tanto, teniendo ya definidos estos valores a utilizar, ya es
 posible realizar un diagrama de polos y ceros del circuito, estos
 se pueden observar en las Figuras .
 \begin{center}
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \subfloat[Sin la resistencia del transistor]{\begin{centering}
 \includegraphics[scale=0.4]{\string"Resources/PolosYCeros para lazo abierto SIN TRANS\string".png}
@@ -502,7 +509,7 @@ se pueden observar en las Figuras .
 \par\end{center}
 
 \begin{center}
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \subfloat[Sin la resistencia del transistor]{\begin{centering}
 \includegraphics[scale=0.4]{\string"Resources/PolosYCeros para H SIN TRANS\string".png}
@@ -529,7 +536,7 @@ realizar muchos cambios debido a esto. Los amplificadores disponibles
 en el pañol y sus respectivas características se pueden observar en
 el cuadro \ref{1_8}.
 
-\begin{table}[h]
+\begin{table}[H]
 \begin{centering}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline 
@@ -570,7 +577,7 @@ lm741 1.755
 Por ultimo, el PCB implementado desarrollado con el programa \emph{Altium
 Designer}, quedo como se pueden ver en las Figuras \ref{1_10} y \ref{1_11}.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \includegraphics[scale=0.5]{Resources/Esquemático}
 \par\end{centering}
@@ -579,7 +586,7 @@ Designer}, quedo como se pueden ver en las Figuras \ref{1_10} y \ref{1_11}.
 \label{1_10}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \includegraphics[scale=0.25]{Resources/PCB}
 \par\end{centering}
@@ -595,7 +602,10 @@ pertinentes del circuito y las mediciones del mismo. En la Figura
 \ref{1_16}, se puede observar una simulación y medición del circuito
 funcionando.
 
-\begin{figure}[h]
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.35]{Resources/Oscilación}
+\par\end{centering}
 \caption{Oscilación del circuito}
 \label{1_16}
 
@@ -615,9 +625,9 @@ de potencia que tienen todos los armonicos de la señal, esta imagen
 se puede observar en la Figura \ref{1_12}. Como se puede observar,
 es notorio que cuanto mas grande sea el armonico, mas atenuado estará.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
-\includegraphics[scale=0.7]{\string"Resources/FFT SIMULADO\string".png}
+\includegraphics[scale=0.5]{\string"Resources/FFT SIMULADO\string".png}
 \par\end{centering}
 \caption{FFT de la señal generada}
 \label{1_12}
@@ -635,18 +645,17 @@ Por otro lado, al medir el espectro en frecuencia de la señal con
 una FFT en el osciloscopio, el resultado fue el que se muestra en
 la Figura \ref{1_13}.
 
-\begin{figure}[h]
-
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.7]{Resources/FFT}
+\par\end{centering}
 \caption{FFT de la señal generada}
 \label{1_13}
 
 \end{figure}
 
-A su vez, al calcular la distorsión armonica se obtuvo que:
-
-\[
-THD=
-\]
+Donde se puede observar que la distorsión armónica es prácticamente
+igual a la simulada.
 
 \subsection{Transistor en estado estacionario}
 
@@ -661,7 +670,7 @@ deberia tener un valor cercano a $300(\Omega)$. Esto se verifica
 al ver la Figura \ref{1_14}, que muestra la simulación hecha con
 LTSpice.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \includegraphics[scale=0.7]{\string"Resources/Resistencia transistor SIMULADO\string".png}
 \par\end{centering}
@@ -678,7 +687,7 @@ tenga pequeñas variaciones cerca de un intervalo. Si se simula la
 tensión de gate en el estado estacionario, el resultado se puede observar
 en la Figura \ref{1_15}.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{centering}
 \includegraphics[scale=0.6]{\string"Resources/Tension de gate SIMULADA\string".png}
 \par\end{centering}
@@ -687,8 +696,10 @@ en la Figura \ref{1_15}.
 \label{1_15}
 \end{figure}
 
-\begin{figure}[h]
-
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[scale=0.35]{Resources/VG}
+\par\end{centering}
 \caption{Medición de la tensión de gate}
 
 \end{figure}

@@ -26,7 +26,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\float_placement h
+\float_placement H
 \paperfontsize default
 \spacing single
 \use_hyperref false
@@ -386,6 +386,22 @@ reference "1_3"
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+\align center
+A su vez, al calcular la distorsión armonica se obtuvo que:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+THD=
+\]
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -2368,6 +2384,18 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/Oscilación.png
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2439,7 +2467,7 @@ status open
 \begin_inset Graphics
 	filename Resources/FFT SIMULADO.png
 	lyxscale 50
-	scale 70
+	scale 50
 
 \end_inset
 
@@ -2509,6 +2537,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/FFT.png
+	lyxscale 50
+	scale 70
+
+\end_inset
+
 
 \end_layout
 
@@ -2541,18 +2577,8 @@ name "1_13"
 \end_layout
 
 \begin_layout Standard
-A su vez, al calcular la distorsión armonica se obtuvo que:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-THD=
-\]
-
-\end_inset
-
-
+Donde se puede observar que la distorsión armónica es prácticamente igual
+ a la simulada.
 \end_layout
 
 \begin_layout Subsection
@@ -2707,6 +2733,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Resources/VG.png
+	lyxscale 50
+	scale 35
+
+\end_inset
+
 
 \end_layout
 
