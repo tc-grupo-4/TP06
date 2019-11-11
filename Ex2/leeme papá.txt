@@ -1,0 +1,10 @@
+hola querido amigo
+
+en el .tex hay una serie de comentarios, que son TO-DO (es decir, por hacer ;))
+
+basta con hacer ctrl-F y buscarlos para ir viendo qué es lo que falta hacer de las mediciones
+y el informe. 
+
+cualquier cosa al cel (mp)
+
+saludos, ceitba

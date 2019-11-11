@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : L:\userdata\documents\TP06\Ex2\Placas\PLL_FM\PCB2.PcbDoc
+Date         : 10/11/2019
+Time         : 17:14:33
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 56
+    Connections routed, 56
+    Connections remaining, 0
+count : 4
