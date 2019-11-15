@@ -1,20 +1,3 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linktoc=all,
-    linkcolor=blue,  
-}
-
-\begin{document}
-
-
-
 \part{PLL: Phase Locked Loop}
 
 \section{Introducción}
@@ -204,12 +187,52 @@ El oscilador interno del integrado permite regular su frecuencia central, $f_{0}
     \label{f0vsc1r1pll}
 \end{figure}
 
+
+
+
+
+
+
+
+
+
+
 \section{Implementación del integrado}
 Se implementó el integrado para diseñar un PLL con un rango de enganche que abarca desde $6kHz$ hasta $98kHz$.
 
-Se seleccionó una frecuencia central $f_{o}=50kHz$. Con una alimentación de 5V, según la Figura \ref{f0vsc1r1pll}, para que oscile a esa frecuencia los valores de C1 y R1 deben ser de aproximadamente $70pF$ y $10k\Omega$, respectivamente.
+Se seleccionó una frecuencia central $f_{o}=46kHz$, el promedio lineal entre los extremos del rango. Con una alimentación de 5,5V, según la Figura \ref{f0vsc1r1pll}, para que oscile a esa frecuencia los valores de $C_1$ y $R_1$ deben ser de aproximadamente $800pF$ y $10k\Omega$, respectivamente.
+
+Se configuró el VCO con valores de $R_1=10,35k\Omega$ y $C_1=790pF$. Además, para proveer un límite inferior del rango de enganche de 6kHz, se utilizó una resistencia $R_2=470k\Omega$. Se colocaron \emph{trimmers}, resistencias variables, para calibrar el rango variando $R_1$ y $R_2$ y compensar los efectos de las impedancias parásitas y la temperatura.
 
 Se implementaron en el PCB mediante un \emph{jumper} tres opciones distintas en el lugar para la etapa de filtrado de la señal: una opción para saltar la etapa, un filtro RC y un filtro RRC.
+
+
+\subsection{Medición del rango de enganche y captura}
+Se realizaron mediciones del rango de enganche y captura. 
+
+Con los valores de los componentes mencionados anteriormente, se determinaron los rangos de enganche y captura que se observan en la Tabla \ref{tablacaptura}.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+                &Intervalo Enganche  &   Intervalo Captura  & $f_{0}$   \tabularnewline
+    \hline
+    \hline
+    Sin Filtro &    (5600Hz,98250Hz)               &      (5800Hz, 95720Hz)                 &      46kHz     \tabularnewline
+    \hline
+    Filtro RC  &    (5600Hz,98250Hz)               &      (6200Hz, 96000Hz)                 &      46kHz     \tabularnewline 
+    \hline
+    Filtro RRC &         (5600Hz,98250Hz)          &          (6000Hz, 97900Hz)             &      46kHz     \tabularnewline
+    \hline
+    \end{tabular}
+    \caption{Mediciones de rango de enganche y captura}
+    \label{tablacaptura}
+\end{table}
+
+Cabe destacar que estos valores pueden calibarse para ser más restrictivos o dejar más margen de frecuencia de enganche.
+
+Por lo expuesto en la sección \ref{rangocap}, es razonable que el filtro RRC permita un mayor rango de captura. Los resultados se condicen con la teoría.
 
 \subsection{Medición del factor de calidad Q}
 Para obtener el valor de Q, se midió la respuesta al escalón del PLL en la entrada de control del VCO. Se define:
@@ -223,12 +246,7 @@ Para obtener el valor de Q, se midió la respuesta al escalón del PLL en la ent
     OS=\frac{V_{pico}-V_{estacionario}}{V_{estacionario}}
 \end{equation}
 En las figuras \ref{escalonrc} y \ref{escalonrrc} se pueden ver las mediciones de la respuesta al escalón de frecuencia mencionado anteriormente, y en la Tabla \ref{tablarespesc} se muestra la información reunida de dicho experimento.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{resources/escalonrc.png}
-    \caption{Medición: respuesta del PLL al escalón de frecuencia (sin filtro)}
-    \label{escalonrc}
-\end{figure}
+
 
 \begin{figure}[H]
     \centering
@@ -244,6 +262,8 @@ En las figuras \ref{escalonrc} y \ref{escalonrrc} se pueden ver las mediciones d
     \label{escalonrrc}
 \end{figure}
 
+Se ve que en vez de curvas, estas señales son bandas de ancho fijo. Esto se debe a el corto tiempo de establecimiento de la respuesta al escalón de tensión de los filtros: la señal alcanza a tener recorrido aún ante la rápida variación de la tensión de la señal cuadrada que entra al filtro. 
+
 \begin{table}[H]
     \centering
     \begin{tabular}{|c|c|c|c|c|}
@@ -251,55 +271,17 @@ En las figuras \ref{escalonrc} y \ref{escalonrrc} se pueden ver las mediciones d
                 &  OS   &   \zeta  & Q    &   T_{est}   \tabularnewline
     \hline
     \hline
-    Sin Filtro &          &       &        &            \tabularnewline
+    
+    Filtro RC  &    0,16     &     0,503    &          0,992 & 0,56ms  \tabularnewline 
     \hline
-    Filtro RC  &         &         &        &            \tabularnewline 
-    \hline
-    Filtro RRC &         &       &         &           \tabularnewline
+    Filtro RRC &    0,1     &   0,591    &     0,845  & 0,11ms    \tabularnewline
     \hline
     \end{tabular}
     \caption{Mediciones de parámetros del transitorio}
     \label{tablacaptura}
 \end{table}
 
-Se observa que
-%TODO: medir la respuesta al escalón para los dos filtros. seguramente, las oscilaciones tengan el mismo pseudoperiodo. incluirlo. 
-%tomar nota también del tiempo de establecimiento, es decir el tiempo desde el pico hasta el estado estacionario. va a ser menor para el filtro rrc porque es más cheto
-
-
-\subsection{Medición del tiempo de enganche y captura}
-Se realizaron mediciones del rango de enganche y captura. 
-
-La Figura \ref{varfrecvarve} muestra la variación de la tensión de entrada del VCO respecto de la variación de frecuencia para los distintos filtros. Los resultados obtenidos de estos gráficos se pueden observar en la Tabla \ref{tablacaptura}.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{resources/varfrecvarve.png}
-    \caption{Variación de $v_{e}$ con la frecuencia de entrada para un rango de 0 a 100kHz}
-    \label{varfrecvarve}
-\end{figure}
-
-Se observa que %TODO: medir con el bodeador, en tres experiencias (una por filtro) de dos etapas cada una (aumentando y disminuyendo la frecuencia), la tensión de entrada del vco mientras se varía la frecuencia de la señal de entrada. El bodeador guarda los valores de tensión en la planilla que exporta. graficar tensión en la entrada del vco versus frecuencia de la señal de entrada. para cada experimento, superponer las curvas.
-%cuando acopla, estamos en frecuencia de captura. cuando desacopla, frecuencia de enganche
-
-\begin{table}[H]
-    \centering
-    \begin{tabular}{|c|c|c|c|}
-    \hline
-                &Intervalo Captura  &   Intervalo Enganche  & $f_{0}$   \tabularnewline
-    \hline
-    \hline
-    Sin Filtro &                   &                       &           \tabularnewline
-    \hline
-    Filtro RC  &                   &                       &           \tabularnewline 
-    \hline
-    Filtro RRC &                   &                       &           \tabularnewline
-    \hline
-    \end{tabular}
-    \caption{Mediciones de rango de enganche y captura}
-    \label{tablacaptura}
-\end{table}
-
+Se observa que el tiempo de establecimiento del filtro RRC es, como era de esperarse, menor al del filtro RC. 
 
 
 \subsection{Aplicación: demodulación FM}
@@ -330,47 +312,77 @@ El pin 10 del integrado, que corresponde a la salida de la señal demodulada, es
 Esta configuración solo demodula la señal especificada, pero bastaría con modificar los valores de los componentes $R_{1}$ o $C_{1}$ para variar la frecuencia a seguir, o los valores de $R_{3}$ y $C_{2}$ para modificar el rango de captura. Reemplazando $R_{1}$ por un potenciómetro adecuado, podría incluso implementarse un demodulador FM de frecuencia variable.
 
 \subsubsection{Mediciones}
-Se utilizaron generadores de señal para modular en frecuencia con varias señales de audio de 400Hz una portadora de 10kHz. Las señales FM resultantes se transmitieron al PLL implementado en PCB para ser demodulado.
+Se utilizó un generador de señales para modular en frecuencia con varias señales de 400Hz una portadora cuadrada de 50kHz. Las señales FM resultantes se transmitieron al PLL para ser demoduladas.
 
-Se muestran en las figuras \ref{demodulacionfmcuadrada}, \ref{demodulacionfmsenoidal} y \ref{demodulacionfmrampa} las mediciones de la señal moduladora, la FM y la demodulada para moduladoras de forma cuadrada, senoidal y de rampa, respectivamente. 
+
+Se muestran en las figuras \ref{demodulacionfmcuadrada}, \ref{demodulacionfmsenoidal} y \ref{demodulacionfmtri} las mediciones de la señal de entrada FM, la salida del VCO y la salida demodulada para ambos filtros para moduladoras de forma cuadrada, senoidal y triangular, respectivamente. 
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{resources/demodulacionfmcuadrada.png}
-    \caption{Medición: demodulación de señal cuadrada}
+    \includegraphics[width=0.45\textwidth]{resources/demodulacionfmcuadradarc.png}
+    \includegraphics[width=0.45\textwidth]{resources/demodulacionfmcuadradarrc.png}
+    \caption{Medición: demodulación de señal cuadrada (filtro RC izquierda)}
     \label{demodulacionfmcuadrada}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{resources/demodulacionfmsenoidal.png}
-    \caption{Medición: demodulación de señal senoidal}
+    \includegraphics[width=0.45\textwidth]{resources/demodulacionfmsenoidalrc.png}
+    \includegraphics[width=0.45\textwidth]{resources/demodulacionfmsenoidalrrc.png}
+    \caption{Medición: demodulación de señal senoidal (filtro RC izquierda)}
     \label{demodulacionfmsenoidal}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{resources/demodulacionfmrampa.png}
-    \caption{Medición: demodulación de señal rampa}
-    \label{demodulacionfmrampa}
+    \includegraphics[width=0.45\textwidth]{resources/demodulacionfmtrirc.png}
+    \includegraphics[width=0.45\textwidth]{resources/demodulacionfmtrirrc.png}
+    \caption{Medición: demodulación de señal triangular (filtro RC izquierda)}
+    \label{demodulacionfmtri}
 \end{figure}
-Se puede ver que %TODO: modular la señal a lo labo de electronica con los dos generadores, metérsela y ver qué sale. medir todo lo que menciona el informe, graficarlo junto y ponerlo acá. sacar conclusiones a partir de las diferencias entre la moduladora y la demodulada.
+Se utilizó para esta aplicación el comparador 2, ya que la señal a la entrada podría no ser cuadrada y el comparador 1 es una compuerta digital.
+
+Puede verse que el filtro RC, al tener un tiempo de establecimiento más largo, produce una señal que oscila en una banda. El filtro RRC también muestra este efecto, pero con una mayor frecuencia, que a su vez depende más notablemente de la frecuencia de la señal FM. Estas señales podrían filtrarse para reducir este efecto indeseado.
+
+Si se procesa esta señal de portadora cuadrada con el comparador 1, se obtienen resultados más satisfactorios. En la Figura \ref{modulacionfmsenoidalcomp1} se observa la demodulacion de la modulada senoidal con el comparador 1.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{resources/demodulacionfmsenoidalcomp1.png}
+    \caption{Medición: demodulación de señal senoidal (filtro RC, comparador 1)}
+    \label{modulacionfmsenoidalcomp1}
+\end{figure}
 
 \subsection{Implementación: multiplicador de frecuencias}
-Se implementó el PLL como un multiplicador de frecuencias mediante la conexión de un contador de décadas que actúa de divisor de frecuencias entre la salida del VCO y la entrada del comparador. De esta manera, el PLL realiza un seguimiento de  % TODO: implementar circuito con CD4016
+Se implementó el PLL como un multiplicador de frecuencias mediante la conexión de un contador de décadas CD4017 que actúa de divisor de frecuencias entre la salida del VCO y la entrada del una compuerta flip-flop, que fue implementado para llevar que la salida del divisor tenga un duty cycle del 50\% y se pueda utilizar con éxito el comparador 1 para esta aplicación. La salida de este último componente se conecta a la entrada del comparador. Cabe destacar que el flip-flop divide la frecuencia en dos.
 
-La salida del PLL será una señal de frecuencia $Nf_{in}$, donde N es un entero función del divisor de frecuencias y varía entre 1 y 10, y $f_{in}$ es la frecuencia de la señal de entrada del PLL.
+De esta manera, se puede escoger mediante la eleccioón de compuerta del contador un valor entero de N múltiplo de 2 entre 2 y 18, y la salida del PLL tendrá una frecuencia de $Nf_in$.
 
-Se utilizó para esta aplicación el comparador de fase II, ya que no tiende a seguir a los armónicos de la señal de entrada, lo cual es relevante ya que el \emph{duty cycle} de la salida del divisor no es del 50\%.
 
-Se utilizó también un filtro RRC para esta aplicación, ya que tiene un tiempo de establecimiento más corto y permite rápida adaptación a los saltos de frecuencia introducidos por el selector de frecuencia del divisor. % TODO: relacionar esto a resp escalon
+Se utilizó también un filtro RRC para esta aplicación, ya que tiene un tiempo de establecimiento más corto y permite rápida adaptación a los saltos de frecuencia introducidos por el selector de frecuencia del divisor.
 
 \subsubsection{Mediciones}
-En las figuras \ref{medicionstep2}, \ref{medicionstep4} y \ref{medicionstep8} se observan las mediciones de la señal de entrada y salida del PLL para las configuraciones N=2, N=4 y N=8, respectivamente.
+En las figuras \ref{medicionstep8} y \ref{medicionstep16} se observan las mediciones de la señal de entrada y salida del PLL para las configuraciones N=8 y N=16, respectivamente.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{resources/medicionstep8.png}
+    \caption{Medición: multiplicación por 8}
+    \label{medicionstep8}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{resources/medicionstep16.png}
+    \caption{Medición: multiplicación por 16}
+    \label{medicionstep16}
+\end{figure}
+
 
 \section{Conclusión}
 El PLL es un circuito versátil, que puede ser implementado para demodular señales FM y FSK, multiplicar frecuencias, sincronizar \emph{clocks} y sintetizar frecuencias, entre otras aplicaciones.
 
 Mediante la selección de componentes adecuados en el diseño, se puede escoger de un amplio rango de valores de operación, además de optimizar el diseño para distintas aplicaciones que exijan tiempos de establecimiento y selectividad de frecuencias específicas.
 
-\section{Referencias}
+\section{Bibliografía}
 Phase-Locked Loop Design Fundamentals: \url{https://www.nxp.com/files-static/rf_if/doc/app_note/AN535.pdf}
 
 CD4046B Phase-Locked Loop: A Versatile Building
