@@ -295,21 +295,21 @@ El principio básico tras el concepto de modulación en frecuencia (FM, por sus 
 \end{figure}
 
 \subsubsection{Implementación}
-Se implementó el integrado en un circuito para demodular una señal FM con portadora de $50kHz$ modulada por una señal de audio de frecuencia $f_{1}=400Hz$. A continuación, se detalla su funcionamiento.
+Se implementó el integrado en un circuito para demodular una señal FM con portadora de $50kHz$ modulada por una señal de frecuencia $f_{1}=400Hz$. A continuación, se detalla su funcionamiento.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{../Ex2/resources/demoduladorfmconexion.png}
-    \caption{Esquemático del circuito del demodulador FM}
+    \caption{Esquemático del circuito del demodulador FM (fines ilustrativos: los valores son otros)}
     \label{demoduladorfmconexion}
 \end{figure}
 
-Cuando se pone en la entrada de un PLL una señal FM y se produce el enganche de frecuencias, se realiza un seguimiento de su frecuencia. La amplitud de la señal de entrada del VCO en esta situación, es decir la tensión de error del comparador de fase tras pasar por el filtro, es proporcional a la diferencia entre la frecuencia del VCO y la frecuencia de la señal FM. Si se configura el VCO con una $f_{0}$ igual a la de la portadora de la señal FM, esta señal corresponde a la señal FM demodulada, es decir, la señal modulada original.
+Cuando se pone en la entrada de un PLL una señal FM y se produce el enganche de frecuencias, se realiza un seguimiento de su frecuencia. La amplitud de la señal de entrada del VCO en esta situación, es decir la tensión de error del comparador de fase tras pasar por el filtro, es proporcional a la diferencia entre la frecuencia del VCO y la frecuencia de la señal FM. Si se configura el VCO de forma tal que enganche la frecuencia de la portadora de la señal FM, esta señal corresponde a la señal FM demodulada, es decir, la señal modulada original.
 
-Con esta configuración, según la Figura \ref{f0vsc1r1pll}, la frecuencia central del VCO será de aproximadamente $50kHz$. Se coloca un capacitor de desacople en la entrada para eliminar el nivel de contínua de la señal FM. A su vez, el rango de captura de esta configuración es de $f_{c}=\pm \frac{f_{1}}{R_{3}C_{2}}=\pm0,4kHz$, donde $f_{1}$ es la frecuencia de la señal modulada y  $R_{3}$ y $C_{2}$ son los valores de los componentes del filtro pasa-bajos. Con este rango de captura, se permite realizar la captura de la señal aunque su frecuencia no sea exactamente la de la portadora, por efectos de la modulación.
+Con esta configuración, según la Figura \ref{f0vsc1r1pll}, la frecuencia central del VCO será de aproximadamente $48kHz$. Se coloca un capacitor de desacople en la entrada para eliminar el nivel de contínua de la señal FM. Con el rango de captura, se permite realizar la captura de la señal aunque su frecuencia no sea exactamente la de la portadora, por efectos de la modulación.
 
 El pin 10 del integrado, que corresponde a la salida de la señal demodulada, está internamente conectado mediante un \emph{buffer} a la entrada del VCO, es decir, la salida del filtro pasa-bajos.
 
-Esta configuración solo demodula la señal especificada, pero bastaría con modificar los valores de los componentes $R_{1}$ o $C_{1}$ para variar la frecuencia a seguir, o los valores de $R_{3}$ y $C_{2}$ para modificar el rango de captura. Reemplazando $R_{1}$ por un potenciómetro adecuado, podría incluso implementarse un demodulador FM de frecuencia variable.
+Con un rango de enganche lo suficientemente acotado, solo se demodula la señal especificada, y bastaría con modificar los valores de los componentes $R_{1}$ o $C_{1}$ para variar la frecuencia a seguir, o los valores del filtro pasa-bajos para modificar el rango de captura. Reemplazando $R_{1}$ por un potenciómetro adecuado, podría incluso implementarse un demodulador FM de frecuencia variable. La ventaja principal del uso de este tipo de circuitos para la selección de la frecuencia a enganchar es que al no tener que seleccionarla mediante tensión, esta será más estable y no sufrira variaciones por temperatura ni otros efectos.
 
 \subsubsection{Mediciones}
 Se utilizó un generador de señales para modular en frecuencia con varias señales de 400Hz una portadora cuadrada de 50kHz. Las señales FM resultantes se transmitieron al PLL para ser demoduladas.
@@ -352,9 +352,9 @@ Si se procesa esta señal de portadora cuadrada con el comparador 1, se obtienen
 \end{figure}
 
 \subsection{Implementación: multiplicador de frecuencias}
-Se implementó el PLL como un multiplicador de frecuencias mediante la conexión de un contador de décadas CD4017 que actúa de divisor de frecuencias entre la salida del VCO y la entrada del una compuerta flip-flop, que fue implementado para llevar que la salida del divisor tenga un duty cycle del 50\% y se pueda utilizar con éxito el comparador 1 para esta aplicación. La salida de este último componente se conecta a la entrada del comparador. Cabe destacar que el flip-flop divide la frecuencia en dos.
+Se implementó el PLL como un multiplicador de frecuencias mediante la conexión de un contador de décadas CD4017 que actúa de divisor de frecuencias entre la salida del VCO y la entrada del una compuerta flip-flop (integrado CD4013), que fue implementado para llevar que la salida del divisor tenga un duty cycle del 50\% y se pueda utilizar con éxito el comparador 1 para esta aplicación. La salida de este último componente se conecta a la entrada del comparador. Cabe destacar que el flip-flop divide la frecuencia en dos.
 
-De esta manera, se puede escoger mediante la eleccioón de compuerta del contador un valor entero de N múltiplo de 2 entre 2 y 18, y la salida del PLL tendrá una frecuencia de $Nf_in$.
+De esta manera, se puede escoger mediante la elección de compuerta del contador un valor entero de N múltiplo de 2 entre 2 y 18, y la salida del PLL tendrá una frecuencia de $Nf_in$.
 
 
 Se utilizó también un filtro RRC para esta aplicación, ya que tiene un tiempo de establecimiento más corto y permite rápida adaptación a los saltos de frecuencia introducidos por el selector de frecuencia del divisor.
