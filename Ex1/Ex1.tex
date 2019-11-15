@@ -1,30 +1,3 @@
-%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
-%% Do not edit unless you really know what you are doing.
-\documentclass[spanish]{article}
-\usepackage[T1]{fontenc}
-\usepackage[latin9]{luainputenc}
-\usepackage{geometry}
-\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm,headheight=2cm,headsep=2cm}
-\setlength{\parindent}{0bp}
-\usepackage{textcomp}
-\usepackage{graphicx}
-
-\makeatletter
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
-%% Because html converters don't know tabularnewline
-\providecommand{\tabularnewline}{\\}
-
-\@ifundefined{showcaptionsetup}{}{%
- \PassOptionsToPackage{caption=false}{subfig}}
-\usepackage{subfig}
-\makeatother
-
-\usepackage{babel}
-\addto\shorthandsspanish{\spanishdeactivate{~<>}}
-
-\begin{document}
-
 \part{Oscilador de Wien}
 
 \section{Introducción}
@@ -42,7 +15,7 @@ se define $T(s)=A(s)\beta(s)$ como la ganancia de lazo de realimentación.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics{Resources/Realimentado}
+\includegraphics{../Ex1/Resources/Realimentado}
 \par\end{centering}
 \caption{Sistema realimentado}
 
@@ -73,7 +46,7 @@ realimentación.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics{Resources/CircuitoWien.PNG}
+\includegraphics{../Ex1/Resources/CircuitoWien.PNG}
 \par\end{centering}
 \caption{Circuito de Wien}
 \label{1_1}
@@ -116,7 +89,7 @@ A su vez, al calcular la distorsión armonica se obtuvo que:
 THD=
 \]
 \begin{centering}
-\includegraphics[scale=0.7]{Resources/Circuito}
+\includegraphics[scale=0.7]{../Ex1/Resources/Circuito}
 \par\end{centering}
 \caption{Circuito de Oscilador propuesto}
 \label{1_3}
@@ -143,7 +116,7 @@ Figura \ref{1_4}.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.4]{\string"Resources/ids VS vds\string".png}
+\includegraphics[scale=0.4]{\string"../Ex1/Resources/ids VS vds\string".png}
 \par\end{centering}
 \caption{$I_{DS}$ en función de $V_{DS}$, para valores de VGS entre -3 (V)
 (linea negra) y 0.5(V) (linea azul) }
@@ -154,11 +127,11 @@ Figura \ref{1_4}.
 \begin{figure}[h]
 \begin{centering}
 \subfloat[Para grandes variaciones]{\begin{centering}
-\includegraphics[scale=0.3]{\string"Resources/RDS vs VDS 1\string".png}
+\includegraphics[scale=0.3]{\string"../Ex1/Resources/RDS vs VDS 1\string".png}
 \par\end{centering}
 
 }\subfloat[Para pequeñas variaciones]{\begin{centering}
-\includegraphics[scale=0.3]{\string"Resources/RDS vs VDS 2\string".png}
+\includegraphics[scale=0.3]{\string"../Ex1/Resources/RDS vs VDS 2\string".png}
 \par\end{centering}
 
 }
@@ -203,7 +176,7 @@ ese comportamiento producido por los diodos.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.5]{Resources/Diodo}
+\includegraphics[scale=0.5]{../Ex1/Resources/Diodo}
 \par\end{centering}
 \caption{Curva de un diodo}
 \label{1_6}
@@ -260,7 +233,7 @@ Estos dos metodos fueron simulados y los resultados se ven en la Figura
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.5]{\string"Resources/Controlador de amplitud de oscilación\string".png}
+\includegraphics[scale=0.5]{\string"../Ex1/Resources/Controlador de amplitud de oscilación\string".png}
 \par\end{centering}
 \caption{Cambios en el comportamiendo del circuito para diferentes controladores
 de amplitud de oscilación}
@@ -270,7 +243,7 @@ de amplitud de oscilación}
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.5]{\string"Resources/Circuito Controlador de amplitud por res\string".png}
+\includegraphics[scale=0.5]{\string"../Ex1/Resources/Circuito Controlador de amplitud por res\string".png}
 \par\end{centering}
 \caption{Circuito con controlador de amplitud por resistencia}
 
@@ -278,7 +251,7 @@ de amplitud de oscilación}
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.5]{\string"Resources/Circuito Controlador de amplitud por inv\string".png}
+\includegraphics[scale=0.5]{\string"../Ex1/Resources/Circuito Controlador de amplitud por inv\string".png}
 \par\end{centering}
 \caption{Circuito con controlador de amplitud por etapa inversora}
 
@@ -493,10 +466,10 @@ se pueden observar en las Figuras .
 \begin{figure}[h]
 \begin{centering}
 \subfloat[Sin la resistencia del transistor]{\begin{centering}
-\includegraphics[scale=0.4]{\string"Resources/PolosYCeros para lazo abierto SIN TRANS\string".png}
+\includegraphics[scale=0.4]{\string"../Ex1/Resources/PolosYCeros para lazo abierto SIN TRANS\string".png}
 \par\end{centering}
 }\subfloat[Con la resistencia del transistor]{\begin{centering}
-\includegraphics[scale=0.4]{\string"Resources/PolosYCeros para lazo abierto CON TRANS\string".png}
+\includegraphics[scale=0.4]{\string"../Ex1/Resources/PolosYCeros para lazo abierto CON TRANS\string".png}
 \par\end{centering}
 
 }
@@ -511,11 +484,11 @@ se pueden observar en las Figuras .
 \begin{figure}[h]
 \begin{centering}
 \subfloat[Sin la resistencia del transistor]{\begin{centering}
-\includegraphics[scale=0.4]{\string"Resources/PolosYCeros para H SIN TRANS\string".png}
+\includegraphics[scale=0.4]{\string"../Ex1/Resources/PolosYCeros para H SIN TRANS\string".png}
 \par\end{centering}
 
 }\subfloat[Con la resistencia del transistor]{\begin{centering}
-\includegraphics[scale=0.4]{\string"Resources/PolosYCeros para H CON TRANS\string".png}
+\includegraphics[scale=0.4]{\string"../Ex1/Resources/PolosYCeros para H CON TRANS\string".png}
 \par\end{centering}
 
 }
@@ -578,7 +551,7 @@ Designer}, quedo como se pueden ver en las Figuras \ref{1_10} y \ref{1_11}.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.5]{Resources/Esquemático}
+\includegraphics[scale=0.5]{../Ex1/Resources/Esquemático}
 \par\end{centering}
 \caption{Esquemático}
 
@@ -587,7 +560,7 @@ Designer}, quedo como se pueden ver en las Figuras \ref{1_10} y \ref{1_11}.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.25]{Resources/PCB}
+\includegraphics[scale=0.25]{../Ex1/Resources/PCB}
 \par\end{centering}
 \caption{PCB}
 \label{1_11}
@@ -603,7 +576,7 @@ funcionando.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.35]{Resources/Oscilación}
+\includegraphics[scale=0.35]{../Ex1/Resources/Oscilación}
 \par\end{centering}
 \caption{Oscilación del circuito}
 \label{1_16}
@@ -626,7 +599,7 @@ es notorio que cuanto mas grande sea el armonico, mas atenuado estará.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.5]{\string"Resources/FFT SIMULADO\string".png}
+\includegraphics[scale=0.5]{\string"../Ex1/Resources/FFT SIMULADO\string".png}
 \par\end{centering}
 \caption{FFT de la señal generada}
 \label{1_12}
@@ -646,7 +619,7 @@ la Figura \ref{1_13}.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.7]{Resources/FFT}
+\includegraphics[scale=0.7]{../Ex1/Resources/FFT}
 \par\end{centering}
 \caption{FFT de la señal generada}
 \label{1_13}
@@ -671,7 +644,7 @@ LTSpice.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.7]{\string"Resources/Resistencia transistor SIMULADO\string".png}
+\includegraphics[scale=0.7]{\string"../Ex1/Resources/Resistencia transistor SIMULADO\string".png}
 \par\end{centering}
 \caption{Simulación de resistencia del transistor en el estado estacionario}
 \label{1_14}
@@ -688,7 +661,7 @@ en la Figura \ref{1_15}.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.6]{\string"Resources/Tension de gate SIMULADA\string".png}
+\includegraphics[scale=0.6]{\string"../Ex1/Resources/Tension de gate SIMULADA\string".png}
 \par\end{centering}
 \caption{Tensión de gate en el estado estacionario}
 
@@ -697,7 +670,7 @@ en la Figura \ref{1_15}.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.35]{Resources/VG}
+\includegraphics[scale=0.35]{../Ex1/Resources/VG}
 \par\end{centering}
 \caption{Medición de la tensión de gate}
 
@@ -706,4 +679,3 @@ en la Figura \ref{1_15}.
 Como se puede observar, la tensión de gate tiene variaciones máximas
 de 0.2(mV), por lo cual, a fines prácticos, y considerando el ruido
 electromagnético de laboratorio, se la puede considerar constante.
-\end{document}
