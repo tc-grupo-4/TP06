@@ -1,0 +1,58 @@
+\select@language {spanish}
+\contentsline {part}{I\hspace {1em}Oscilador de Wien}{2}{part.1}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Criterio de Barkhausen}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Oscilador de \emph {Wien}}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}An\IeC {\'a}lisis del circuito propuesto}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}\emph {Automatic Amplitude Control (AAC)}}{4}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Transistor JFET-N}{4}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Diodos en serie}{4}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Controlador de respuesta en frecuencia de los diodos}{4}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Controlador de amplitud de oscilaci\IeC {\'o}n}{5}{subsubsection.2.1.4}
+\contentsline {subsection}{\numberline {2.2}M\IeC {\'a}xima frecuencia de oscilaci\IeC {\'o}n}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}An\IeC {\'a}lisis de sensibilidades}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Polos y ceros del circuito}{7}{subsection.2.4}
+\contentsline {section}{\numberline {3}Implementaci\IeC {\'o}n}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Frecuencia de oscilaci\IeC {\'o}n}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}\emph {Automatic Amplitude Control (AAC)}}{8}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Controlador de frecuencia}{8}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Elecci\IeC {\'o}n de la resistencia del transistor JFET-N}{8}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Polos y ceros}{9}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3}Selecci\IeC {\'o}n de amplificadores operacionales}{9}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Dise\IeC {\~n}o del PCB}{10}{subsection.3.4}
+\contentsline {section}{\numberline {4}Simulaciones y mediciones}{10}{section.4}
+\contentsline {subsection}{\numberline {4.1}Distorsi\IeC {\'o}n Arm\IeC {\'o}nica}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Transistor en estado estacionario}{11}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Resistencia din\IeC {\'a}mica}{11}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Tensi\IeC {\'o}n de Gate}{12}{subsubsection.4.2.2}
+\contentsline {part}{II\hspace {1em}PLL: Phase Locked Loop}{12}{part.2}
+\contentsline {section}{\numberline {5}Introducci\IeC {\'o}n}{12}{section.5}
+\contentsline {section}{\numberline {6}Funcionamiento de un PLL}{12}{section.6}
+\contentsline {subsection}{\numberline {6.1}Rango de enganche}{14}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Rango de captura}{15}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Efectos de distintos filtros sobre el rango de captura}{16}{subsubsection.6.2.1}
+\contentsline {section}{\numberline {7}Composici\IeC {\'o}n del integrado CD4046B}{18}{section.7}
+\contentsline {subsection}{\numberline {7.1}Comparadores de fase}{19}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Oscilador controlado por voltaje (VCO)}{20}{subsection.7.2}
+\contentsline {section}{\numberline {8}Implementaci\IeC {\'o}n del integrado}{20}{section.8}
+\contentsline {subsection}{\numberline {8.1}Medici\IeC {\'o}n del rango de enganche y captura}{21}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Medici\IeC {\'o}n del factor de calidad Q}{21}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Aplicaci\IeC {\'o}n: demodulaci\IeC {\'o}n FM}{22}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {8.3.1}Introducci\IeC {\'o}n: modulaci\IeC {\'o}n FM}{22}{subsubsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.2}Implementaci\IeC {\'o}n}{23}{subsubsection.8.3.2}
+\contentsline {subsubsection}{\numberline {8.3.3}Mediciones}{24}{subsubsection.8.3.3}
+\contentsline {subsection}{\numberline {8.4}Implementaci\IeC {\'o}n: multiplicador de frecuencias}{26}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}Mediciones}{26}{subsubsection.8.4.1}
+\contentsline {section}{\numberline {9}Conclusi\IeC {\'o}n}{27}{section.9}
+\contentsline {section}{\numberline {10}Bibliograf\IeC {\'\i }a}{27}{section.10}
+\contentsline {part}{III\hspace {1em}Dise\IeC {\~n}o de VCO}{27}{part.3}
+\contentsline {section}{\numberline {11}Introducci\IeC {\'o}n}{27}{section.11}
+\contentsline {section}{\numberline {12}Introducci\IeC {\'o}n te\IeC {\'o}rica}{27}{section.12}
+\contentsline {section}{\numberline {13}Dise\IeC {\~n}o}{29}{section.13}
+\contentsline {subsection}{\numberline {13.1}VCO triangular Parte 1}{29}{subsection.13.1}
+\contentsline {subsection}{\numberline {13.2}Schimmit trigger}{30}{subsection.13.2}
+\contentsline {subsection}{\numberline {13.3}VCO triangular Parte 2}{33}{subsection.13.3}
+\contentsline {subsection}{\numberline {13.4}Conversor}{34}{subsection.13.4}
+\contentsline {subsection}{\numberline {13.5}PCB}{35}{subsection.13.5}
+\contentsline {section}{\numberline {14}Medici\IeC {\'o}n}{36}{section.14}
+\contentsline {section}{\numberline {15}Conclusi\IeC {\'o}n}{37}{section.15}

@@ -1,14 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.23)  15 NOV 2019 01:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2018.3.23)  15 NOV 2019 09:48
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**"Informe TP06 - Grupo 4.tex"
-(./Informe TP06 - Grupo 4.tex
+**"./Informe TP06 - Grupo 4.tex"
+("Informe TP06 - Grupo 4.tex"
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(./preamble.tex (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+(preamble.tex ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,19 +21,19 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -276,7 +274,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -317,7 +315,7 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -341,21 +339,21 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count87
@@ -370,8 +368,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks17
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count90
 \float@exts=\toks18
@@ -379,7 +378,41 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box27
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen111
+\captionmargin@=\dimen112
+\captionwidth=\dimen113
+\caption@tempdima=\dimen114
+\caption@indent=\dimen115
+\caption@parindent=\dimen116
+\caption@hangindent=\dimen117
+)
+\c@ContinuedFloat=\count91
+Package caption Info: float package is loaded.
+)
+\c@KVtest=\count92
+\sf@farskip=\skip43
+\sf@captopadj=\dimen118
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count93
+\c@subfigure@save=\count94
+\c@lofdepth=\count95
+\c@subtable=\count96
+\c@subtable@save=\count97
+\c@lotdepth=\count98
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -394,12 +427,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.dfu
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -535,131 +568,123 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
-\ex@=\dimen111
+\ex@=\dimen119
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count91
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen112
-\Gin@req@width=\dimen113
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen114
-\lightrulewidth=\dimen115
-\cmidrulewidth=\dimen116
-\belowrulesep=\dimen117
-\belowbottomsep=\dimen118
-\aboverulesep=\dimen119
-\abovetopsep=\dimen120
-\cmidrulesep=\dimen121
-\cmidrulekern=\dimen122
-\defaultaddspace=\dimen123
-\@cmidla=\count92
-\@cmidlb=\count93
-\@aboverulesep=\dimen124
-\@belowrulesep=\dimen125
-\@thisruleclass=\count94
-\@lastruleclass=\count95
-\@thisrulewidth=\dimen126
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen122
+\lightrulewidth=\dimen123
+\cmidrulewidth=\dimen124
+\belowrulesep=\dimen125
+\belowbottomsep=\dimen126
+\aboverulesep=\dimen127
+\abovetopsep=\dimen128
+\cmidrulesep=\dimen129
+\cmidrulekern=\dimen130
+\defaultaddspace=\dimen131
+\@cmidla=\count99
+\@cmidlb=\count100
+\@aboverulesep=\dimen132
+\@belowrulesep=\dimen133
+\@thisruleclass=\count101
+\@lastruleclass=\count102
+\@thisrulewidth=\dimen134
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip43
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip48
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen127
+\pmbraise@=\dimen135
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count96
+\inf@bad=\count103
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count97
-\leftroot@=\count98
+\uproot@=\count104
+\leftroot@=\count105
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count99
-\DOTSCASE@=\count100
+\classnum@=\count106
+\DOTSCASE@=\count107
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
-\big@size=\dimen128
+\big@size=\dimen136
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count101
-\c@MaxMatrixCols=\count102
+\macc@depth=\count108
+\c@MaxMatrixCols=\count109
 \dotsspace@=\muskip10
-\c@parentequation=\count103
-\dspbrk@lvl=\count104
+\c@parentequation=\count110
+\dspbrk@lvl=\count111
 \tag@help=\toks21
-\row@=\count105
-\column@=\count106
-\maxfields@=\count107
+\row@=\count112
+\column@=\count113
+\maxfields@=\count114
 \andhelp@=\toks22
-\eqnshift@=\dimen129
-\alignsep@=\dimen130
-\tagshift@=\dimen131
-\tagwidth@=\dimen132
-\totwidth@=\dimen133
-\lineht@=\dimen134
+\eqnshift@=\dimen137
+\alignsep@=\dimen138
+\tagshift@=\dimen139
+\tagwidth@=\dimen140
+\totwidth@=\dimen141
+\lineht@=\dimen142
 \@envbody=\toks23
-\multlinegap=\skip44
-\multlinetaggap=\skip45
+\multlinegap=\skip49
+\multlinetaggap=\skip50
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count108
+\c@tracingmulticols=\count115
 \mult@box=\box30
-\multicol@leftmargin=\dimen135
-\c@unbalance=\count109
-\c@collectmore=\count110
-\doublecol@number=\count111
-\multicoltolerance=\count112
-\multicolpretolerance=\count113
-\full@width=\dimen136
-\page@free=\dimen137
-\premulticols=\dimen138
-\postmulticols=\dimen139
-\multicolsep=\skip46
-\multicolbaselineskip=\skip47
+\multicol@leftmargin=\dimen143
+\c@unbalance=\count116
+\c@collectmore=\count117
+\doublecol@number=\count118
+\multicoltolerance=\count119
+\multicolpretolerance=\count120
+\full@width=\dimen144
+\page@free=\dimen145
+\premulticols=\dimen146
+\postmulticols=\dimen147
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
 \partial@page=\box31
 \last@line=\box32
-\maxbalancingoverflow=\dimen140
+\maxbalancingoverflow=\dimen148
 \mult@rightbox=\box33
 \mult@grightbox=\box34
 \mult@gfirstbox=\box35
@@ -681,95 +706,98 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box51
 \@tempa=\box52
 \@tempa=\box53
-\c@columnbadness=\count114
-\c@finalcolumnbadness=\count115
-\last@try=\dimen141
-\multicolovershoot=\dimen142
-\multicolundershoot=\dimen143
+\c@columnbadness=\count121
+\c@finalcolumnbadness=\count122
+\last@try=\dimen149
+\multicolovershoot=\dimen150
+\multicolundershoot=\dimen151
 \mult@nat@firstbox=\box54
 \colbreak@box=\box55
-\mc@col@check@num=\count116
+\mc@col@check@num=\count123
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/circuitikz/circuitikz.sty
-Package: circuitikz 2017/05/01{} The CircuiTikz circuit drawing package version
- 0.8.2
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\circuitikz\circuitikz.sty"
+Package: circuitikz 2019/07/13{} The CircuiTikz circuit drawing package version
+ 0.9.3
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
-x
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
+x"
 \pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen144
-\pgfutil@tempdimb=\dimen145
+\pgfutil@tempdima=\dimen152
+\pgfutil@tempdimb=\dimen153
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
-sts.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-li
+sts.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+"
 \pgfutil@abb=\box56
-(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+"
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+"
 \pgfkeys@pathtoks=\toks26
 \pgfkeys@temptoks=\toks27
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
-ode.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
+ode.tex"
 \pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen146
-\pgf@y=\dimen147
-\pgf@xa=\dimen148
-\pgf@ya=\dimen149
-\pgf@xb=\dimen150
-\pgf@yb=\dimen151
-\pgf@xc=\dimen152
-\pgf@yc=\dimen153
+\pgf@x=\dimen154
+\pgf@y=\dimen155
+\pgf@xa=\dimen156
+\pgf@ya=\dimen157
+\pgf@xb=\dimen158
+\pgf@yb=\dimen159
+\pgf@xc=\dimen160
+\pgf@yc=\dimen161
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count117
-\c@pgf@countb=\count118
-\c@pgf@countc=\count119
-\c@pgf@countd=\count120
+\c@pgf@counta=\count124
+\c@pgf@countb=\count125
+\c@pgf@countc=\count126
+\c@pgf@countd=\count127
 \t@pgf@toka=\toks29
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
-ef
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.d
+ef"
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
-df.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-p
+df.def"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
-code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
+code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count121
-\pgfsyssoftpath@bigbuffer@items=\count122
+\pgfsyssoftpath@smallbuffer@items=\count128
+\pgfsyssoftpath@bigbuffer@items=\count129
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
-code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
+code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -783,296 +811,334 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen154
-\pgfmath@count=\count123
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+"
+\pgfmath@dimen=\dimen162
+\pgfmath@count=\count130
 \pgfmath@box=\box57
 \pgfmath@toks=\toks32
 \pgfmath@stack@operand=\toks33
 \pgfmath@stack@operation=\toks34
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
-tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
-.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
-nometric.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
-m.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
-rison.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
-code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
-.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
-code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
-erarithmetics.code.tex)))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count124
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
+tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigo
+nometric.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.rando
+m.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.compa
+rison.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integ
+erarithmetics.code.tex")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count131
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
-de.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
+de.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen155
-\pgf@picmaxx=\dimen156
-\pgf@picminy=\dimen157
-\pgf@picmaxy=\dimen158
-\pgf@pathminx=\dimen159
-\pgf@pathmaxx=\dimen160
-\pgf@pathminy=\dimen161
-\pgf@pathmaxy=\dimen162
-\pgf@xx=\dimen163
-\pgf@xy=\dimen164
-\pgf@yx=\dimen165
-\pgf@yy=\dimen166
-\pgf@zx=\dimen167
-\pgf@zy=\dimen168
+\pgf@picminx=\dimen163
+\pgf@picmaxx=\dimen164
+\pgf@picminy=\dimen165
+\pgf@picmaxy=\dimen166
+\pgf@pathminx=\dimen167
+\pgf@pathmaxx=\dimen168
+\pgf@pathminy=\dimen169
+\pgf@pathmaxy=\dimen170
+\pgf@xx=\dimen171
+\pgf@xy=\dimen172
+\pgf@yx=\dimen173
+\pgf@yy=\dimen174
+\pgf@zx=\dimen175
+\pgf@zy=\dimen176
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
-ruct.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconst
+ruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen169
-\pgf@path@lasty=\dimen170
+\pgf@path@lastx=\dimen177
+\pgf@path@lasty=\dimen178
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
-.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage
+.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen171
-\pgf@shorten@start@additional=\dimen172
+\pgf@shorten@end@additional=\dimen179
+\pgf@shorten@start@additional=\dimen180
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
-de.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.co
+de.tex"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count125
+\pgf@picture@serial@count=\count132
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
-ate.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
+ate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen173
+\pgflinewidth=\dimen181
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
-ations.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransform
+ations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen174
-\pgf@pt@y=\dimen175
-\pgf@pt@temp=\dimen176
+\pgf@pt@x=\dimen182
+\pgf@pt@y=\dimen183
+\pgf@pt@temp=\dimen184
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
-e.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.cod
+e.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
-ode.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.c
+ode.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
-ssing.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathproce
+ssing.code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
-de.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.co
+de.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen177
+\pgfarrowsep=\dimen185
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
-e.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.cod
+e.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen178
-\pgf@sys@shading@range@num=\count126
+\pgf@max=\dimen186
+\pgf@sys@shading@range@num=\count133
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
-e.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
+e.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
-code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.
+code.tex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box61
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
-de.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.co
+de.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
-ncy.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretranspare
+ncy.code.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
-code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.
+code.tex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
-e.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.cod
+e.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box62
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
-tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.
+tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--0-65.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
+-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen179
-\pgf@nodesepend=\dimen180
+\pgf@nodesepstart=\dimen187
+\pgf@nodesepend=\dimen188
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--1-18.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
+-1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen181
-\pgffor@skip=\dimen182
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+\pgffor@iter=\dimen189
+\pgffor@skip=\dimen190
 \pgffor@stack=\toks35
 \pgffor@toks=\toks36
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
-e.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.cod
+e.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
-dlers.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothan
+dlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count127
-\pgfplotmarksize=\dimen183
+\pgf@plot@mark@count=\count134
+\pgfplotmarksize=\dimen191
 )
-\tikz@lastx=\dimen184
-\tikz@lasty=\dimen185
-\tikz@lastxsaved=\dimen186
-\tikz@lastysaved=\dimen187
-\tikzleveldistance=\dimen188
-\tikzsiblingdistance=\dimen189
+\tikz@lastx=\dimen192
+\tikz@lasty=\dimen193
+\tikz@lastxsaved=\dimen194
+\tikz@lastysaved=\dimen195
+\tikzleveldistance=\dimen196
+\tikzsiblingdistance=\dimen197
 \tikz@figbox=\box63
 \tikz@figbox@bg=\box64
 \tikz@tempbox=\box65
 \tikz@tempbox@bg=\box66
-\tikztreelevel=\count128
-\tikznumberofchildren=\count129
-\tikznumberofcurrentchild=\count130
-\tikz@fig@count=\count131
+\tikztreelevel=\count135
+\tikznumberofchildren=\count136
+\tikznumberofcurrentchild=\count137
+\tikz@fig@count=\count138
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
-e.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.cod
+e.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count132
-\pgfmatrixcurrentcolumn=\count133
-\pgf@matrix@numberofcolumns=\count134
+\pgfmatrixcurrentrow=\count139
+\pgfmatrixcurrentcolumn=\count140
+\pgf@matrix@numberofcolumns=\count141
 )
-\tikz@expandcount=\count135
+\tikz@expandcount=\count142
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarytopaths.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarycalc.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarycalc.code.tex"
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
-code.tex
-File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen190
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.
+meta.code.tex"
+File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
+\pgfarrowinset=\dimen198
+\pgfarrowlength=\dimen199
+\pgfarrowwidth=\dimen256
+\pgfarrowlinewidth=\dimen257
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
-\pgf@circ@res@up=\dimen191
-\pgf@circ@res@down=\dimen192
-\pgf@circ@res@zero=\dimen193
-\pgf@circ@res@left=\dimen194
-\pgf@circ@res@right=\dimen195
-\pgf@circ@res@other=\dimen196
-\pgf@circ@res@step=\dimen197
-\pgf@circ@res@temp=\dimen198
-\pgfstartlinewidth=\dimen199
-\pgf@circ@Rlen=\dimen256
-) (/usr/local/texlive/2017/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex
-) (/usr/local/texlive/2017/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarybending.code.tex"
+File: tikzlibrarybending.code.tex 2013/09/17 v3.0.1a (rcs-revision 1.2)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex
-) (/usr/local/texlive/2017/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarypositioning.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulebending.co
+de.tex"
+File: pgfmodulebending.code.tex 2013/09/30 v3.0.1a (rcs-revision 1.18)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulenonlineart
+ransformations.code.tex"
+File: pgfmodulenonlineartransformations.code.tex 2013/10/09 v3.0.1a (rcs-revisi
+on 1.4)
+\pgftransformnonlinearflatness=\dimen258
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibrarycurvili
+near.code.tex"
+File: pgflibrarycurvilinear.code.tex 2015/05/14 v3.0.1a (rcs-revision 1.4)
+\pgf@curvilinear@time@a=\dimen259
+\pgf@curvilinear@length@a=\dimen260
+\pgf@curvilinear@length@b=\dimen261
+\pgf@curvilinear@length@c=\dimen262
+\pgf@curvilinear@length@d=\dimen263
+)
+\pgf@arrows@the@rigidity=\dimen264
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcirc.defines.tex"
+\pgf@circ@count@a=\count143
+\pgf@circ@count@b=\count144
+\pgf@circ@count@c=\count145
+\pgf@circ@res@up=\dimen265
+\pgf@circ@res@down=\dimen266
+\pgf@circ@res@zero=\dimen267
+\pgf@circ@res@left=\dimen268
+\pgf@circ@res@right=\dimen269
+\pgf@circ@res@other=\dimen270
+\pgf@circ@res@step=\dimen271
+\pgf@circ@res@temp=\dimen272
+\pgfstartlinewidth=\dimen273
+\pgf@circ@Rlen=\dimen274
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcircutils.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcircshapes.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcircmonopoles.tex
+") ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcircbipoles.te
+x")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcirctripoles.tex"
+\pgf@circ@res@count=\count146
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcircquadpoles.tex
+")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcircmultipoles.te
+x") ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcirclabel.tex
+") ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcircvoltage.te
+x")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcirccurrent.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcircflow.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\circuitikz\pgfcircpath.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarypositioning.code.tex"
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count136
-\calc@Bcount=\count137
-\calc@Adimen=\dimen257
-\calc@Bdimen=\dimen258
-\calc@Askip=\skip48
-\calc@Bskip=\skip49
+\calc@Acount=\count147
+\calc@Bcount=\count148
+\calc@Adimen=\dimen275
+\calc@Bdimen=\dimen276
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count138
-\calc@Cskip=\skip50
+\calc@Ccount=\count149
+\calc@Cskip=\skip55
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count139
-\l_MT_multwidth_dim=\dimen259
-\origjot=\skip51
-\l_MT_shortvdotswithinadjustabove_dim=\dimen260
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen261
-\l_MT_above_intertext_sep=\dimen262
-\l_MT_below_intertext_sep=\dimen263
-\l_MT_above_shortintertext_sep=\dimen264
-\l_MT_below_shortintertext_sep=\dimen265
+\g_MT_multlinerow_int=\count150
+\l_MT_multwidth_dim=\dimen277
+\origjot=\skip56
+\l_MT_shortvdotswithinadjustabove_dim=\dimen278
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen279
+\l_MT_above_intertext_sep=\dimen280
+\l_MT_below_intertext_sep=\dimen281
+\l_MT_above_shortintertext_sep=\dimen282
+\l_MT_below_shortintertext_sep=\dimen283
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
@@ -1107,24 +1173,24 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen266
-\Hy@linkcounter=\count140
-\Hy@pagecounter=\count141
+\@linkdim=\dimen284
+\Hy@linkcounter=\count151
+\Hy@pagecounter=\count152
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count142
+\Hy@SavedSpaceFactor=\count153
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4498.
@@ -1134,17 +1200,17 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count143
+\c@Hy@tempcnt=\count154
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen267
-\Fld@menulength=\count144
-\Field@Width=\dimen268
-\Fld@charsize=\dimen269
+\XeTeXLinkMargin=\dimen285
+\Fld@menulength=\count155
+\Field@Width=\dimen286
+\Fld@charsize=\dimen287
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -1154,65 +1220,421 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count145
-\c@Item=\count146
-\c@Hfootnote=\count147
+\Hy@abspage=\count156
+\c@Item=\count157
+\c@Hfootnote=\count158
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count148
-\c@bookmark@seq@number=\count149
+\Fld@listcount=\count159
+\c@bookmark@seq@number=\count160
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip52
+\Hy@SectionHShift=\skip57
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+Package hyperref Info: Option `colorlinks' set `true' on input line 24.
 
-(./Informe TP06 - Grupo 4.aux
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2017/11/03 3.15 The Babel package
 
-! Package babel Error: Unknown language `spanish'. Either you have
-(babel)                misspelled its name, it has not been installed,
-(babel)                or you requested it in a previous run. Fix its name,
-(babel)                install it or just rerun the file, respectively.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \select@language{spanish}
-                             
-You may proceed, but expect wrong results
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2017/11/03 3.15 Babel common definitions
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
+\babel@savecnt=\count161
+\U@D=\dimen288
+)
+\es@quottoks=\toks37
+\es@quotdepth=\count162
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+Package: expl3 2018/03/05 L3 programming layer (loader) 
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
+Package: expl3 2018/03/05 L3 programming layer (code)
+\c_max_int=\count163
+\l_tmpa_int=\count164
+\l_tmpb_int=\count165
+\g_tmpa_int=\count166
+\g_tmpb_int=\count167
+\g__intarray_font_int=\count168
+\g__prg_map_int=\count169
+\c_log_iow=\count170
+\l_iow_line_count_int=\count171
+\l__iow_line_target_int=\count172
+\l__iow_one_indent_int=\count173
+\l__iow_indent_int=\count174
+\c_zero_dim=\dimen289
+\c_max_dim=\dimen290
+\l_tmpa_dim=\dimen291
+\l_tmpb_dim=\dimen292
+\g_tmpa_dim=\dimen293
+\g_tmpb_dim=\dimen294
+\c_zero_skip=\skip58
+\c_max_skip=\skip59
+\l_tmpa_skip=\skip60
+\l_tmpb_skip=\skip61
+\g_tmpa_skip=\skip62
+\g_tmpb_skip=\skip63
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count175
+\c__fp_leading_shift_int=\count176
+\c__fp_middle_shift_int=\count177
+\c__fp_trailing_shift_int=\count178
+\c__fp_big_leading_shift_int=\count179
+\c__fp_big_middle_shift_int=\count180
+\c__fp_big_trailing_shift_int=\count181
+\c__fp_Bigg_leading_shift_int=\count182
+\c__fp_Bigg_middle_shift_int=\count183
+\c__fp_Bigg_trailing_shift_int=\count184
+\c__fp_rand_size_int=\count185
+\c__fp_rand_four_int=\count186
+\c__fp_rand_eight_int=\count187
+\l__sort_length_int=\count188
+\l__sort_min_int=\count189
+\l__sort_top_int=\count190
+\l__sort_max_int=\count191
+\l__sort_true_max_int=\count192
+\l__sort_block_int=\count193
+\l__sort_begin_int=\count194
+\l__sort_end_int=\count195
+\l__sort_A_int=\count196
+\l__sort_B_int=\count197
+\l__sort_C_int=\count198
+\l__tl_build_start_index_int=\count199
+\l__tl_build_index_int=\count266
+\l__tl_analysis_normal_int=\count267
+\l__tl_analysis_index_int=\count268
+\l__tl_analysis_nesting_int=\count269
+\l__tl_analysis_type_int=\count270
+\l__regex_internal_a_int=\count271
+\l__regex_internal_b_int=\count272
+\l__regex_internal_c_int=\count273
+\l__regex_balance_int=\count274
+\l__regex_group_level_int=\count275
+\l__regex_mode_int=\count276
+\c__regex_cs_in_class_mode_int=\count277
+\c__regex_cs_mode_int=\count278
+\l__regex_catcodes_int=\count279
+\l__regex_default_catcodes_int=\count280
+\c__regex_catcode_D_int=\count281
+\c__regex_catcode_S_int=\count282
+\c__regex_catcode_L_int=\count283
+\c__regex_catcode_O_int=\count284
+\c__regex_catcode_A_int=\count285
+\c__regex_all_catcodes_int=\count286
+\l__regex_show_lines_int=\count287
+\l__regex_min_state_int=\count288
+\l__regex_max_state_int=\count289
+\l__regex_left_state_int=\count290
+\l__regex_right_state_int=\count291
+\l__regex_capturing_group_int=\count292
+\l__regex_min_pos_int=\count293
+\l__regex_max_pos_int=\count294
+\l__regex_curr_pos_int=\count295
+\l__regex_start_pos_int=\count296
+\l__regex_success_pos_int=\count297
+\l__regex_curr_char_int=\count298
+\l__regex_curr_catcode_int=\count299
+\l__regex_last_char_int=\count300
+\l__regex_case_changed_char_int=\count301
+\l__regex_curr_state_int=\count302
+\l__regex_step_int=\count303
+\l__regex_min_active_int=\count304
+\l__regex_max_active_int=\count305
+\l__regex_replacement_csnames_int=\count306
+\l__regex_match_count_int=\count307
+\l__regex_min_submatch_int=\count308
+\l__regex_submatch_int=\count309
+\l__regex_zeroth_submatch_int=\count310
+\g__regex_trace_regex_int=\count311
+\c_empty_box=\box67
+\l_tmpa_box=\box68
+\l_tmpb_box=\box69
+\g_tmpa_box=\box70
+\g_tmpb_box=\box71
+\l__box_top_dim=\dimen295
+\l__box_bottom_dim=\dimen296
+\l__box_left_dim=\dimen297
+\l__box_right_dim=\dimen298
+\l__box_top_new_dim=\dimen299
+\l__box_bottom_new_dim=\dimen300
+\l__box_left_new_dim=\dimen301
+\l__box_right_new_dim=\dimen302
+\l__box_internal_box=\box72
+\l__coffin_internal_box=\box73
+\l__coffin_internal_dim=\dimen303
+\l__coffin_offset_x_dim=\dimen304
+\l__coffin_offset_y_dim=\dimen305
+\l__coffin_x_dim=\dimen306
+\l__coffin_y_dim=\dimen307
+\l__coffin_x_prime_dim=\dimen308
+\l__coffin_y_prime_dim=\dimen309
+\c_empty_coffin=\box74
+\l__coffin_aligned_coffin=\box75
+\l__coffin_aligned_internal_coffin=\box76
+\l_tmpa_coffin=\box77
+\l_tmpb_coffin=\box78
+\l__coffin_display_coffin=\box79
+\l__coffin_display_coord_coffin=\box80
+\l__coffin_display_pole_coffin=\box81
+\l__coffin_display_offset_dim=\dimen310
+\l__coffin_display_x_dim=\dimen311
+\l__coffin_display_y_dim=\dimen312
+\l__coffin_bounding_shift_dim=\dimen313
+\l__coffin_left_corner_dim=\dimen314
+\l__coffin_right_corner_dim=\dimen315
+\l__coffin_bottom_corner_dim=\dimen316
+\l__coffin_top_corner_dim=\dimen317
+\l__coffin_scaled_total_height_dim=\dimen318
+\l__coffin_scaled_width_dim=\dimen319
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count312
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count313
+\g__xparse_grabber_int=\count314
+\l__xparse_m_args_int=\count315
+\l__xparse_mandatory_args_int=\count316
+\l__xparse_v_nesting_int=\count317
+)
+Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen320
+\extrarowheight=\dimen321
+\NC@list=\toks38
+\extratabsurround=\skip64
+\backup@length=\skip65
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
+Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box82
+\l__siunitx_tmp_dim=\dimen322
+\l__siunitx_tmp_int=\count318
+\l__siunitx_number_mantissa_length_int=\count319
+\l__siunitx_number_uncert_length_int=\count320
+\l__siunitx_round_int=\count321
+\l__siunitx_process_decimal_int=\count322
+\l__siunitx_process_uncertainty_int=\count323
+\l__siunitx_process_fixed_int=\count324
+\l__siunitx_process_integer_min_int=\count325
+\l__siunitx_process_precision_int=\count326
+\l__siunitx_group_min_int=\count327
+\l__siunitx_angle_marker_box=\box83
+\l__siunitx_angle_unit_box=\box84
+\l__siunitx_angle_marker_dim=\dimen323
+\l__siunitx_angle_unit_dim=\dimen324
+\l__siunitx_unit_int=\count328
+\l__siunitx_unit_denominator_int=\count329
+\l__siunitx_unit_numerator_int=\count330
+\l__siunitx_unit_prefix_int=\count331
+\l__siunitx_unit_prefix_base_int=\count332
+\l__siunitx_unit_prefix_gram_int=\count333
+\l__siunitx_number_product_int=\count334
+\c__siunitx_one_fill_skip=\skip66
+\l__siunitx_table_unit_align_skip=\skip67
+\l__siunitx_table_exponent_dim=\dimen325
+\l__siunitx_table_integer_dim=\dimen326
+\l__siunitx_table_mantissa_dim=\dimen327
+\l__siunitx_table_marker_dim=\dimen328
+\l__siunitx_table_result_dim=\dimen329
+\l__siunitx_table_uncert_dim=\dimen330
+\l__siunitx_table_fill_pre_dim=\dimen331
+\l__siunitx_table_fill_post_dim=\dimen332
+\l__siunitx_table_fill_mid_dim=\dimen333
+\l__siunitx_table_pre_box=\box85
+\l__siunitx_table_post_box=\box86
+\l__siunitx_table_mantissa_box=\box87
+\l__siunitx_table_result_box=\box88
+\l__siunitx_table_number_align_skip=\skip68
+\l__siunitx_table_text_align_skip=\skip69
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7237.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7240.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7243.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7246.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7249.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7252.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7255.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7270.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7279.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7288.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7297.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7309.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7321.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7333.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7336.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7351.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7363.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numInBookmark with sig. 'om' on line 7410.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrangeInBookmark with sig. 'omm' on line 7412.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIInBookmark with sig. 'omom' on line 7414.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlistInBookmark with sig. 'omm' on line 7416.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrangeInBookmark with sig. 'ommm' on line 7418.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \siInBookmark with sig. 'om' on line 7419.
+.................................................
+\g__file_internal_ior=\read2
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\translator\translator.sty"
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+)))
+("Informe TP06 - Grupo 4.aux"
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+
+
+LaTeX Warning: Label `tablacaptura' multiply defined.
 
 )
 \openout1 = `"Informe TP06 - Grupo 4.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1252,175 +1674,95 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count150
-\scratchdimen=\dimen270
-\scratchbox=\box67
-\nofMPsegments=\count151
-\nofMParguments=\count152
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count153
-\MPscratchDim=\dimen271
-\MPnumerator=\count154
-\makeMPintoPDFobject=\count155
-\everyMPtoPDFconversion=\toks38
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+\scratchcounter=\count335
+\scratchdimen=\dimen334
+\scratchbox=\box89
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen335
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks40
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box68
-Package hyperref Info: Link coloring ON on input line 25.
+\AtBeginShipoutBox=\box90
+Package hyperref Info: Link coloring ON on input line 3.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count156
+\c@section@level=\count341
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 3.
+LaTeX Info: Redefining \pageref on input line 3.
+LaTeX Info: Redefining \nameref on input line 3.
+
+("Informe TP06 - Grupo 4.out") ("Informe TP06 - Grupo 4.out")
 \@outlinefile=\write4
 \openout4 = `"Informe TP06 - Grupo 4.out"'.
 
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
 
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 \usepackage
-                {babel}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.40 \addto
-           \shorthandsspanish{\spanishdeactivate{~<>}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.40 \addto\shorthandsspanish
-                             {\spanishdeactivate{~<>}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.40 \addto\shorthandsspanish{\spanishdeactivate
-                                                {~<>}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 \usepackage
-                {tikz}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 \usepackage
-                {siunitx}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \usepackage
-                {relsize}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\translator\translator-basic-dicti
+onary-English.dict"
+Dictionary: translator-basic-dictionary, Language: English 
 )
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \begin{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(./Caratula.tex [1
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <resour
-ces/itba.png, id=13, 813.0375pt x 508.14844pt>
-File: resources/itba.png Graphic file (type png)
-
-<use resources/itba.png>
-Package pdftex.def Info: resources/itba.png used on input line 34.
-(pdftex.def)             Requested size: 121.95036pt x 76.21896pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\translator\translator-basic-dicti
+onary-Spanish.dict"
+Dictionary: translator-basic-dictionary, Language: Spanish 
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg
+"
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.94 \end{titlepage}
-                     [1 <./resources/itba.png>])
+) (Caratula.tex
+<resources/itba.png, id=190, 813.0375pt x 508.14844pt>
+File: resources/itba.png Graphic file (type png)
+<use resources/itba.png>
+Package pdftex.def Info: resources/itba.png  used on input line 34. on input li
+ne 34.
+Package pdftex.def Info: Requested size: 121.95036pt x 76.21896pt on input line
+ 34.
 
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+[1
 
+{C:/Users/Ian Diaz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./resour
+ces/itba.png>]) ("Informe TP06 - Grupo 4.toc"
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@toc=\write5
 \openout5 = `"Informe TP06 - Grupo 4.toc"'.
 
@@ -1430,1327 +1772,891 @@ been already used, duplicate ignored
                    \relax 
 l.7 
      [1] (../Ex1/Ex1.tex
-! Argument of \UTFviii@four@octets has an extra }.
-<inserted text> 
-                \par 
-l.3 \section{Introducción}
-                          
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@four@octets was complete.
-<to be read again> 
-                   \par 
-l.3 \section{Introducción}
-                          
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@four@octets has an extra }.
-<inserted text> 
-                \par 
-l.3 \section{Introducción}
-                          
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@four@octets was complete.
-<to be read again> 
-                   \par 
-l.3 \section{Introducción}
-                          
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-|\@empty \protect Introducci
-! Paragraph ended before \HyPsd@@ProtectSpacesFi was complete.
-<to be read again> 
-                   \par 
-l.3 \section{Introducción}
-                          
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Use of \HyPsd@RemoveMask doesn't match its definition.
-\Hy@tempa ->\par 
-                 | 
-l.3 \section{Introducción}
-                          
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Undefined control sequence.
-\HyPsd@ProtectSpaces ...d@RemoveMask #1\HyPsd@End 
-                                                  #1
-l.3 \section{Introducción}
-                          
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Runaway argument?
-{
-! Paragraph ended before \HyPsd@RemoveBraces was complete.
-<to be read again> 
-                   \par 
-l.3 \section{Introducción}
-                          
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-\pdfstringdef ...d@RemoveBraces \expandafter {#1|}
-                                                  \global \let #1\HyPsd@Stri...
-l.3 \section{Introducción}
-                          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \HyPsd@CheckCatcodes has an extra }.
-<inserted text> 
-                \par 
-l.3 \section{Introducción}
-                          
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\global \let \Hy@tempa \HyPsd@String 
-! Paragraph ended before \HyPsd@CheckCatcodes was complete.
-<to be read again> 
-                   \par 
-l.3 \section{Introducción}
-                          
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-\@empty \HyPsd@End \Hy@tempa \expandafter \HyPsd@Subst \expandafter {\ETC.
-! Paragraph ended before \HyPsd@RemoveMask was complete.
-<to be read again> 
-                   \par 
-l.4 
-    
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+<../Ex1/Resources/Realimentado.png, id=302, 274.02374pt x 120.45pt>
+File: ../Ex1/Resources/Realimentado.png Graphic file (type png)
+<use ../Ex1/Resources/Realimentado.png>
+Package pdftex.def Info: ../Ex1/Resources/Realimentado.png  used on input line 
+19. on input line 19.
+Package pdftex.def Info: Requested size: 274.02307pt x 120.44969pt on input lin
+e 19.
+<../Ex1/Resources/CircuitoWien.PNG, id=305, 237.13594pt x 190.46156pt>
+File: ../Ex1/Resources/CircuitoWien.PNG Graphic file (type png)
+<use ../Ex1/Resources/CircuitoWien.PNG>
+Package pdftex.def Info: ../Ex1/Resources/CircuitoWien.PNG  used on input line 
+50. on input line 50.
+Package pdftex.def Info: Requested size: 237.13535pt x 190.46107pt on input lin
+e 50.
 
 
-! Package inputenc Error: Unicode\space char\space áen (U+D4)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 A lo largo de esta parte, se centrará en
-                                             realizar un oscilador generador
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space ón,e (U+102)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...y $\beta$ la ganancia de realimentación, e
-                                                  ntonces
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@four@octets was complete.
-<to be read again> 
-                   \par 
-l.15 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Use of \begin doesn't match its definition.
-l.16 \begin{
-            figure}[h]
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.16 \begin{figure}
-                   [h]
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Use of \begin doesn't match its definition.
-l.17 \begin{
-            centering}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.17 \begin{centering}
-                      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Use of \end doesn't match its definition.
-l.19 \par\end{
-              centering}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.19 \par\end{centering}
-                        
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+<../Ex1/Resources/Circuito.png, id=308, 368.87813pt x 363.60844pt>
+File: ../Ex1/Resources/Circuito.png Graphic file (type png)
+<use ../Ex1/Resources/Circuito.png>
+Package pdftex.def Info: ../Ex1/Resources/Circuito.png  used on input line 93. 
+on input line 93.
+Package pdftex.def Info: Requested size: 258.21292pt x 254.52417pt on input lin
+e 93.
+[2 <../Ex1/Resources/Realimentado.png>]
+<"../Ex1/Resources/ids VS vds".png, id=337, 539.01375pt x 423.08063pt>
+File: "../Ex1/Resources/ids VS vds".png Graphic file (type png)
+<use "../Ex1/Resources/ids VS vds".png>
+Package pdftex.def Info: "../Ex1/Resources/ids VS vds".png  used on input line 
+120. on input line 120.
+Package pdftex.def Info: Requested size: 215.60167pt x 169.22925pt on input lin
+e 120.
+ [3 <../Ex1/Resources/CircuitoWien.PNG> <../Ex1/Resources/Circuito.png>]
+<"../Ex1/Resources/RDS vs VDS 1".png, id=346, 598.48593pt x 423.08063pt>
+File: "../Ex1/Resources/RDS vs VDS 1".png Graphic file (type png)
+<use "../Ex1/Resources/RDS vs VDS 1".png>
+Package pdftex.def Info: "../Ex1/Resources/RDS vs VDS 1".png  used on input lin
+e 134. on input line 134.
+Package pdftex.def Info: Requested size: 179.54716pt x 126.92516pt on input lin
+e 134.
+<"../Ex1/Resources/RDS vs VDS 2".png, id=347, 522.45187pt x 423.08063pt>
+File: "../Ex1/Resources/RDS vs VDS 2".png Graphic file (type png)
+<use "../Ex1/Resources/RDS vs VDS 2".png>
+Package pdftex.def Info: "../Ex1/Resources/RDS vs VDS 2".png  used on input lin
+e 138. on input line 138.
+Package pdftex.def Info: Requested size: 156.73677pt x 126.92516pt on input lin
+e 138.
+<../Ex1/Resources/Diodo.png, id=350, 247.67531pt x 255.20343pt>
+File: ../Ex1/Resources/Diodo.png Graphic file (type png)
+<use ../Ex1/Resources/Diodo.png>
+Package pdftex.def Info: ../Ex1/Resources/Diodo.png  used on input line 180. on
+ input line 180.
+Package pdftex.def Info: Requested size: 123.83734pt x 127.6014pt on input line
+ 180.
 
 
-! LaTeX Error: \caption outside float.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <../Ex1/Resources/ids VS vds.png> <../Ex1/Resources/RDS vs VDS 1.png> <../Ex
+1/Resources/RDS vs VDS 2.png>]
+<"../Ex1/Resources/Controlador de amplitud de oscilacion".png, id=365, 496.8562
+5pt x 448.67625pt>
+File: "../Ex1/Resources/Controlador de amplitud de oscilacion".png Graphic file
+ (type png)
+<use "../Ex1/Resources/Controlador de amplitud de oscilacion".png>
+Package pdftex.def Info: "../Ex1/Resources/Controlador de amplitud de oscilacio
+n".png  used on input line 237. on input line 237.
+Package pdftex.def Info: Requested size: 248.4275pt x 224.33757pt on input line
+ 237.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<"../Ex1/Resources/Circuito Controlador de amplitud por res".png, id=366, 553.3
+1718pt x 444.91219pt>
+File: "../Ex1/Resources/Circuito Controlador de amplitud por res".png Graphic f
+ile (type png)
+<use "../Ex1/Resources/Circuito Controlador de amplitud por res".png>
+Package pdftex.def Info: "../Ex1/Resources/Circuito Controlador de amplitud por
+ res".png  used on input line 247. on input line 247.
+Package pdftex.def Info: Requested size: 276.65791pt x 222.45554pt on input lin
+e 247.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<"../Ex1/Resources/Circuito Controlador de amplitud por inv".png, id=367, 657.9
+5813pt x 439.6425pt>
+File: "../Ex1/Resources/Circuito Controlador de amplitud por inv".png Graphic f
+ile (type png)
+<use "../Ex1/Resources/Circuito Controlador de amplitud por inv".png>
+Package pdftex.def Info: "../Ex1/Resources/Circuito Controlador de amplitud por
+ inv".png  used on input line 255. on input line 255.
+Package pdftex.def Info: Requested size: 328.97826pt x 219.82071pt on input lin
+e 255.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <../Ex1/Resources/Diodo.png>] [6 <../Ex1/Resources/Controlador de amplitud d
+e oscilacion.png> <../Ex1/Resources/Circuito Controlador de amplitud por res.pn
+g>] [7 <../Ex1/Resources/Circuito Controlador de amplitud por inv.png>]
+[8]
+<"../Ex1/Resources/PolosYCeros para lazo abierto SIN TRANS".png, id=415, 550.69
+74pt x 346.896pt>
+File: "../Ex1/Resources/PolosYCeros para lazo abierto SIN TRANS".png Graphic fi
+le (type png)
+<use "../Ex1/Resources/PolosYCeros para lazo abierto SIN TRANS".png>
+Package pdftex.def Info: "../Ex1/Resources/PolosYCeros para lazo abierto SIN TR
+ANS".png  used on input line 472. on input line 472.
+Package pdftex.def Info: Requested size: 220.27505pt x 138.75594pt on input lin
+e 472.
+<"../Ex1/Resources/PolosYCeros para lazo abierto CON TRANS".png, id=416, 547.80
+66pt x 346.896pt>
+File: "../Ex1/Resources/PolosYCeros para lazo abierto CON TRANS".png Graphic fi
+le (type png)
+<use "../Ex1/Resources/PolosYCeros para lazo abierto CON TRANS".png>
+Package pdftex.def Info: "../Ex1/Resources/PolosYCeros para lazo abierto CON TR
+ANS".png  used on input line 476. on input line 476.
+Package pdftex.def Info: Requested size: 219.11874pt x 138.75594pt on input lin
+e 476.
+<"../Ex1/Resources/PolosYCeros para H SIN TRANS".png, id=417, 547.8066pt x 346.
+896pt>
+File: "../Ex1/Resources/PolosYCeros para H SIN TRANS".png Graphic file (type pn
+g)
+<use "../Ex1/Resources/PolosYCeros para H SIN TRANS".png>
+Package pdftex.def Info: "../Ex1/Resources/PolosYCeros para H SIN TRANS".png  u
+sed on input line 491. on input line 491.
+Package pdftex.def Info: Requested size: 219.11874pt x 138.75594pt on input lin
+e 491.
+<"../Ex1/Resources/PolosYCeros para H CON TRANS".png, id=418, 545.6385pt x 346.
+896pt>
+File: "../Ex1/Resources/PolosYCeros para H CON TRANS".png Graphic file (type pn
+g)
+<use "../Ex1/Resources/PolosYCeros para H CON TRANS".png>
+Package pdftex.def Info: "../Ex1/Resources/PolosYCeros para H CON TRANS".png  u
+sed on input line 495. on input line 495.
+Package pdftex.def Info: Requested size: 218.25153pt x 138.75594pt on input lin
+e 495.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <../Ex1/Resources/PolosYCeros para lazo abierto SIN TRANS.png> <../Ex1/Resou
+rces/PolosYCeros para lazo abierto CON TRANS.png> <../Ex1/Resources/PolosYCeros
+ para H SIN TRANS.png> <../Ex1/Resources/PolosYCeros para H CON TRANS.png>]
+
+pdfTeX warning: pdflatex (file ../Ex1/Resources/Esquematico.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<../Ex1/Resources/Esquematico.pdf, id=440, pagebox=cropbox, 845.04686pt x 597.5
+0786pt>
+File: ../Ex1/Resources/Esquematico.pdf Graphic file (type pdf)
+<use ../Ex1/Resources/Esquematico.pdf>
+Package pdftex.def Info: ../Ex1/Resources/Esquematico.pdf  used on input line 5
+55. on input line 555.
+Package pdftex.def Info: Requested size: 422.5224pt x 298.75319pt on input line
+ 555.
+
+
+pdfTeX warning: pdflatex (file ../Ex1/Resources/PCB.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<../Ex1/Resources/PCB.pdf, id=441, pagebox=cropbox, 845.04686pt x 597.50786pt>
+File: ../Ex1/Resources/PCB.pdf Graphic file (type pdf)
+<use ../Ex1/Resources/PCB.pdf>
+Package pdftex.def Info: ../Ex1/Resources/PCB.pdf  used on input line 564. on i
+nput line 564.
+Package pdftex.def Info: Requested size: 211.2612pt x 149.37659pt on input line
+ 564.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../Ex1/Resources/Oscilacion.png, id=443, 770.88pt x 528.47438pt>
+File: ../Ex1/Resources/Oscilacion.png Graphic file (type png)
+<use ../Ex1/Resources/Oscilacion.png>
+Package pdftex.def Info: ../Ex1/Resources/Oscilacion.png  used on input line 58
+0. on input line 580.
+Package pdftex.def Info: Requested size: 269.81204pt x 184.9688pt on input line
+ 580.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <../Ex1/Resources/Esquematico.pdf>]
+<"../Ex1/Resources/FFT SIMULADO".png, id=465, 496.85625pt x 448.67625pt>
+File: "../Ex1/Resources/FFT SIMULADO".png Graphic file (type png)
+<use "../Ex1/Resources/FFT SIMULADO".png>
+Package pdftex.def Info: "../Ex1/Resources/FFT SIMULADO".png  used on input lin
+e 603. on input line 603.
+Package pdftex.def Info: Requested size: 248.4275pt x 224.33757pt on input line
+ 603.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../Ex1/Resources/FFT.png, id=467, 445.665pt x 389.95688pt>
+File: ../Ex1/Resources/FFT.png Graphic file (type png)
+<use ../Ex1/Resources/FFT.png>
+Package pdftex.def Info: ../Ex1/Resources/FFT.png  used on input line 623. on i
+nput line 623.
+Package pdftex.def Info: Requested size: 311.96336pt x 272.96794pt on input lin
+e 623.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<"../Ex1/Resources/Resistencia transistor SIMULADO".png, id=469, 496.85625pt x 
+448.67625pt>
+File: "../Ex1/Resources/Resistencia transistor SIMULADO".png Graphic file (type
+ png)
+<use "../Ex1/Resources/Resistencia transistor SIMULADO".png>
+Package pdftex.def Info: "../Ex1/Resources/Resistencia transistor SIMULADO".png
+  used on input line 648. on input line 648.
+Package pdftex.def Info: Requested size: 347.797pt x 314.07123pt on input line 
+648.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <../Ex1/Resources/PCB.pdf> <../Ex1/Resources/Oscilacion.png>]
+<"../Ex1/Resources/Tension de gate SIMULADA".png, id=482, 496.85625pt x 448.676
+25pt>
+File: "../Ex1/Resources/Tension de gate SIMULADA".png Graphic file (type png)
+<use "../Ex1/Resources/Tension de gate SIMULADA".png>
+Package pdftex.def Info: "../Ex1/Resources/Tension de gate SIMULADA".png  used 
+on input line 665. on input line 665.
+Package pdftex.def Info: Requested size: 298.11604pt x 269.20782pt on input lin
+e 665.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../Ex1/Resources/VG.png, id=483, 770.88pt x 531.48563pt>
+File: ../Ex1/Resources/VG.png Graphic file (type png)
+<use ../Ex1/Resources/VG.png>
+Package pdftex.def Info: ../Ex1/Resources/VG.png  used on input line 674. on in
+put line 674.
+Package pdftex.def Info: Requested size: 269.81204pt x 186.02275pt on input lin
+e 674.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (../Ex2/Ex2.tex
+<../Ex2/resources/diagramabloquesPLL.png, id=485, 1055.945pt x 373.395pt>
+File: ../Ex2/resources/diagramabloquesPLL.png Graphic file (type png)
+<use ../Ex2/resources/diagramabloquesPLL.png>
+Package pdftex.def Info: ../Ex2/resources/diagramabloquesPLL.png  used on input
+ line 13. on input line 13.
+Package pdftex.def Info: Requested size: 386.95897pt x 136.83215pt on input lin
+e 13.
+ [12 <../Ex1/Resources/FFT SIMULADO.png>] [13 <../Ex1/Resources/FFT.png> <../Ex
+2/resources/diagramabloquesPLL.png>] [14 <../Ex1/Resources/Resistencia transist
+or SIMULADO.png>]
+<../Ex2/resources/filtrorc.png, id=517, 371.3875pt x 154.5775pt>
+File: ../Ex2/resources/filtrorc.png Graphic file (type png)
+<use ../Ex2/resources/filtrorc.png>
+Package pdftex.def Info: ../Ex2/resources/filtrorc.png  used on input line 89. 
+on input line 89.
+Package pdftex.def Info: Requested size: 193.47578pt x 80.52934pt on input line
+ 89.
+<../Ex2/resources/filtrorrc.png, id=518, 389.455pt x 258.9675pt>
+File: ../Ex2/resources/filtrorrc.png Graphic file (type png)
+<use ../Ex2/resources/filtrorrc.png>
+Package pdftex.def Info: ../Ex2/resources/filtrorrc.png  used on input line 90.
+ on input line 90.
+Package pdftex.def Info: Requested size: 193.47578pt x 128.64964pt on input lin
+e 90.
+ [15 <../Ex1/Resources/Tension de gate SIMULADA.png>]
+<../Ex2/resources/engancheprimerorden.png, id=532, 532.6299pt x 316.5426pt>
+File: ../Ex2/resources/engancheprimerorden.png Graphic file (type png)
+<use ../Ex2/resources/engancheprimerorden.png>
+Package pdftex.def Info: ../Ex2/resources/engancheprimerorden.png  used on inpu
+t line 105. on input line 105.
+Package pdftex.def Info: Requested size: 386.95897pt x 229.9681pt on input line
+ 105.
+ [16 <../Ex1/Resources/VG.png> <../Ex2/resources/filtrorc.png> <../Ex2/resource
+s/filtrorrc.png>]
+<../Ex2/resources/enganchesegundoorden.png, id=546, 627.3036pt x 307.8702pt>
+File: ../Ex2/resources/enganchesegundoorden.png Graphic file (type png)
+<use ../Ex2/resources/enganchesegundoorden.png>
+Package pdftex.def Info: ../Ex2/resources/enganchesegundoorden.png  used on inp
+ut line 133. on input line 133.
+Package pdftex.def Info: Requested size: 483.69687pt x 237.3943pt on input line
+ 133.
+ [17 <../Ex2/resources/engancheprimerorden.png>]
+<../Ex2/resources/integradoadentro.png, id=559, 741.77126pt x 556.0775pt>
+File: ../Ex2/resources/integradoadentro.png Graphic file (type png)
+<use ../Ex2/resources/integradoadentro.png>
+Package pdftex.def Info: ../Ex2/resources/integradoadentro.png  used on input l
+ine 145. on input line 145.
+Package pdftex.def Info: Requested size: 386.95897pt x 290.09532pt on input lin
+e 145.
+<../Ex2/resources/comparadoresfasePLL.png, id=561, 598.235pt x 491.8375pt>
+File: ../Ex2/resources/comparadoresfasePLL.png Graphic file (type png)
+<use ../Ex2/resources/comparadoresfasePLL.png>
+Package pdftex.def Info: ../Ex2/resources/comparadoresfasePLL.png  used on inpu
+t line 154. on input line 154.
+Package pdftex.def Info: Requested size: 386.95897pt x 318.14458pt on input lin
+e 154.
+
+[18 <../Ex2/resources/enganchesegundoorden.png> <../Ex2/resources/integradoaden
+tro.png>]
+<../Ex2/resources/ondascomparador1PLL.png, id=571, 1088.065pt x 485.815pt>
+File: ../Ex2/resources/ondascomparador1PLL.png Graphic file (type png)
+<use ../Ex2/resources/ondascomparador1PLL.png>
+Package pdftex.def Info: ../Ex2/resources/ondascomparador1PLL.png  used on inpu
+t line 164. on input line 164.
+Package pdftex.def Info: Requested size: 386.95897pt x 172.77316pt on input lin
+e 164.
+<../Ex2/resources/relacionfasevoltajecomp1PLL.png, id=573, 653.44125pt x 484.81
+125pt>
+File: ../Ex2/resources/relacionfasevoltajecomp1PLL.png Graphic file (type png)
+<use ../Ex2/resources/relacionfasevoltajecomp1PLL.png>
+Package pdftex.def Info: ../Ex2/resources/relacionfasevoltajecomp1PLL.png  used
+ on input line 173. on input line 173.
+Package pdftex.def Info: Requested size: 290.22107pt x 215.32236pt on input lin
+e 173.
+ [19 <../Ex2/resources/comparadoresfasePLL.png> <../Ex2/resources/ondascomparad
+or1PLL.png>]
+<../Ex2/resources/f0vsc1r1pll.png, id=584, 469.755pt x 377.41pt>
+File: ../Ex2/resources/f0vsc1r1pll.png Graphic file (type png)
+<use ../Ex2/resources/f0vsc1r1pll.png>
+Package pdftex.def Info: ../Ex2/resources/f0vsc1r1pll.png  used on input line 1
+85. on input line 185.
+Package pdftex.def Info: Requested size: 241.84843pt x 194.3021pt on input line
+ 185.
+ [20 <../Ex2/resources/relacionfasevoltajecomp1PLL.png> <../Ex2/resources/f0vsc
+1r1pll.png>]
+
+LaTeX Warning: Reference `tablarespesc' on page 21 undefined on input line 248.
+
+
+<../Ex2/resources/escalonrc.png, id=597, 1023.825pt x 708.6475pt>
+File: ../Ex2/resources/escalonrc.png Graphic file (type png)
+<use ../Ex2/resources/escalonrc.png>
+Package pdftex.def Info: ../Ex2/resources/escalonrc.png  used on input line 253
+. on input line 253.
+Package pdftex.def Info: Requested size: 435.32422pt x 301.30637pt on input lin
+e 253.
+<../Ex2/resources/escalonrrc.png, id=598, 1021.8175pt x 706.64pt>
+File: ../Ex2/resources/escalonrrc.png Graphic file (type png)
+<use ../Ex2/resources/escalonrrc.png>
+Package pdftex.def Info: ../Ex2/resources/escalonrrc.png  used on input line 26
+0. on input line 260.
+Package pdftex.def Info: Requested size: 435.32422pt x 301.04584pt on input lin
+e 260.
+[21 <../Ex2/resources/escalonrc.png>]
+<../Ex2/resources/modulacionfmsenales.png, id=612, 493.3632pt x 370.0224pt>
+File: ../Ex2/resources/modulacionfmsenales.png Graphic file (type png)
+<use ../Ex2/resources/modulacionfmsenales.png>
+Package pdftex.def Info: ../Ex2/resources/modulacionfmsenales.png  used on inpu
+t line 292. on input line 292.
+Package pdftex.def Info: Requested size: 435.32422pt x 326.5015pt on input line
+ 292.
+ [22 <../Ex2/resources/escalonrrc.png>]
+<../Ex2/resources/demoduladorfmconexion.png, id=619, 871.00406pt x 455.45157pt>
+
+File: ../Ex2/resources/demoduladorfmconexion.png Graphic file (type png)
+<use ../Ex2/resources/demoduladorfmconexion.png>
+Package pdftex.def Info: ../Ex2/resources/demoduladorfmconexion.png  used on in
+put line 301. on input line 301.
+Package pdftex.def Info: Requested size: 435.32422pt x 227.62793pt on input lin
+e 301.
+
+[23 <../Ex2/resources/modulacionfmsenales.png> <../Ex2/resources/demoduladorfmc
+onexion.png>]
+<../Ex2/resources/demodulacionfmcuadradarc.png, id=630, 1027.84pt x 825.0825pt>
+
+File: ../Ex2/resources/demodulacionfmcuadradarc.png Graphic file (type png)
+<use ../Ex2/resources/demodulacionfmcuadradarc.png>
+Package pdftex.def Info: ../Ex2/resources/demodulacionfmcuadradarc.png  used on
+ input line 322. on input line 322.
+Package pdftex.def Info: Requested size: 217.66211pt x 174.72026pt on input lin
+e 322.
+<../Ex2/resources/demodulacionfmcuadradarrc.png, id=631, 1027.84pt x 825.0825pt
+>
+File: ../Ex2/resources/demodulacionfmcuadradarrc.png Graphic file (type png)
+<use ../Ex2/resources/demodulacionfmcuadradarrc.png>
+Package pdftex.def Info: ../Ex2/resources/demodulacionfmcuadradarrc.png  used o
+n input line 323. on input line 323.
+Package pdftex.def Info: Requested size: 217.66211pt x 174.72026pt on input lin
+e 323.
+<../Ex2/resources/demodulacionfmsenoidalrc.png, id=632, 1027.84pt x 825.0825pt>
+
+File: ../Ex2/resources/demodulacionfmsenoidalrc.png Graphic file (type png)
+<use ../Ex2/resources/demodulacionfmsenoidalrc.png>
+Package pdftex.def Info: ../Ex2/resources/demodulacionfmsenoidalrc.png  used on
+ input line 329. on input line 329.
+Package pdftex.def Info: Requested size: 217.66211pt x 174.72026pt on input lin
+e 329.
+<../Ex2/resources/demodulacionfmsenoidalrrc.png, id=633, 1027.84pt x 825.0825pt
+>
+File: ../Ex2/resources/demodulacionfmsenoidalrrc.png Graphic file (type png)
+<use ../Ex2/resources/demodulacionfmsenoidalrrc.png>
+Package pdftex.def Info: ../Ex2/resources/demodulacionfmsenoidalrrc.png  used o
+n input line 330. on input line 330.
+Package pdftex.def Info: Requested size: 217.66211pt x 174.72026pt on input lin
+e 330.
+<../Ex2/resources/demodulacionfmtrirc.png, id=634, 1027.84pt x 825.0825pt>
+File: ../Ex2/resources/demodulacionfmtrirc.png Graphic file (type png)
+<use ../Ex2/resources/demodulacionfmtrirc.png>
+Package pdftex.def Info: ../Ex2/resources/demodulacionfmtrirc.png  used on inpu
+t line 336. on input line 336.
+Package pdftex.def Info: Requested size: 217.66211pt x 174.72026pt on input lin
+e 336.
+<../Ex2/resources/demodulacionfmtrirrc.png, id=635, 1027.84pt x 825.0825pt>
+File: ../Ex2/resources/demodulacionfmtrirrc.png Graphic file (type png)
+<use ../Ex2/resources/demodulacionfmtrirrc.png>
+Package pdftex.def Info: ../Ex2/resources/demodulacionfmtrirrc.png  used on inp
+ut line 337. on input line 337.
+Package pdftex.def Info: Requested size: 217.66211pt x 174.72026pt on input lin
+e 337.
+ [24 <../Ex2/resources/demodulacionfmcuadradarc.png (PNG copy)> <../Ex2/resourc
+es/demodulacionfmcuadradarrc.png (PNG copy)> <../Ex2/resources/demodulacionfmse
+noidalrc.png (PNG copy)> <../Ex2/resources/demodulacionfmsenoidalrrc.png (PNG c
+opy)>]
+<../Ex2/resources/demodulacionfmsenoidalcomp1.png, id=645, 1027.84pt x 825.0825
+pt>
+File: ../Ex2/resources/demodulacionfmsenoidalcomp1.png Graphic file (type png)
+<use ../Ex2/resources/demodulacionfmsenoidalcomp1.png>
+Package pdftex.def Info: ../Ex2/resources/demodulacionfmsenoidalcomp1.png  used
+ on input line 349. on input line 349.
+Package pdftex.def Info: Requested size: 435.32422pt x 349.45311pt on input lin
+e 349.
+ [25 <../Ex2/resources/demodulacionfmtrirc.png (PNG copy)> <../Ex2/resources/de
+modulacionfmtrirrc.png (PNG copy)> <../Ex2/resources/demodulacionfmsenoidalcomp
+1.png (PNG copy)>]
+<../Ex2/resources/medicionstep8.png, id=653, 1027.84pt x 825.0825pt>
+File: ../Ex2/resources/medicionstep8.png Graphic file (type png)
+<use ../Ex2/resources/medicionstep8.png>
+Package pdftex.def Info: ../Ex2/resources/medicionstep8.png  used on input line
+ 367. on input line 367.
+Package pdftex.def Info: Requested size: 338.58632pt x 271.79965pt on input lin
+e 367.
+<../Ex2/resources/medicionstep16.png, id=654, 1027.84pt x 825.0825pt>
+File: ../Ex2/resources/medicionstep16.png Graphic file (type png)
+<use ../Ex2/resources/medicionstep16.png>
+Package pdftex.def Info: ../Ex2/resources/medicionstep16.png  used on input lin
+e 374. on input line 374.
+Package pdftex.def Info: Requested size: 338.58632pt x 271.79965pt on input lin
+e 374.
+ [26 <../Ex2/resources/medicionstep8.png (PNG copy)>]
+Overfull \hbox (5.22081pt too wide) in paragraph at lines 386--387
+[]\OT1/cmr/m/n/10 Phase-Locked Loop De-sign Fun-da-men-tals: [][]$\OT1/cmtt/m/n
+/10 https : / / www . nxp . com / files-[]static / rf _ if / doc / app _ note /
+ AN535 .
+ []
+
+
+Overfull \hbox (5.63495pt too wide) in paragraph at lines 393--395
+[]\OT1/cmr/m/n/10 CMOS Phase-Locked-Loop Ap-pli-ca-tions Using the CD54/74HC/HC
+T4046A and CD54/74HC/HCT7046A: [][]$\OT1/cmtt/m/n/10 http :
+ []
+
+) (../Ex3/Ex3.tex [27 <../Ex2/resources/medicionstep16.png (PNG copy)>]
+
+! LaTeX Error: Environment wrapfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \caption
-             {Sistema realimentado}
-You're in trouble here. \space Try typing \space <return> \space to proceed.
-If that doesn't work, type \space X <return> \space to quit.
-
-! Use of \end doesn't match its definition.
-l.22 \end{
-          figure}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.22 \end{figure}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! Package inputenc Error: Unicode\space char\space ónes (U+149)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 ...h{, }pueden ocurrir 3 posibles situaciónes
-                                                   para la ganancia de
+l.32     \begin{wrapfigure}
+                           {l}{0.35\textwidth}
 Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-
-! Package inputenc Error: Unicode\space char\space ón\emphT(s) (U+38F)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 lazo de realimentación \emph{T(s)}
-                                       :
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-! Use of \begin doesn't match its definition.
-l.28 \begin{
-            enumerate}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.28 \begin{enumerate}
-                      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! Package inputenc Error: Unicode\space char\space ónde (U+13A)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...$) < 1} : Lo cual supone una atenuación de
-                                                   la señal
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space ñalp (U+13E)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 p
-      or lo que el sistema resulta estable sin oscilar.
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space ónde (U+13A)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...> 1} : Lo cual genera una amplificación de
-                                                   la señal
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space ñalr (U+140)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 r
-      esultando en un sistema inestable que con el correr del tiempo generará
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space áqu (U+E7)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 qu
-       e el amplificador oscile
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space ñal. (U+FC)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 ya que no atenua ni amplifica la señal.
-                                             Esta es la condición que se
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space ónqu (U+157)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 ...mplifica la señal. Esta es la condición qu
-                                                  e se
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-! Use of \end doesn't match its definition.
-l.37 \end{
-          enumerate}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.37 \end{enumerate}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! Package inputenc Error: Unicode\space char\space ón3, (U+D0)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 3,
-        es necesario tener un par de polos conjugados sobre el eje $j\omega$.
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space áca (U+C5)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 podrá ca
-             lcular como se mencionó previamente, la ganancia de lazo de
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space ópre (U+14A)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 podrá calcular como se mencionó pre
-                                        viamente, la ganancia de lazo de
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@four@octets was complete.
+! Missing number, treated as zero.
 <to be read again> 
-                   \par 
-l.46 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+                   }
+l.32     \begin{wrapfigure}{l}{0.35\textwidth}
+                                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-! Use of \begin doesn't match its definition.
-l.47 \begin{
-            figure}[h]
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.32     \begin{wrapfigure}{l}{0.35\textwidth}
+                                              
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-! Extra }, or forgotten \endgroup.
-l.47 \begin{figure}
-                   [h]
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+<../Ex3/Resources/lineal_waveform.png, id=676, 320.19624pt x 341.275pt>
+File: ../Ex3/Resources/lineal_waveform.png Graphic file (type png)
+<use ../Ex3/Resources/lineal_waveform.png>
+Package pdftex.def Info: ../Ex3/Resources/lineal_waveform.png  used on input li
+ne 33. on input line 33.
+Package pdftex.def Info: Requested size: 435.32422pt x 463.99245pt on input lin
+e 33.
 
-! Use of \begin doesn't match its definition.
-l.48 \begin{
-            centering}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
+! Package caption Error: \caption outside float.
 
-! Extra }, or forgotten \endgroup.
-l.48 \begin{centering}
-                      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Use of \end doesn't match its definition.
-l.50 \par\end{
-              centering}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.50 \par\end{centering}
-                        
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34         \caption
+                     {Onda lineal}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \caption outside float.
+! LaTeX Error: \begin{document} ended by \end{wrapfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \caption
-             {Circuito de Wien}
-You're in trouble here. \space Try typing \space <return> \space to proceed.
-If that doesn't work, type \space X <return> \space to quit.
-
-! Use of \end doesn't match its definition.
-l.54 \end{
-          figure}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.54 \end{figure}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! Package inputenc Error: Unicode\space char\space ón10 (U+D2)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 ...libro\footnote{Partiendo de la ecuación 10
-                                                  .4 y 10.5 de la pagina 486...
-
+l.36         \end{wrapfigure}
+                             
 Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space ónme (U+143)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 se llega a la ecuación me
-                              ncionada a continuación:
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@four@octets was complete.
-<to be read again> 
-                   \par 
-l.58 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Use of \begin doesn't match its definition.
-l.59 \begin{
-            equation}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.59 \begin{equation}
-                     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.60 ...ft(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right)}
-                                                  \label{eq:1_1}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.60 ...ft(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right)}
-                                                  \label{eq:1_1}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.60 ...ft(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right)}
-                                                  \label{eq:1_1}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.60 ...ft(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right)}
-                                                  \label{eq:1_1}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.60 ...ft(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right)}
-                                                  \label{eq:1_1}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.60 ...ft(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right)}
-                                                  \label{eq:1_1}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.60 ...ft(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right)}
-                                                  \label{eq:1_1}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.60 ...ft(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right)}
-                                                  \label{eq:1_1}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Use of \end doesn't match its definition.
-l.61 \end{
-          equation}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten $.
-l.61 \end{equation}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.62 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Use of \begin doesn't match its definition.
-l.63 \begin{
-            equation}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.64 f_
-       {0}=\frac{1}{2\pi RC}\label{eq:1_1_1}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Use of \end doesn't match its definition.
-l.65 \end{
-          equation}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten $.
-l.65 \end{equation}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.66 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Use of \begin doesn't match its definition.
-l.70 \begin{
-            equation}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.70 \begin{equation}
-                     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.71 T\left
-           (f_{0}\right)=\frac{1+\frac{R_{2}}{R_{1}}}{3}\label{eq:1_2}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Use of \end doesn't match its definition.
-l.72 \end{
-          equation}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten $.
-l.72 \end{equation}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.73 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! Package inputenc Error: Unicode\space char\space ón3m (U+111)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74 ...como se desea cumplir con la condición 3 m
-                                                  encionada
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space ónan (U+140)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 en la sbsección an
-                       terior, necesariamente $\frac{R_{2}}{R_{1}}=2$.
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space ón,r (U+10F)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76 Por ende, cuando se cumpla esta condición, r
-                                                 esulta evidente que se
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space áun (U+E4)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 generará un
-                 puente balanceado a lo largo de la frecuencia $f_{0}$.
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space áli (U+D6)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 \section{Análi
-                   sis del circuito propuesto}
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space ónno (U+14E)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 A lo largo de esta sección no
-                                  s centraremos en analizar el circuito
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-
-! Package inputenc Error: Unicode\space char\space áte (U+DA)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 propuesto por la cáte
-                          dra que se puede observar en la Figura \ref{1_3}.
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-! Use of \begin doesn't match its definition.
-l.84 \begin{
-            figure}[h]
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.84 \begin{figure}
-                   [h]
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Use of \begin doesn't match its definition.
-l.85 \begin{
-            centering}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.85 \begin{centering}
-                      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! Package inputenc Error: Unicode\space char\space ónar (U+144)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 A su vez, al calcular la distorsión ar
-                                           monica se obtuvo que:
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
-
-! Use of \end doesn't match its definition.
-l.87 \par\end{
-              centering}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.87 \par\end{centering}
-                        
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Use of \begin doesn't match its definition.
-\[  ->\begin {
-              equation*}
-l.88 \[
-       
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-\[  ->\begin {equation*}
-                        
-l.88 \[
-       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Use of \end doesn't match its definition.
-\]  ->\end {
-            equation*}
-l.90 \]
-       
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-\]  ->\end {equation*}
-                      
-l.90 \]
-       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Use of \begin doesn't match its definition.
-l.91 \begin{
-            centering}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.91 \begin{centering}
-                      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Use of \end doesn't match its definition.
-l.93 \par\end{
-              centering}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.93 \par\end{centering}
-                        
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \caption outside float.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:ej3_lineal_waveform' on page 28 undefined on inpu
+t line 41.
+
+[28 <../Ex3/Resources/lineal_waveform.png>]
+<../Ex3/Resources/circuito_propuesto_1.png, id=683, 612.2875pt x 498.86375pt>
+File: ../Ex3/Resources/circuito_propuesto_1.png Graphic file (type png)
+<use ../Ex3/Resources/circuito_propuesto_1.png>
+Package pdftex.def Info: ../Ex3/Resources/circuito_propuesto_1.png  used on inp
+ut line 55. on input line 55.
+Package pdftex.def Info: Requested size: 290.22107pt x 236.46034pt on input lin
+e 55.
+
+
+LaTeX Warning: Reference `fig:VCO_circuito_propuesto_1' on page 29 undefined on
+ input line 61.
+
+[29 <../Ex3/Resources/circuito_propuesto_1.png>]
+
+LaTeX Warning: Reference `eq:delta_t' on page 30 undefined on input line 88.
+
+
+LaTeX Warning: Reference `eq:ic' on page 30 undefined on input line 88.
+
+
+LaTeX Warning: Reference `eq:v_tr' on page 30 undefined on input line 101.
+
+
+LaTeX Warning: Reference `eq:delta_t' on page 30 undefined on input line 111.
+
+
+LaTeX Warning: Reference `eq:ic' on page 30 undefined on input line 111.
+
+
+LaTeX Warning: Reference `eq:f0' on page 30 undefined on input line 123.
+
+
+LaTeX Warning: Reference `eq:f0_vco' on page 30 undefined on input line 123.
+
+
+! LaTeX Error: Environment wrapfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 \caption
-             {Circuito de Oscilador propuesto}
-You're in trouble here. \space Try typing \space <return> \space to proceed.
-If that doesn't work, type \space X <return> \space to quit.
-
-! Use of \end doesn't match its definition.
-l.97 \end{
-          figure}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.97 \end{figure}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! Package inputenc Error: Unicode\space char\space áti (U+DE)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.102 Control}\footnote{Control Automáti
-                                        co de Ganancia o CAG en español}
+l.136 \begin{wrapfigure}
+                        {r}{0.3\textwidth}
 Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-! Argument of \UTFviii@four@octets has an extra }.
-<inserted text> 
-                \par 
-l.102 ... Automático de Ganancia o CAG en español}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@four@octets was complete.
+! Missing number, treated as zero.
 <to be read again> 
-                   \par 
-l.102 ... Automático de Ganancia o CAG en español}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+                   }
+l.136 \begin{wrapfigure}{r}{0.3\textwidth}
+                                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.136 \begin{wrapfigure}{r}{0.3\textwidth}
+                                          
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-! Package inputenc Error: Unicode\space char\space ámi (U+D7)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
+<../Ex3/Resources/trigger.png, id=693, 303.1325pt x 376.40625pt>
+File: ../Ex3/Resources/trigger.png Graphic file (type png)
+<use ../Ex3/Resources/trigger.png>
+Package pdftex.def Info: ../Ex3/Resources/trigger.png  used on input line 138. 
+on input line 138.
+Package pdftex.def Info: Requested size: 151.56587pt x 188.20265pt on input lin
+e 138.
 
-See the inputenc package documentation for explanation.
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 de $\frac{R_{3}}{R_{4}}$ dinámi
-                                     camente con el objetivo de suplir
-Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
+l.139         \caption
+                      {Schmitt trigger}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-! Use of \begin doesn't match its definition.
-l.117 \begin{
-             figure}[h]
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
+[30]
 
-! Extra }, or forgotten \endgroup.
-l.117 \begin{figure}
-                    [h]
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Use of \begin doesn't match its definition.
-l.118 \begin{
-             centering}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.118 \begin{centering}
-                       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Use of \end doesn't match its definition.
-l.120 \par\end{
-               centering}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.120 \par\end{centering}
-                         
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \caption outside float.
+! LaTeX Error: \begin{document} ended by \end{wrapfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.121 \caption
-              {$I_{DS}$ en función de $V_{DS}$, para valores de VGS entre -3...
+l.143     \end{wrapfigure}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-You're in trouble here. \space Try typing \space <return> \space to proceed.
-If that doesn't work, type \space X <return> \space to quit.
+
+LaTeX Warning: Reference `fig:ej3_trigger' on page 31 undefined on input line 1
+53.
 
 
-! Package inputenc Error: Unicode\space char\space ónde (U+13A)
-(inputenc)\space \space \space \space \space \space \space \space \space \space
- \space \space \space \space \space \space not\space set\space up\space for\spa
-ce use\space with\space LaTeX.
+LaTeX Warning: Reference `fig:ej3_VTC' on page 31 undefined on input line 167.
 
-See the inputenc package documentation for explanation.
+
+! LaTeX Error: Environment wrapfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.121 \caption{$I_{DS}$ en función de
-                                      $V_{DS}$, para valores de VGS entre -3...
-
+l.175 \begin{wrapfigure}
+                        {l}{0.3\textwidth}
 Your command was ignored.
-Type \space I <command> <return> \space to replace it with another command,
-or \space <return> \space to continue without it.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-! Use of \end doesn't match its definition.
-l.125 \end{
-           figure}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Extra }, or forgotten \endgroup.
-l.125 \end{figure}
-                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Use of \begin doesn't match its definition.
-l.127 \begin{
-             figure}[h]
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing { inserted.
+! Missing number, treated as zero.
 <to be read again> 
-                   #
-l.127 \begin{f
-              igure}[h]
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
+                   }
+l.175 \begin{wrapfigure}{l}{0.3\textwidth}
+                                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-! Missing { inserted.
+! Illegal unit of measure (pt inserted).
 <to be read again> 
-                   #
-l.127 \begin{f
-              igure}[h]
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
+                   }
+l.175 \begin{wrapfigure}{l}{0.3\textwidth}
+                                          
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<../Ex3/Resources/vtc.png, id=704, 211.79124pt x 306.14375pt>
+File: ../Ex3/Resources/vtc.png Graphic file (type png)
+<use ../Ex3/Resources/vtc.png>
+Package pdftex.def Info: ../Ex3/Resources/vtc.png  used on input line 177. on i
+nput line 177.
+Package pdftex.def Info: Requested size: 314.40001pt x 454.48238pt on input lin
+e 177.
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178         \caption
+                      {VTC}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[31 <../Ex3/Resources/trigger.png>]
+
+! LaTeX Error: \begin{document} ended by \end{wrapfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \end{wrapfigure}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Overfull \vbox (770.12471pt too high) has occurred while \output is active []
+LaTeX Warning: Reference `fig:sim_trigger' on page 32 undefined on input line 2
+04.
+
+<../Ex3/Resources/sim_trigger.png, id=713, 3852.3925pt x 1947.275pt>
+File: ../Ex3/Resources/sim_trigger.png Graphic file (type png)
+<use ../Ex3/Resources/sim_trigger.png>
+Package pdftex.def Info: ../Ex3/Resources/sim_trigger.png  used on input line 2
+08. on input line 208.
+Package pdftex.def Info: Requested size: 435.32422pt x 220.02466pt on input lin
+e 208.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../Ex3/Resources/circuito_propuesto_2.png, id=714, 707.64375pt x 530.98375pt>
+File: ../Ex3/Resources/circuito_propuesto_2.png Graphic file (type png)
+<use ../Ex3/Resources/circuito_propuesto_2.png>
+Package pdftex.def Info: ../Ex3/Resources/circuito_propuesto_2.png  used on inp
+ut line 217. on input line 217.
+Package pdftex.def Info: Requested size: 338.58632pt x 254.05908pt on input lin
+e 217.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../Ex3/Resources/sim_vco.png, id=715, 3852.3925pt x 1947.275pt>
+File: ../Ex3/Resources/sim_vco.png Graphic file (type png)
+<use ../Ex3/Resources/sim_vco.png>
+Package pdftex.def Info: ../Ex3/Resources/sim_vco.png  used on input line 223. 
+on input line 223.
+Package pdftex.def Info: Requested size: 435.32422pt x 220.02466pt on input lin
+e 223.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-[3]
-! Use of \begin doesn't match its definition.
-l.128 \begin{
-             centering}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
+LaTeX Warning: Reference `fig:VCO_circuito_propuesto_2' on page 32 undefined on
+ input line 228.
 
-! Unbalanced output routine.
-l.128 \begin{centering}
-                       
-Your sneaky output routine has problematic {'s and/or }'s.
-I can't handle that very well; good luck.
 
-))
-! Emergency stop.
-<*> "Informe TP06 - Grupo 4.tex"
-                                
-*** (job aborted, no legal \end found)
+LaTeX Warning: Reference `eq:f0_vco' on page 32 undefined on input line 228.
 
- 
+[32 <../Ex3/Resources/vtc.png>]
+
+LaTeX Warning: Reference `fig:sim_VCO' on page 33 undefined on input line 246.
+
+[33 <../Ex3/Resources/sim_trigger.png> <../Ex3/Resources/circuito_propuesto_2.p
+ng>]
+
+LaTeX Warning: Reference `fig:conversor' on page 34 undefined on input line 249
+.
+
+<../Ex3/Resources/conversor.png, id=731, 741.77126pt x 771.88374pt>
+File: ../Ex3/Resources/conversor.png Graphic file (type png)
+<use ../Ex3/Resources/conversor.png>
+Package pdftex.def Info: ../Ex3/Resources/conversor.png  used on input line 253
+. on input line 253.
+Package pdftex.def Info: Requested size: 241.84843pt x 251.66014pt on input lin
+e 253.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `tab:componentes_conversor' on page 34 undefined on in
+put line 258.
+
+
+LaTeX Warning: Reference `fig:sim_circuito_completo' on page 34 undefined on in
+put line 280.
+
+<../Ex3/Resources/sim_completo.png, id=732, 3848.3775pt x 1947.275pt>
+File: ../Ex3/Resources/sim_completo.png Graphic file (type png)
+<use ../Ex3/Resources/sim_completo.png>
+Package pdftex.def Info: ../Ex3/Resources/sim_completo.png  used on input line 
+283. on input line 283.
+Package pdftex.def Info: Requested size: 435.32422pt x 220.26236pt on input lin
+e 283.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34 <../Ex3/Resources/sim_vco.png>]
+
+LaTeX Warning: Reference `fig:pcb' on page 35 undefined on input line 294.
+
+<../Ex3/Resources/pcb.png, id=741, 891.33pt x 890.32625pt>
+File: ../Ex3/Resources/pcb.png Graphic file (type png)
+<use ../Ex3/Resources/pcb.png>
+Package pdftex.def Info: ../Ex3/Resources/pcb.png  used on input line 297. on i
+nput line 297.
+Package pdftex.def Info: Requested size: 241.84843pt x 241.57321pt on input lin
+e 297.
+[35 <../Ex3/Resources/conversor.png> <../Ex3/Resources/sim_completo.png>]
+<../Ex3/Resources/med_senoidal_5v.png, id=751, 1027.84pt x 825.0825pt>
+File: ../Ex3/Resources/med_senoidal_5v.png Graphic file (type png)
+<use ../Ex3/Resources/med_senoidal_5v.png>
+Package pdftex.def Info: ../Ex3/Resources/med_senoidal_5v.png  used on input li
+ne 308. on input line 308.
+Package pdftex.def Info: Requested size: 435.32422pt x 349.45311pt on input lin
+e 308.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:med_5v' on page 36 undefined on input line 313.
+
+
+LaTeX Warning: Reference `tab:medicion_jitter' on page 36 undefined on input li
+ne 315.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 319.
+
+
+LaTeX Warning: Reference `tab:medicion_thd' on page 36 undefined on input line 
+335.
+
+[36 <../Ex3/Resources/pcb.png>]) [37 <../Ex3/Resources/med_senoidal_5v.png (PNG
+ copy)>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 12.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 12.
+ ("Informe TP06 - Grupo 4.aux"
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 12.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 12.
+
+
+Package rerunfilecheck Warning: File `"Informe TP06 - Grupo 4".out' has changed
+.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Informe TP06 - Grupo 4".out':
+(rerunfilecheck)             Before: 96C497B08417701350B97659BD1C9688;3609
+(rerunfilecheck)             After:  7D5EEDAF19B6BB1A4FADF282E897301F;4294.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 12.
+ ) 
 Here is how much of TeX's memory you used:
- 24604 strings out of 492995
- 531772 string characters out of 6132704
- 694563 words of memory out of 5000000
- 27788 multiletter control sequences out of 15000+600000
- 8439 words of font info for 32 fonts, out of 8000000 for 9000
+ 40964 strings out of 493312
+ 918173 string characters out of 3136296
+ 1055611 words of memory out of 3000000
+ 43765 multiletter control sequences out of 15000+200000
+ 542523 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,6n,56p,591b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 64i,11n,69p,10394b,812s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Ian Diaz\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\tcrm1000.pk> <C:\Users\Ian Diaz\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\tcbx2074.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbxti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "Informe TP06 - Grupo 4.pdf" (38 pages, 2996231 bytes).
+PDF statistics:
+ 889 PDF objects out of 1000 (max. 8388607)
+ 203 named destinations out of 1000 (max. 500000)
+ 666 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,8 +1,9 @@
 \part{Oscilador de Wien}
 
-\section{IntroducciÛn}
 
-A lo largo de esta parte, se centrar· en realizar un oscilador generador
+\section{Introducci√≥n}
+
+A lo largo de esta parte, se centrar√° en realizar un oscilador generador
 de onda sinusoidal basado en el puente de \emph{Wien.} Para poder
 entender este oscilador, resulta necesario comprender el criterio
 de Barkhausen, el cual es imprecindible para realizar el oscilador.
@@ -10,8 +11,8 @@ de Barkhausen, el cual es imprecindible para realizar el oscilador.
 \subsection{Criterio de Barkhausen}
 
 Dado un sistema realimentado negativamente, siendo \emph{A }la ganancia
-de lazo abierto y $\beta$ la ganancia de realimentaciÛn, entonces
-se define $T(s)=A(s)\beta(s)$ como la ganancia de lazo de realimentaciÛn.
+de lazo abierto y $\beta$ la ganancia de realimentaci√≥n, entonces
+se define $T(s)=A(s)\beta(s)$ como la ganancia de lazo de realimentaci√≥n.
 
 \begin{figure}[h]
 \begin{centering}
@@ -23,26 +24,26 @@ se define $T(s)=A(s)\beta(s)$ como la ganancia de lazo de realimentaciÛn.
 
 De acuerdo con lo desarrollado en el libro \emph{Design With Operational
 Amplifiers And Analog Integrated Circuits}\footnote{\emph{A lo largo del capitulo 10.1 durante el desarrolo de Basic Wien-Bridge
-Oscillator}}\emph{, }pueden ocurrir 3 posibles situaciÛnes para la ganancia de
-lazo de realimentaciÛn \emph{T(s)}:
+Oscillator}}\emph{, }pueden ocurrir 3 posibles situaci√≥nes para la ganancia de
+lazo de realimentaci√≥n \emph{T(s)}:
 \begin{enumerate}
-\item \emph{T($S_{0}$) < 1} : Lo cual supone una atenuaciÛn de la seÒal
+\item \emph{T($S_{0}$) < 1} : Lo cual supone una atenuaci√≥n de la se√±al
 por lo que el sistema resulta estable sin oscilar.
-\item \emph{T($S_{0}$) > 1} : Lo cual genera una amplificaciÛn de la seÒal
-resultando en un sistema inestable que con el correr del tiempo generar·
+\item \emph{T($S_{0}$) > 1} : Lo cual genera una amplificaci√≥n de la se√±al
+resultando en un sistema inestable que con el correr del tiempo generar√°
 que el amplificador oscile
 \item \emph{T($S_{0}$) = 1} : Esta es considerada una estabilidad neutral
-ya que no atenua ni amplifica la seÒal. Esta es la condiciÛn que se
+ya que no atenua ni amplifica la se√±al. Esta es la condici√≥n que se
 tiene en cuenta para que el criterio funcione.
 \end{enumerate}
-De acuerdo con lo mencionado en el libro, para que se cumpla la condiciÛn
+De acuerdo con lo mencionado en el libro, para que se cumpla la condici√≥n
 3, es necesario tener un par de polos conjugados sobre el eje $j\omega$.
 
 \subsection{Oscilador de \emph{Wien}}
 
 Dado un circuito como el que se muestra en la Figura \ref{1_1}, se
-podr· calcular como se mencionÛ previamente, la ganancia de lazo de
-realimentaciÛn. 
+podr√° calcular como se mencion√≥ previamente, la ganancia de lazo de
+realimentaci√≥n. 
 
 \begin{figure}[h]
 \begin{centering}
@@ -53,8 +54,8 @@ realimentaciÛn.
 
 \end{figure}
 
-Como se menciona en el libro\footnote{Partiendo de la ecuaciÛn 10.4 y 10.5 de la pagina 486 del libro}
-se llega a la ecuaciÛn mencionada a continuaciÛn:
+Como se menciona en el libro\footnote{Partiendo de la ecuaci√≥n 10.4 y 10.5 de la pagina 486 del libro}
+se llega a la ecuaci√≥n mencionada a continuaci√≥n:
 
 \begin{equation}
 T(f)=\frac{1+\frac{R_{2}}{R_{1}}}{3+j\left(\frac{f}{f_{0}}-\frac{f_{0}}{f}\right)}\label{eq:1_1}
@@ -71,19 +72,19 @@ se obtiene
 T\left(f_{0}\right)=\frac{1+\frac{R_{2}}{R_{1}}}{3}\label{eq:1_2}
 \end{equation}
 
-Consecuentemente, como se desea cumplir con la condiciÛn 3 mencionada
-en la sbsecciÛn anterior, necesariamente $\frac{R_{2}}{R_{1}}=2$.
-Por ende, cuando se cumpla esta condiciÛn, resulta evidente que se
-generar· un puente balanceado a lo largo de la frecuencia $f_{0}$.
+Consecuentemente, como se desea cumplir con la condici√≥n 3 mencionada
+en la sbsecci√≥n anterior, necesariamente $\frac{R_{2}}{R_{1}}=2$.
+Por ende, cuando se cumpla esta condici√≥n, resulta evidente que se
+generar√° un puente balanceado a lo largo de la frecuencia $f_{0}$.
 
-\section{An·lisis del circuito propuesto}
+\section{An√°lisis del circuito propuesto}
 
-A lo largo de esta secciÛn nos centraremos en analizar el circuito
-propuesto por la c·tedra que se puede observar en la Figura \ref{1_3}.
+A lo largo de esta secci√≥n nos centraremos en analizar el circuito
+propuesto por la c√°tedra que se puede observar en la Figura \ref{1_3}.
 
 \begin{figure}[h]
 \begin{centering}
-A su vez, al calcular la distorsiÛn armonica se obtuvo que:
+A su vez, al calcular la distorsi√≥n armonica se obtuvo que:
 \par\end{centering}
 \[
 THD=
@@ -99,9 +100,9 @@ THD=
 Como se puede ver en la figura, el circuito propuesto es bastante
 parecido al mencionado en la Figura \ref{1_1}, los componentes adicionales
 agregados forman parte de lo que se llama \emph{Automatic Amplitude
-Control}\footnote{Control Autom·tico de Ganancia o CAG en espaÒol}
+Control}\footnote{Control Autom√°tico de Ganancia o CAG en espa√±ol}
 (AAC). El AAC, es la etapa del circuito encargada de ajustar el valor
-de $\frac{R_{3}}{R_{4}}$ din·micamente con el objetivo de suplir
+de $\frac{R_{3}}{R_{4}}$ din√°micamente con el objetivo de suplir
 las falencias constructivas de los elementos resistivos, que generan
 un determinado error en el cociente, para llevarlo al valor esperado
 de 2.
@@ -118,7 +119,7 @@ Figura \ref{1_4}.
 \begin{centering}
 \includegraphics[scale=0.4]{\string"../Ex1/Resources/ids VS vds\string".png}
 \par\end{centering}
-\caption{$I_{DS}$ en funciÛn de $V_{DS}$, para valores de VGS entre -3 (V)
+\caption{$I_{DS}$ en funci√≥n de $V_{DS}$, para valores de VGS entre -3 (V)
 (linea negra) y 0.5(V) (linea azul) }
 \label{1_4}
 
@@ -130,48 +131,48 @@ Figura \ref{1_4}.
 \includegraphics[scale=0.3]{\string"../Ex1/Resources/RDS vs VDS 1\string".png}
 \par\end{centering}
 
-}\subfloat[Para pequeÒas variaciones]{\begin{centering}
+}\subfloat[Para peque√±as variaciones]{\begin{centering}
 \includegraphics[scale=0.3]{\string"../Ex1/Resources/RDS vs VDS 2\string".png}
 \par\end{centering}
 
 }
 \par\end{centering}
-\caption{$R_{DS}$en funciÛn de $V_{DS}$ para valores de $V_{GS}$ entre -2.5(V)
+\caption{$R_{DS}$en funci√≥n de $V_{DS}$ para valores de $V_{GS}$ entre -2.5(V)
 (linea negra) y 0.5(V) (linea verde)}
 \label{1_5}
 
 \end{figure}
 
 Como se pudo observar en la Figura \ref{1_5}, se pude utilizar al
-transisto JFET-N como resistencia variable, esto es altamente ˙til
+transisto JFET-N como resistencia variable, esto es altamente √∫til
 para ajustar el valor del cociente $\frac{R_{3}}{R_{4}}$ visto anteriormente
 y utilizarlo a nuestro favor.
 
 \subsubsection{Diodos en serie\label{subsec:Diodos-en-serie}}
 
-Debido a que el oscilador de wien debe poder funcionar sin seÒal de
+Debido a que el oscilador de wien debe poder funcionar sin se√±al de
 entrada, se debe crear un control sobre $\frac{R_{3}}{R_{4}}$ de
 modo tal que, cuando el circuito se alimente, rapidamente se llegue
-a la oscilaciÛn. Esto se realiza mediante el cambo dinamico de $R_{4}$,
+a la oscilaci√≥n. Esto se realiza mediante el cambo dinamico de $R_{4}$,
 es decir, cuando el circuito permanezca apagado, y durante los primeros
-instantes de alimentaciÛn, $R_{4}$ debe permanecer lo suficientemente
+instantes de alimentaci√≥n, $R_{4}$ debe permanecer lo suficientemente
 baja poara que el cociente sea lo suficientemente mayor a 2 para lograr
 un tiempo de establecimiento relativamente corto, sin embargo, una
 vez que se llega a ese tiempo de establecimiento, se debe procurar
 de aumentar el valor de $R_{4}$ de modo tal que el cociente de resistencias
 sea 2, como fue explicado anteriormente. Para lograr esto, entran
-en juego los diodos, que cuando la tensiÛn Vo es lo suficientemente
+en juego los diodos, que cuando la tensi√≥n Vo es lo suficientemente
 chica, los diodos no conduzcan, generando asi que el JFET tenga una
 resistencia interna aproximadamente igual a 0, y cuando Vo supera
-la tensiÛn de umbral de los diodos (aproximadamente 5.4(V)), estos
+la tensi√≥n de umbral de los diodos (aproximadamente 5.4(V)), estos
 conduzcan corriente, cargen el capacitor C3 y ajusten la resistencia
 interna del transistor $R_{T}$ para que $\frac{R_{3}}{R_{4}+R_{T}}<2$.
 
 \subsubsection{Controlador de respuesta en frecuencia de los diodos}
 
 Debido al comportamiento no lineal de los diodos, como se puede ver
-en la Figura \ref{1_6}, el cambio abrupto en la tensiÛn de \emph{Gate}
-se deber· controlar para que las componentes de alta frecuencia de
+en la Figura \ref{1_6}, el cambio abrupto en la tensi√≥n de \emph{Gate}
+se deber√° controlar para que las componentes de alta frecuencia de
 ese comportamiento producido por los diodos.
 
 \begin{figure}[h]
@@ -184,48 +185,48 @@ ese comportamiento producido por los diodos.
 \end{figure}
 
 Para resolver este problema de altas frecuencias generadas por los
-cambios abruptos, simplemente se aÒade al circuito un filtro pasivo
+cambios abruptos, simplemente se a√±ade al circuito un filtro pasivo
 de primer orden con comportamiento de pasabajos. Este filtro se logra
-con los componentes $C_{3}$ y $R_{x}$, dado que el pasabajos tendr·
+con los componentes $C_{3}$ y $R_{x}$, dado que el pasabajos tendr√°
 una constante de tiempo de establecimiento de $\tau=C_{3}R_{x}$,
-estos componentes limitar·n el comportamiendo indeseado de los diodos
-y mantendran la tensiÛn de gate con pocas variaciones,esto es debido
+estos componentes limitar√°n el comportamiendo indeseado de los diodos
+y mantendran la tensi√≥n de gate con pocas variaciones,esto es debido
 a la necesidad de controlar muy precisamente la resistencia $R_{DS}$
 del transistor. En principio, llamando $f_{0}$ a la frecuencia de
-oscilaciÛn del oscilador de \emph{Wien }a realizar, se propone que
-se cumpla la siguiente inecuaciÛn:
+oscilaci√≥n del oscilador de \emph{Wien }a realizar, se propone que
+se cumpla la siguiente inecuaci√≥n:
 
 \begin{equation}
 \frac{1}{f_{0}}<10^{3}C_{3}R_{x}\label{eq:1_3}
 \end{equation}
 
-\subsubsection{Controlador de amplitud de oscilaciÛn}
+\subsubsection{Controlador de amplitud de oscilaci√≥n}
 
-Como uno bien se puede imaginar en la subsecciÛn \ref{subsec:Diodos-en-serie},
-la tensiÛn de umbral entre los diodos determina la tensiÛn m·xima
-de oscilaciÛn del circuito, es decir, para una tensiÛn mayor a la
-tensiÛn umbral de ambos diodos, la salida de la sinusoidal se ver·
-recortada por ese tope de tensiÛn. Para esto, la soluciÛn mas intuitiva,
-es agregar una caida de tensiÛn variable entre los nodos de los diodos,
+Como uno bien se puede imaginar en la subsecci√≥n \ref{subsec:Diodos-en-serie},
+la tensi√≥n de umbral entre los diodos determina la tensi√≥n m√°xima
+de oscilaci√≥n del circuito, es decir, para una tensi√≥n mayor a la
+tensi√≥n umbral de ambos diodos, la salida de la sinusoidal se ver√°
+recortada por ese tope de tensi√≥n. Para esto, la soluci√≥n mas intuitiva,
+es agregar una caida de tensi√≥n variable entre los nodos de los diodos,
 para ello, lo unico que se debe hacer es conecta una resistencia variable
-en serie con los diodos que genere una caida de tensiÛn variable,
-y asi, se podrÌa ajustar el valor m·ximo de la tension pico de la
-seÒal.
+en serie con los diodos que genere una caida de tensi√≥n variable,
+y asi, se podr√≠a ajustar el valor m√°ximo de la tension pico de la
+se√±al.
 
 Otra manera un poco mas sofisticada de enfrentar este problema es
-agregar un circuito inversor\footnote{Se podrÌa utilizar un circuito no inversor, pero no se lo menciona
+agregar un circuito inversor\footnote{Se podr√≠a utilizar un circuito no inversor, pero no se lo menciona
 ya que no presenta ventajas frente a la resistencia en serie con los
-diodos} a la salida del oscilador\footnote{Este mÈtodo queda a discreciÛn de el presupuesto destinado a realizar
+diodos} a la salida del oscilador\footnote{Este m√©todo queda a discreci√≥n de el presupuesto destinado a realizar
 el oscilador.}. La ventaja que se obtiene es que, a diferencia del metodo anterior
-donde solo se podia aumentar la tensiÛn m·xima de salida, en este
-caso, se puede controlar, tanto aumentando la tensiÛn maxima de salida
-como atenuandola. El hecho de que invierta la seÒal no serÌa un problema
+donde solo se podia aumentar la tensi√≥n m√°xima de salida, en este
+caso, se puede controlar, tanto aumentando la tensi√≥n maxima de salida
+como atenuandola. El hecho de que invierta la se√±al no ser√≠a un problema
 ya que al ser un oscilador la fase de 0\textdegree{} uno la define
 donde quiere, por lo tanto, se puede interpretar a la salida con un
 defasaje de 0\textdegree . Sin embargo, la gran desventaja de esta
-soluciÛn es el presupuesto de construcciÛn del mismo, ya que se deben
+soluci√≥n es el presupuesto de construcci√≥n del mismo, ya que se deben
 agregar tanto mas componentes pasivos como activos, y el consumo de
-corriente del circuito resultante tambien aumentar· debido a la alimentacion
+corriente del circuito resultante tambien aumentar√° debido a la alimentacion
 del segundo amplificador. 
 
 Estos dos metodos fueron simulados y los resultados se ven en la Figura
@@ -233,10 +234,10 @@ Estos dos metodos fueron simulados y los resultados se ven en la Figura
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.5]{\string"../Ex1/Resources/Controlador de amplitud de oscilaciÛn\string".png}
+\includegraphics[scale=0.5]{\string"../Ex1/Resources/Controlador de amplitud de oscilacion\string".png}
 \par\end{centering}
 \caption{Cambios en el comportamiendo del circuito para diferentes controladores
-de amplitud de oscilaciÛn}
+de amplitud de oscilaci√≥n}
 \label{1_7}
 
 \end{figure}
@@ -257,33 +258,33 @@ de amplitud de oscilaciÛn}
 
 \end{figure}
 
-\subsection{M·xima frecuencia de oscilaciÛn}
+\subsection{M√°xima frecuencia de oscilaci√≥n}
 
-Si bien como se ha visto en el an·lisis anterior, en ningun momento
-aparece un limite en la frecuencia de oscilaciÛn, esto se debe a que
-se trabajÛ con amplificadores operacionales ideales. Cuando se realiza
-el an·lisis con amplificadores operacionales reales, los limites comienzan
+Si bien como se ha visto en el an√°lisis anterior, en ningun momento
+aparece un limite en la frecuencia de oscilaci√≥n, esto se debe a que
+se trabaj√≥ con amplificadores operacionales ideales. Cuando se realiza
+el an√°lisis con amplificadores operacionales reales, los limites comienzan
 a quedar determinados por el \emph{Gain Bandwidth Product} y el \emph{Slew
 Rate. }Al simular el circuito con amplificadores reales, como con
-el LM833 o el TL082, se observÛ que el limite de frecuencias a las
-cuales el oscilador dejaba de funcionar dependÌa del tiempo de establecimiento
+el LM833 o el TL082, se observ√≥ que el limite de frecuencias a las
+cuales el oscilador dejaba de funcionar depend√≠a del tiempo de establecimiento
 que estuvieramos dispuestos a esperar. Es por eso que para tiempos
-de establecimiento relativamente razonables, en las simuaciones quedÛ
+de establecimiento relativamente razonables, en las simuaciones qued√≥
 en evidencia que que las frecuencias disponibles para realizar el
 oscilador no podian superar los 500(kHz).
 
-\subsection{An·lisis de sensibilidades}
+\subsection{An√°lisis de sensibilidades}
 
-Se propone calcular analÌticamente las sensibilidades del circuito
-respecto de los componentes de lazo de realimentaciÛn positiva. Para
-esto, primero que nada, es necesario calcular la funcion de la realimentaciÛn
-positiva. Por lo tanto, a continuaciÛn se proceder· a calcular la
-ganancia de realimentaciÛn positiva del circuito\footnote{Si bien se podrÌa utilizar la ecuaciÛn 10.5 sacada de la pagina 486
+Se propone calcular anal√≠ticamente las sensibilidades del circuito
+respecto de los componentes de lazo de realimentaci√≥n positiva. Para
+esto, primero que nada, es necesario calcular la funcion de la realimentaci√≥n
+positiva. Por lo tanto, a continuaci√≥n se proceder√° a calcular la
+ganancia de realimentaci√≥n positiva del circuito\footnote{Si bien se podr√≠a utilizar la ecuaci√≥n 10.5 sacada de la pagina 486
 del libro, esto no se debe hacer, debido a que en el libro se considera
-que $C_{2}$ y $C_{1}$ son iguales, y $R_{2}$ y $R_{1}$ tambiÈn,
+que $C_{2}$ y $C_{1}$ son iguales, y $R_{2}$ y $R_{1}$ tambi√©n,
 y para el calculo de sensibilidades es necesario considerarlos como
 2 componentes distintos.}. Para esto, observando la Figura \ref{1_3}, se plantea por el nodo
-$V_{p}$ la siguiente ecuaciÛn
+$V_{p}$ la siguiente ecuaci√≥n
 
 \[
 \frac{V_{p}-V_{o}}{\frac{1}{sC_{1}}+R_{1}}=-V_{p}\left(sC_{2}+\frac{1}{R_{2}}\right)^{-1}
@@ -293,10 +294,10 @@ $V_{p}$ la siguiente ecuaciÛn
 \Rightarrow\beta(s)=\frac{V_{p}}{V_{o}}=\frac{sC_{1}R_{2}}{s^{2}C_{1}C_{2}R_{1}R_{2}+s\left(C_{1}R_{1}+C_{1}R_{2}+C_{2}R_{2}\right)+1}\label{eq:1_4}
 \end{equation}
 
-A partir de la ganancia de realimentaciÛn positiva de nuestro circuito
-calculada en la ecuaciÛn \ref{eq:1_4}, de esta manera, operando adecuadamente
+A partir de la ganancia de realimentaci√≥n positiva de nuestro circuito
+calculada en la ecuaci√≥n \ref{eq:1_4}, de esta manera, operando adecuadamente
 con la ganancia del circuito no inversor $(A=1+\frac{R_{3}}{R_{4}})$,
-la transferencia de la ecuaciÛn \ref{eq:1_2} queda reescrita de la
+la transferencia de la ecuaci√≥n \ref{eq:1_2} queda reescrita de la
 siguiente manera:
 
 \[
@@ -310,7 +311,7 @@ transferencia queda definida como:
 \Rightarrow H(s)=\frac{A}{1-T(s)}=\frac{(1+\frac{R_{3}}{R_{4}})\cdot[(sCR)^{2}+s3CR+1]}{(s\cdot CR)^{2}+s\cdot CR(2-\frac{R_{3}}{R_{4}})+1}
 \]
 
-Por ˙ltimo, las ecuaciÛnes de $\omega_{0}$ y \emph{Q }quedan definidas
+Por √∫ltimo, las ecuaci√≥nes de $\omega_{0}$ y \emph{Q }quedan definidas
 por:
 
 \begin{equation}
@@ -352,30 +353,30 @@ S_{C}^{Q}=S_{R}^{Q}=0
 
 \subsection{Polos y ceros del circuito}
 
-Se procediÛ a hacer un an·lisis de los diagramas de polos y ceros
-de distintas etapas del circuito para cada situaciÛn del mismo.
+Se procedi√≥ a hacer un an√°lisis de los diagramas de polos y ceros
+de distintas etapas del circuito para cada situaci√≥n del mismo.
 
-\section{ImplementaciÛn}
+\section{Implementaci√≥n}
 
-A lo largo de esta secciÛn nos centraremos en desarrollar el proceso
-de implementaciÛn del circuito analizado anteriormente. Como primera
+A lo largo de esta secci√≥n nos centraremos en desarrollar el proceso
+de implementaci√≥n del circuito analizado anteriormente. Como primera
 etapa, nos centraremos en analizar los componentes que fijan la frecuencia
-de oscilaciÛn, que es lo primordial en nuestro diseÒo.
+de oscilaci√≥n, que es lo primordial en nuestro dise√±o.
 
-\subsection{Frecuencia de oscilaciÛn}
+\subsection{Frecuencia de oscilaci√≥n}
 
-Como se puede observar en la ecuaciÛn \ref{eq:1_1_1}, si se toman
+Como se puede observar en la ecuaci√≥n \ref{eq:1_1_1}, si se toman
 valores iguales de $R_{1}=R_{2}=R$ y $C_{1}=C_{2}=C$, entonces con
-fijar un valor arbitrariamente, el valor del otro componente quedar·
-determinado por ese valor, y la frecuencia de operaciÛn de nuestro
-oscilador. Como nuestra frecuencia de oscilaciÛn es de $f_{0}=70\left(kHz\right)$,
+fijar un valor arbitrariamente, el valor del otro componente quedar√°
+determinado por ese valor, y la frecuencia de operaci√≥n de nuestro
+oscilador. Como nuestra frecuencia de oscilaci√≥n es de $f_{0}=70\left(kHz\right)$,
 fijando el valor del capacitor a un valor comercial conocido, como
-$C=10\left(nF\right)$\footnote{Se utilizÛ este valor para usar los mismos valores que los capacitores
+$C=10\left(nF\right)$\footnote{Se utiliz√≥ este valor para usar los mismos valores que los capacitores
 de desacople y obtener un solo valor de capacitor en todo el PCB}, la resistencia por lo tanto quedara fijada y de valor $R=227.36\left(\Omega\right)$.
 Debido al hecho de que ese valor de resistencia no es un valor comercial,
-se decidiÛ aproximar ese valor al valor comercial m·s cercano, sea
+se decidi√≥ aproximar ese valor al valor comercial m√°s cercano, sea
 $R=220(\Omega)$, resultando en un error relativo de resistencia de
-$Error\approx3\%$. De esta manera la frecuencia de operaciÛn resultante
+$Error\approx3\%$. De esta manera la frecuencia de operaci√≥n resultante
 queda de valor:
 
 \[
@@ -388,15 +389,15 @@ Error\,Relativo=3.34\%
 
 Como se ve en las ecuaciones anteriores, el error relativo de la frecuencia
 es demasiado alto, es por esto, que para lograr ajustar la frecuencia
-al valor deseado de 70(kHz), si introducir· un preset en el lugar
-de la resistencia $R_{2}$, y utilizando la ecuaciÛn \ref{eq:1_6},
+al valor deseado de 70(kHz), si introducir√° un preset en el lugar
+de la resistencia $R_{2}$, y utilizando la ecuaci√≥n \ref{eq:1_6},
 se la ajustara convenientemente de modo que la frecuencia sea la deseada.
-Utilizando este mÈtodo, se espera obtener un error realtivo de frecuencia
+Utilizando este m√©todo, se espera obtener un error realtivo de frecuencia
 mucho menor, del orden del 0.5\%.
 
-Sin embargo, al recurrir a las simulaciÛnes se observo que la frecuencia
+Sin embargo, al recurrir a las simulaci√≥nes se observo que la frecuencia
 que se obtenia dadas esas resistencias, era mayor a la obtenida en
-la simulaciÛn, es por esto, que empiricamente se comprobÛ que para
+la simulaci√≥n, es por esto, que empiricamente se comprob√≥ que para
 llegar a la frecuencia deseada de 70(kHz), era necesario utilizar
 resistencias de 195 ohms. Esto fue particularmente bueno ya que se
 pueden generar con un paralelo de 2 resistencias de 390 ohms que son
@@ -406,19 +407,19 @@ parte del estandard E12 al 1\% de error.
 
 \subsubsection{Controlador de frecuencia}
 
-Como se mencionÛ en la secciÛn \ref{subsec:Automatic-Amplitude-Control},
-hay varias reglas que se deben tener en cuenta a la hora de sieÒar
+Como se mencion√≥ en la secci√≥n \ref{subsec:Automatic-Amplitude-Control},
+hay varias reglas que se deben tener en cuenta a la hora de sie√±ar
 los valores de los componentes del AAC. En principio, como se propuso
-en la inecuaciÛn \ref{eq:1_3}, se decide tomar el capacitor $C_{3}=10(nF)$,
+en la inecuaci√≥n \ref{eq:1_3}, se decide tomar el capacitor $C_{3}=10(nF)$,
 para utilizar solo un tipo de valor de capacitor en todo nuestro circuito,
-y por ende, el valor de la resistencia quedar· fijo en $R_{x}>285.71\Omega$.
-Por ende, para lograr una buena relaciÛn entre impedancias, se eligiÛ
+y por ende, el valor de la resistencia quedar√° fijo en $R_{x}>285.71\Omega$.
+Por ende, para lograr una buena relaci√≥n entre impedancias, se eligi√≥
 un valor de $R_{x}=10(k\Omega)$.
 
-\subsubsection{ElecciÛn de la resistencia del transistor JFET-N}
+\subsubsection{Elecci√≥n de la resistencia del transistor JFET-N}
 
-Debido a las relaciones mencionadas en la secciÛn \ref{subsec:Diodos-en-serie},
-se deben cumplir ciertas relaciÛnes entre las resistencias $R_{3}$,
+Debido a las relaciones mencionadas en la secci√≥n \ref{subsec:Diodos-en-serie},
+se deben cumplir ciertas relaci√≥nes entre las resistencias $R_{3}$,
 $R_{4}$ y $R_{T}$, estas relaciones (que fueron explicadas anteriormente),
 quedan sintetizadas en las siguientes expresiones:
 
@@ -435,17 +436,17 @@ K_{1}>2\,\,;\,\,K_{2}<2
 
 Debido a que se elige un tiempo de establecimiento del oscilador relativamente
 corto, se elige arbitrariamente $K_{1}=2.2$ y $K_{2}=1.8$, mateniendo
-simetrÌa entre ambas constantes y siendo lo suficintemente dstantes
-del 2 como para ajustar rapidamente cualquier variaciÛn respecto del
+simetr√≠a entre ambas constantes y siendo lo suficintemente dstantes
+del 2 como para ajustar rapidamente cualquier variaci√≥n respecto del
 2. Como se puede observar en la Figura \ref{1_5}, el valor de la
-resistencia del transistor $R_{T}$, varia dependiendo de la polarizaciÛn
+resistencia del transistor $R_{T}$, varia dependiendo de la polarizaci√≥n
 del mismo, es or esto, que se elige polarizarlo con la mayor resistencia
 posible. Por esta razon, y como se puede ver en la figura, la impedancia
-del transistor varÌa abruptamente para valores entre 0 y 3 (mV) de
+del transistor var√≠a abruptamente para valores entre 0 y 3 (mV) de
 $V_{GS}$, es por esto que vamos a considerar esta resistencia como
 $0(\Omega)$ cuando el transistor se encuentre apagado y como $\sim550(\Omega)$
 cuando el transistor se encuentra encendido. Por lo tanto $R_{T}\approx550(\Omega)$,
-por ende los valores de las otras resistencias quedar·n bien determinadas
+por ende los valores de las otras resistencias quedar√°n bien determinadas
 por los valores:
 
 $R_{3}=5.4(k\Omega)$
@@ -454,8 +455,8 @@ $R_{4}=2.4(k\Omega)$
 
 Si bien estos valores son correctos, solo falta ajustarlos de manera
 que se encuentren dentro de valores comerciales de resistencias, es
-por eso que se los implementar· con resistencias en resie y paralelo
-para llegar a un valor lo m·s cercano posible.
+por eso que se los implementar√° con resistencias en resie y paralelo
+para llegar a un valor lo m√°s cercano posible.
 
 \subsubsection{Polos y ceros}
 
@@ -497,15 +498,15 @@ se pueden observar en las Figuras .
 \end{figure}
 \par\end{center}
 
-\subsection{SelecciÛn de amplificadores operacionales}
+\subsection{Selecci√≥n de amplificadores operacionales}
 
 Para la seleccion del amplificador operacional a utilizar, se tuvieron
 en cuenta solo aquellos que se encontraban disponibles al dia de la
-fecha de imlementaciÛn del circuito en el paÒol de la universidad.
-Esto se debe, a que en trabajos pr·cticos anteriores, esto no fue
+fecha de imlementaci√≥n del circuito en el pa√±ol de la universidad.
+Esto se debe, a que en trabajos pr√°cticos anteriores, esto no fue
 tenido en cuenta y a la hora de implementar el circuito fue necesario
 realizar muchos cambios debido a esto. Los amplificadores disponibles
-en el paÒol y sus respectivas caracterÌsticas se pueden observar en
+en el pa√±ol y sus respectivas caracter√≠sticas se pueden observar en
 el cuadro \ref{1_8}.
 
 \begin{table}[h]
@@ -523,17 +524,17 @@ LM741 & 1.5(MHz) & 200$\left(\frac{V}{mV}\right)$ & $0.5(\frac{V}{\mu s})$ & $2^
 \hline 
 \end{tabular}
 \par\end{centering}
-\caption{CaracterÌsticas de amplificadores operacionales disponibles}
+\caption{Caracter√≠sticas de amplificadores operacionales disponibles}
 \label{1_8}
 \end{table}
 
-Viendo esos valores y utilizando la ecuaciÛn (\ref{eq:1_7}) de selecciÛn
+Viendo esos valores y utilizando la ecuaci√≥n (\ref{eq:1_7}) de selecci√≥n
 propuesta\footnote{A mayor valor, mejor es el opamp analizado}, se
-obtiene que para esos valores de ponderaciÛn, el amplificador operacional
-optimo a utilizar es el TL082 o igualmente el TL072\footnote{Los valores obtenidos con la ecuaciÛn dan como resultado que ambos
-operacionales son igual de capaces para los valores de ponderaciÛn
-propuestos, sin embargo, se decidiÛ utilizar el TL82 debido a que
-es un integrado mas pequeÒo y por ende el desarrollo del PCB queda
+obtiene que para esos valores de ponderaci√≥n, el amplificador operacional
+optimo a utilizar es el TL082 o igualmente el TL072\footnote{Los valores obtenidos con la ecuaci√≥n dan como resultado que ambos
+operacionales son igual de capaces para los valores de ponderaci√≥n
+propuestos, sin embargo, se decidi√≥ utilizar el TL82 debido a que
+es un integrado mas peque√±o y por ende el desarrollo del PCB queda
 mas compacto.}.
 
 \begin{equation}
@@ -544,16 +545,16 @@ tl082 2.43
 
 lm741 1.755
 
-\subsection{DiseÒo del PCB}
+\subsection{Dise√±o del PCB}
 
 Por ultimo, el PCB implementado desarrollado con el programa \emph{Altium
 Designer}, quedo como se pueden ver en las Figuras \ref{1_10} y \ref{1_11}.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.5]{../Ex1/Resources/Esquem·tico}
+\includegraphics[scale=0.5]{../Ex1/Resources/Esquematico}
 \par\end{centering}
-\caption{Esquem·tico}
+\caption{Esquem√°tico}
 
 \label{1_10}
 \end{figure}
@@ -569,51 +570,51 @@ Designer}, quedo como se pueden ver en las Figuras \ref{1_10} y \ref{1_11}.
 
 \section{Simulaciones y mediciones}
 
-A lo largo de esta secciÛn nos centraremos en realizar las simulaciones
+A lo largo de esta secci√≥n nos centraremos en realizar las simulaciones
 pertinentes del circuito y las mediciones del mismo. En la Figura
-\ref{1_16}, se puede observar una simulaciÛn y mediciÛn del circuito
+\ref{1_16}, se puede observar una simulaci√≥n y medici√≥n del circuito
 funcionando.
 
 \begin{figure}[h]
 \begin{centering}
-\includegraphics[scale=0.35]{../Ex1/Resources/OscilaciÛn}
+\includegraphics[scale=0.35]{../Ex1/Resources/Oscilacion}
 \par\end{centering}
-\caption{OscilaciÛn del circuito}
+\caption{Oscilaci√≥n del circuito}
 \label{1_16}
 
 \end{figure}
 
-\subsection{DistorsiÛn ArmÛnica}
+\subsection{Distorsi√≥n Arm√≥nica}
 
-Debido a imperfecciones propias de la realidad, la generaciÛn de seÒales
+Debido a imperfecciones propias de la realidad, la generaci√≥n de se√±ales
 senoidales completamente puras es imposible. Es por ello que es necesario
-realizar un an·lisis de cuant· es la distorsiÛn armonica de nuestro
-oscilador. Para realizar estos an·lisis se hace uso del llamado \emph{Total
-Harmonic Distortion, }que es un par·metro que da cuenta de cuanto
-esta distorsionada nuestra seÒal respecto al armÛnico principal. Si
-realizamos una \emph{Fast Fourier Transform} (FFT) a la seÒal generada
+realizar un an√°lisis de cuant√° es la distorsi√≥n armonica de nuestro
+oscilador. Para realizar estos an√°lisis se hace uso del llamado \emph{Total
+Harmonic Distortion, }que es un par√°metro que da cuenta de cuanto
+esta distorsionada nuestra se√±al respecto al arm√≥nico principal. Si
+realizamos una \emph{Fast Fourier Transform} (FFT) a la se√±al generada
 por el oscilador, podemos observar mas detalladamente la componente
-de potencia que tienen todos los armonicos de la seÒal, esta imagen
+de potencia que tienen todos los armonicos de la se√±al, esta imagen
 se puede observar en la Figura \ref{1_12}. Como se puede observar,
-es notorio que cuanto mas grande sea el armonico, mas atenuado estar·.
+es notorio que cuanto mas grande sea el armonico, mas atenuado estar√°.
 
 \begin{figure}[h]
 \begin{centering}
 \includegraphics[scale=0.5]{\string"../Ex1/Resources/FFT SIMULADO\string".png}
 \par\end{centering}
-\caption{FFT de la seÒal generada}
+\caption{FFT de la se√±al generada}
 \label{1_12}
 
 \end{figure}
 
-Si se mide la potencia de los primeros 5 armÛnicos siguientes al armonico
-principal, la distorsiÛn armÛnica da como resultado lo siguiente:
+Si se mide la potencia de los primeros 5 arm√≥nicos siguientes al armonico
+principal, la distorsi√≥n arm√≥nica da como resultado lo siguiente:
 
 \[
 THD=0.0206
 \]
 
-Por otro lado, al medir el espectro en frecuencia de la seÒal con
+Por otro lado, al medir el espectro en frecuencia de la se√±al con
 una FFT en el osciloscopio, el resultado fue el que se muestra en
 la Figura \ref{1_13}.
 
@@ -621,49 +622,49 @@ la Figura \ref{1_13}.
 \begin{centering}
 \includegraphics[scale=0.7]{../Ex1/Resources/FFT}
 \par\end{centering}
-\caption{FFT de la seÒal generada}
+\caption{FFT de la se√±al generada}
 \label{1_13}
 
 \end{figure}
 
-Donde se puede observar que la distorsiÛn armÛnica es pr·cticamente
+Donde se puede observar que la distorsi√≥n arm√≥nica es pr√°cticamente
 igual a la simulada.
 
 \subsection{Transistor en estado estacionario}
 
-\subsubsection{Resistencia din·mica}
+\subsubsection{Resistencia din√°mica}
 
 Luego de que se llego al estado estacionario del circuito, es decir
 cuando termino el tiempo transitorio desde que se lo conecto a una
-fuente, la resistencia din·mica del transistor deberÌa quedar en un
-valor, de tal manera que la relaciÛn de impedancias $\frac{R_{3}}{R_{4}+R_{T}}=2$,
+fuente, la resistencia din√°mica del transistor deber√≠a quedar en un
+valor, de tal manera que la relaci√≥n de impedancias $\frac{R_{3}}{R_{4}+R_{T}}=2$,
 para esto, despejando de los valores de las reistencias, $R_{T}$
 deberia tener un valor cercano a $300(\Omega)$. Esto se verifica
-al ver la Figura \ref{1_14}, que muestra la simulaciÛn hecha con
+al ver la Figura \ref{1_14}, que muestra la simulaci√≥n hecha con
 LTSpice.
 
 \begin{figure}[h]
 \begin{centering}
 \includegraphics[scale=0.7]{\string"../Ex1/Resources/Resistencia transistor SIMULADO\string".png}
 \par\end{centering}
-\caption{SimulaciÛn de resistencia del transistor en el estado estacionario}
+\caption{Simulaci√≥n de resistencia del transistor en el estado estacionario}
 \label{1_14}
 
 \end{figure}
 
-\subsubsection{TensiÛn de Gate}
+\subsubsection{Tensi√≥n de Gate}
 
 Para lograr obtener los valores de resistencia aproximadamente dentro
-del rango requerido, es necesario que la tensiÛn de gate a su vez
-tenga pequeÒas variaciones cerca de un intervalo. Si se simula la
-tensiÛn de gate en el estado estacionario, el resultado se puede observar
+del rango requerido, es necesario que la tensi√≥n de gate a su vez
+tenga peque√±as variaciones cerca de un intervalo. Si se simula la
+tensi√≥n de gate en el estado estacionario, el resultado se puede observar
 en la Figura \ref{1_15}.
 
 \begin{figure}[h]
 \begin{centering}
 \includegraphics[scale=0.6]{\string"../Ex1/Resources/Tension de gate SIMULADA\string".png}
 \par\end{centering}
-\caption{TensiÛn de gate en el estado estacionario}
+\caption{Tensi√≥n de gate en el estado estacionario}
 
 \label{1_15}
 \end{figure}
@@ -672,10 +673,10 @@ en la Figura \ref{1_15}.
 \begin{centering}
 \includegraphics[scale=0.35]{../Ex1/Resources/VG}
 \par\end{centering}
-\caption{MediciÛn de la tensiÛn de gate}
+\caption{Medici√≥n de la tensi√≥n de gate}
 
 \end{figure}
 
-Como se puede observar, la tensiÛn de gate tiene variaciones m·ximas
-de 0.2(mV), por lo cual, a fines pr·cticos, y considerando el ruido
-electromagnÈtico de laboratorio, se la puede considerar constante.
+Como se puede observar, la tensi√≥n de gate tiene variaciones m√°ximas
+de 0.2(mV), por lo cual, a fines pr√°cticos, y considerando el ruido
+electromagn√©tico de laboratorio, se la puede considerar constante.

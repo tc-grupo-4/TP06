@@ -10,7 +10,7 @@ En el presente informe, se implementa un PLL mediante el uso de un circuito inte
 Se muestra en la Figura \ref{diagramabloquesPLL} el diagrama de bloques de un PLL básico. Se asume que hay una señal FM con una portadora de frecuencia $f_{0}$ en la entrada. Al ingresar, se la multiplica en un comparador de fase por la salida de un VCO cuya frecuencia, seleccionada en el diseño, también es $f_{0}$.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{resources/diagramabloquesPLL.png}
+    \includegraphics[width=0.8\textwidth]{../Ex2/resources/diagramabloquesPLL.png}
     \caption{Diagrama de bloques de un PLL básico}
     \label{diagramabloquesPLL}
 \end{figure}
@@ -86,8 +86,8 @@ entonces, el rango de captura es
 Para un filtro pasa-bajos de transferencia $F_{\omega}=1$, el rango de captura es igual al de enganche, por razones expuestas anteriormente.
 \begin{figure}[H]
         \centering
-        \includegraphics[width=0.4\textwidth]{resources/filtrorc.png}
-        \includegraphics[width=0.4\textwidth]{resources/filtrorrc.png} 
+        \includegraphics[width=0.4\textwidth]{../Ex2/resources/filtrorc.png}
+        \includegraphics[width=0.4\textwidth]{../Ex2/resources/filtrorrc.png} 
     \caption{Filtros normalmente utilizados en diseño de PLL}
 \end{figure}
 Para un filtro pasa-bajos de orden 1, cuya transferencia es 
@@ -102,7 +102,7 @@ Este resultado se ve graficado en función del ancho de banda del filtro en la F
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{resources/engancheprimerorden.png}
+    \includegraphics[width=0.8\textwidth]{../Ex2/resources/engancheprimerorden.png}
     \caption{Relacion rango captura/rango enganche del VCO en función del ancho de banda del filtro pasa-bajos de primer orden}
     \label{engancheprimerorden}
 \end{figure}
@@ -130,7 +130,7 @@ La ecuación \ref{eqdifsegundoorden} representa la relación rango de captura - 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{resources/enganchesegundoorden.png}
+    \includegraphics[width=\textwidth]{../Ex2/resources/enganchesegundoorden.png}
     \caption{Relacion rango captura/rango enganche del VCO en función del ancho de banda del filtro RRC para distintos valores de $\frac{\omega_{n}}{K}$}
     \label{enganchesegundoorden}
 \end{figure}
@@ -142,7 +142,7 @@ Se sabe que $\zeta=\frac{1}{2Q}$, donde Q es el factor de calidad del filtro. La
 El integrado \emph{CD4046B}, utilizado en el presente informe, se compone de un VCO y dos comparadores de fase para escoger, de los cuales se utiliza solo uno a la vez. El esquemático de este integrado se muestra en la Figura \ref{integradoadentro}.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{resources/integradoadentro.png}
+    \includegraphics[width=0.8\textwidth]{../Ex2/resources/integradoadentro.png}
     \caption{Esquemático del integrado CD4046B}
     \label{integradoadentro}
 \end{figure}
@@ -151,7 +151,7 @@ El integrado \emph{CD4046B}, utilizado en el presente informe, se compone de un 
 El esquemático de la etapa de comparadores del circuito se observa en la Figura \ref{comparadoresfasePLL}. 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{resources/comparadoresfasePLL.png}
+    \includegraphics[width=0.8\textwidth]{../Ex2/resources/comparadoresfasePLL.png}
     \caption{Etapa de comparadores del integrado CD4046B}
     \label{comparadoresfasePLL}
 \end{figure}
@@ -161,7 +161,7 @@ Al pasar por el filtro pasa-bajos, la señal cuadrada de \emph{duty cycle} varia
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{resources/ondascomparador1PLL.png}
+    \includegraphics[width=0.8\textwidth]{../Ex2/resources/ondascomparador1PLL.png}
     \caption{Ondas del PLL con comparador 1}
     \label{ondascomparador1PLL}
 \end{figure}
@@ -170,7 +170,7 @@ Hace falta tener en cuenta dos particularidades: que este comparador puede hacer
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{resources/relacionfasevoltajecomp1PLL.png}
+    \includegraphics[width=0.6\textwidth]{../Ex2/resources/relacionfasevoltajecomp1PLL.png}
     \caption{Relación diferencia de fase en comparador - tensión a la salida del LPF}
     \label{relacionfasevoltajecomp1PLL}
 \end{figure}
@@ -182,7 +182,7 @@ El oscilador interno del integrado permite regular su frecuencia central, $f_{0}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{resources/f0vsc1r1pll.png}
+    \includegraphics[width=0.5\textwidth]{../Ex2/resources/f0vsc1r1pll.png}
     \caption{Relación de $f_{0}$ con C1 para varios valores de R1}
     \label{f0vsc1r1pll}
 \end{figure}
@@ -250,14 +250,14 @@ En las figuras \ref{escalonrc} y \ref{escalonrrc} se pueden ver las mediciones d
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{resources/escalonrc.png}
+    \includegraphics[width=0.9\textwidth]{../Ex2/resources/escalonrc.png}
     \caption{Medición: respuesta del PLL al escalón de frecuencia (filtro RC)}
     \label{escalonrc}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{resources/escalonrrc.png}
+    \includegraphics[width=0.9\textwidth]{../Ex2/resources/escalonrrc.png}
     \caption{Medición: respuesta del PLL al escalón de frecuencia (filtro RRC)}
     \label{escalonrrc}
 \end{figure}
@@ -268,7 +268,7 @@ Se ve que en vez de curvas, estas señales son bandas de ancho fijo. Esto se deb
     \centering
     \begin{tabular}{|c|c|c|c|c|}
     \hline
-                &  OS   &   \zeta  & Q    &   T_{est}   \tabularnewline
+                &  OS   &   $\zeta$  & Q    &   $T_{est}$   \tabularnewline
     \hline
     \hline
     
@@ -289,7 +289,7 @@ Se observa que el tiempo de establecimiento del filtro RRC es, como era de esper
 El principio básico tras el concepto de modulación en frecuencia (FM, por sus siglas en inglés) es que la amplitud de una señal analógica, a la que llamaremos la señal modulada, puede ser representada por un cambio en la frecuencia de otra, a la que llamaremos la señal portadora. De esta forma, distintas amplitudes de la primera corresponden a frecuencias específicas de la segunda. Esto se ve ilustrado en la Figura \ref{modulacionfmsenales}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{resources/modulacionfmsenales.png}
+    \includegraphics[width=0.9\textwidth]{../Ex2/resources/modulacionfmsenales.png}
     \caption{Modulación FM: portadora, modulada y FM}
     \label{modulacionfmsenales}
 \end{figure}
@@ -298,7 +298,7 @@ El principio básico tras el concepto de modulación en frecuencia (FM, por sus 
 Se implementó el integrado en un circuito para demodular una señal FM con portadora de $50kHz$ modulada por una señal de audio de frecuencia $f_{1}=400Hz$. A continuación, se detalla su funcionamiento.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{resources/demoduladorfmconexion.png}
+    \includegraphics[width=0.9\textwidth]{../Ex2/resources/demoduladorfmconexion.png}
     \caption{Esquemático del circuito del demodulador FM}
     \label{demoduladorfmconexion}
 \end{figure}
@@ -319,22 +319,22 @@ Se muestran en las figuras \ref{demodulacionfmcuadrada}, \ref{demodulacionfmseno
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth]{resources/demodulacionfmcuadradarc.png}
-    \includegraphics[width=0.45\textwidth]{resources/demodulacionfmcuadradarrc.png}
+    \includegraphics[width=0.45\textwidth]{../Ex2/resources/demodulacionfmcuadradarc.png}
+    \includegraphics[width=0.45\textwidth]{../Ex2/resources/demodulacionfmcuadradarrc.png}
     \caption{Medición: demodulación de señal cuadrada (filtro RC izquierda)}
     \label{demodulacionfmcuadrada}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth]{resources/demodulacionfmsenoidalrc.png}
-    \includegraphics[width=0.45\textwidth]{resources/demodulacionfmsenoidalrrc.png}
+    \includegraphics[width=0.45\textwidth]{../Ex2/resources/demodulacionfmsenoidalrc.png}
+    \includegraphics[width=0.45\textwidth]{../Ex2/resources/demodulacionfmsenoidalrrc.png}
     \caption{Medición: demodulación de señal senoidal (filtro RC izquierda)}
     \label{demodulacionfmsenoidal}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth]{resources/demodulacionfmtrirc.png}
-    \includegraphics[width=0.45\textwidth]{resources/demodulacionfmtrirrc.png}
+    \includegraphics[width=0.45\textwidth]{../Ex2/resources/demodulacionfmtrirc.png}
+    \includegraphics[width=0.45\textwidth]{../Ex2/resources/demodulacionfmtrirrc.png}
     \caption{Medición: demodulación de señal triangular (filtro RC izquierda)}
     \label{demodulacionfmtri}
 \end{figure}
@@ -346,7 +346,7 @@ Si se procesa esta señal de portadora cuadrada con el comparador 1, se obtienen
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{resources/demodulacionfmsenoidalcomp1.png}
+    \includegraphics[width=0.9\textwidth]{../Ex2/resources/demodulacionfmsenoidalcomp1.png}
     \caption{Medición: demodulación de señal senoidal (filtro RC, comparador 1)}
     \label{modulacionfmsenoidalcomp1}
 \end{figure}
@@ -364,14 +364,14 @@ En las figuras \ref{medicionstep8} y \ref{medicionstep16} se observan las medici
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{resources/medicionstep8.png}
+    \includegraphics[width=0.7\textwidth]{../Ex2/resources/medicionstep8.png}
     \caption{Medición: multiplicación por 8}
     \label{medicionstep8}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{resources/medicionstep16.png}
+    \includegraphics[width=0.7\textwidth]{../Ex2/resources/medicionstep16.png}
     \caption{Medición: multiplicación por 16}
     \label{medicionstep16}
 \end{figure}
@@ -393,5 +393,4 @@ Miniaturized RC Filters Using Phase-Locked Loop. (Moschytz, G.S.): \url{https://
 CMOS Phase-Locked-Loop Applications Using the
 CD54/74HC/HCT4046A and CD54/74HC/HCT7046A: \url{http://www.ti.com/lit/an/scha003b/scha003b.pdf}
 
-\end{document}
 
