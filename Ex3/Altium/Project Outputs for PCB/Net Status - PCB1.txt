@@ -1,0 +1,32 @@
+Net Status Report
+Filename     : E:\Altium\PCB1.PcbDoc
+Date         : 11-Nov-19
+Time         : 9:09:40 AM
+Time Elapsed : 00:00:01
+
+Nets, Layer, Length
+    +VCC, Signal Layers Only, 49.6407mm
+    -VCC, Signal Layers Only, 23.1671mm
+    GND, Signal Layers Only, 106.0865mm
+    Net2R_A_1, Signal Layers Only, 13.76mm
+    Net2R_A_2, Signal Layers Only, 2.921mm
+    Net2R_B_2, Signal Layers Only, 25.6268mm
+    NetC R1_1, Signal Layers Only, 15.113mm
+    NetC R1_3, Signal Layers Only, 15.8383mm
+    NetC R3_1, Signal Layers Only, 29.902mm
+    NetC R4_1, Signal Layers Only, 14.6464mm
+    NetC R5_2, Signal Layers Only, 9.2019mm
+    NetC R6_1, Signal Layers Only, 12.0443mm
+    NetC R6_2, Signal Layers Only, 41.2172mm
+    NetC R6_3, Signal Layers Only, 11.3662mm
+    NetC R9_1, Signal Layers Only, 13.2366mm
+    NetJUMPER1_2, Signal Layers Only, 18.9519mm
+    NetJUMPER2_1, Signal Layers Only, 55.3511mm
+    NetJUMPER2_2, Signal Layers Only, 9.2996mm
+    NetJUMPER3_2, Signal Layers Only, 11.7134mm
+    NetR1_2, Signal Layers Only, 32.0668mm
+    NetR3_A_1, Signal Layers Only, 29.3767mm
+    NetR4_1, Signal Layers Only, 3.937mm
+    NetR_1, Signal Layers Only, 4.445mm
+    VTR, Signal Layers Only, 22.9686mm
+count : 24

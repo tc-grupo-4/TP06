@@ -1,0 +1,11 @@
+PWD /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Teoria de Circuitos/Trabajos Practicos/TP06/Ex1
+INPUT /usr/local/texlive/2019/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Teoria de Circuitos/Trabajos Practicos/TP06/Ex1/Ex1.tex
+OUTPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Teoria de Circuitos/Trabajos Practicos/TP06/Ex1/Ex1.log
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Teoria de Circuitos/Trabajos Practicos/TP06/Ex1/Ex1.pdf
+INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map

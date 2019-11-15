@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=J1 NewDesignator=JUMPER1
+Change Component Designator: OldDesignator=J2 NewDesignator=JUMPER2
+Change Component Designator: OldDesignator=J3 NewDesignator=JUMPER3
+Added Component: Designator=Vout(JUMPER2)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC R9_1 Pin=Vout-1
+Added Member To Class: ClassName=Sch Member=Component JUMPER1 JUMPER
+Added Member To Class: ClassName=Sch Member=Component Vout JUMPER
+Added Room: Name=Sch

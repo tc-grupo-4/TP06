@@ -1,0 +1,227 @@
+Added Component: Designator=2R_A(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=2R_B(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C1 DES(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C2 DES(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C R1(PRESET V)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C R2(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C R3(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C R4(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C R5(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C R6(PRESET V)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C R7(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C R8(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C R9(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C R10(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=FUENTE(BORNERA3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J1(BORNERA2)
+Add component. Clean all parameters for all variants
+Added Component: Designator=JUMPER1(JUMPER2)
+Add component. Clean all parameters for all variants
+Added Component: Designator=JUMPER2(JUMPER2)
+Add component. Clean all parameters for all variants
+Added Component: Designator=JUMPER3(JUMPER2)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R2(PRESET V)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R3_A(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R3_B(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R4(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=T1(TO18)
+Add component. Clean all parameters for all variants
+Added Component: Designator=T2(TO18)
+Add component. Clean all parameters for all variants
+Added Component: Designator=T3(TO18)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U1(TI-N14)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMRR(Min)(dB)"; Value = "75"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/lit/ds/symlink/tl084a.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/lit/ml/mpdi002c/mpdi002c.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "SLOS081G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Eco-Plan"; Value = "Pb-Free (RoHS)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBW(Typ)(MHz)"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IIB(Max)(pA)"; Value = "200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Iq per channel(Max)(mA)"; Value = "2.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Offset Drift(Typ)(uV/C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "14-Pin Plastic In-Line, Body 19.305 x 6.35 mm, Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "N14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "4040049/E, 12/2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "TL084ACN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = "Catalog"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate(Typ)(V/us)"; Value = "13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sub Family"; Value = "General Purpose Amplifier, High Supply Voltage Amplifier (>=30V)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-1782-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "1106129"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "08F9361"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "595-TL084ACN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Total Supply Voltage(Max)(+5V is 5, +/-5V is 10)"; Value = "36"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Total Supply Voltage(Min)(+5V is 5, +/-5V is 10)"; Value = "7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vio (25C)(Max)(mV)"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vn at 1kHz(Typ)(nV/rtHz)"; Value = "18"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+VCC Pin=C1 DES-2
+Added Pin To Net: NetName=+VCC Pin=C R3-2
+Added Pin To Net: NetName=+VCC Pin=C R4-2
+Added Pin To Net: NetName=+VCC Pin=FUENTE-1
+Added Pin To Net: NetName=+VCC Pin=U1-4
+Added Net: Name=+VCC
+Added Pin To Net: NetName=-VCC Pin=C2 DES-2
+Added Pin To Net: NetName=-VCC Pin=C R7-2
+Added Pin To Net: NetName=-VCC Pin=FUENTE-3
+Added Pin To Net: NetName=-VCC Pin=U1-11
+Added Net: Name=-VCC
+Added Pin To Net: NetName=GND Pin=C1 DES-1
+Added Pin To Net: NetName=GND Pin=C2 DES-1
+Added Pin To Net: NetName=GND Pin=C R2-1
+Added Pin To Net: NetName=GND Pin=C R5-1
+Added Pin To Net: NetName=GND Pin=C R8-1
+Added Pin To Net: NetName=GND Pin=FUENTE-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R3_B-1
+Added Pin To Net: NetName=GND Pin=T1-2
+Added Net: Name=GND
+Added Pin To Net: NetName=Net2R_A_1 Pin=2R_A-1
+Added Pin To Net: NetName=Net2R_A_1 Pin=J1-1
+Added Pin To Net: NetName=Net2R_A_1 Pin=R3_A-2
+Added Net: Name=Net2R_A_1
+Added Pin To Net: NetName=Net2R_A_2 Pin=2R_A-2
+Added Pin To Net: NetName=Net2R_A_2 Pin=2R_B-1
+Added Net: Name=Net2R_A_2
+Added Pin To Net: NetName=Net2R_B_2 Pin=2R_B-2
+Added Pin To Net: NetName=Net2R_B_2 Pin=C-1
+Added Pin To Net: NetName=Net2R_B_2 Pin=R-2
+Added Pin To Net: NetName=Net2R_B_2 Pin=U1-2
+Added Net: Name=Net2R_B_2
+Added Pin To Net: NetName=NetC R1_1 Pin=C R1-1
+Added Pin To Net: NetName=NetC R1_1 Pin=U1-13
+Added Pin To Net: NetName=NetC R1_1 Pin=U1-14
+Added Net: Name=NetC R1_1
+Added Pin To Net: NetName=NetC R1_3 Pin=C R1-3
+Added Pin To Net: NetName=NetC R1_3 Pin=C R2-2
+Added Pin To Net: NetName=NetC R1_3 Pin=T2-1
+Added Net: Name=NetC R1_3
+Added Pin To Net: NetName=NetC R3_1 Pin=C R3-1
+Added Pin To Net: NetName=NetC R3_1 Pin=C R9-2
+Added Pin To Net: NetName=NetC R3_1 Pin=T2-3
+Added Pin To Net: NetName=NetC R3_1 Pin=U1-9
+Added Net: Name=NetC R3_1
+Added Pin To Net: NetName=NetC R4_1 Pin=C R4-1
+Added Pin To Net: NetName=NetC R4_1 Pin=C R8-2
+Added Pin To Net: NetName=NetC R4_1 Pin=T3-3
+Added Pin To Net: NetName=NetC R4_1 Pin=U1-10
+Added Net: Name=NetC R4_1
+Added Pin To Net: NetName=NetC R5_2 Pin=C R5-2
+Added Pin To Net: NetName=NetC R5_2 Pin=T3-1
+Added Net: Name=NetC R5_2
+Added Pin To Net: NetName=NetC R6_1 Pin=C R6-1
+Added Pin To Net: NetName=NetC R6_1 Pin=C R10-1
+Added Pin To Net: NetName=NetC R6_1 Pin=T3-2
+Added Net: Name=NetC R6_1
+Added Pin To Net: NetName=NetC R6_2 Pin=C R6-2
+Added Pin To Net: NetName=NetC R6_2 Pin=C R7-1
+Added Net: Name=NetC R6_2
+Added Pin To Net: NetName=NetC R6_3 Pin=C R6-3
+Added Pin To Net: NetName=NetC R6_3 Pin=C R10-2
+Added Pin To Net: NetName=NetC R6_3 Pin=T2-2
+Added Net: Name=NetC R6_3
+Added Pin To Net: NetName=NetC R9_1 Pin=C R9-1
+Added Pin To Net: NetName=NetC R9_1 Pin=U1-8
+Added Net: Name=NetC R9_1
+Added Pin To Net: NetName=NetJUMPER1_2 Pin=JUMPER1-2
+Added Pin To Net: NetName=NetJUMPER1_2 Pin=U1-6
+Added Net: Name=NetJUMPER1_2
+Added Pin To Net: NetName=NetJUMPER2_1 Pin=JUMPER2-1
+Added Pin To Net: NetName=NetJUMPER2_1 Pin=R2-1
+Added Pin To Net: NetName=NetJUMPER2_1 Pin=R2-2
+Added Pin To Net: NetName=NetJUMPER2_1 Pin=U1-7
+Added Net: Name=NetJUMPER2_1
+Added Pin To Net: NetName=NetJUMPER2_2 Pin=JUMPER2-2
+Added Pin To Net: NetName=NetJUMPER2_2 Pin=R4-2
+Added Net: Name=NetJUMPER2_2
+Added Pin To Net: NetName=NetJUMPER3_2 Pin=JUMPER3-2
+Added Pin To Net: NetName=NetJUMPER3_2 Pin=U1-12
+Added Net: Name=NetJUMPER3_2
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=U1-5
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR3_B_2 Pin=R3_B-2
+Added Pin To Net: NetName=NetR3_B_2 Pin=U1-3
+Added Net: Name=NetR3_B_2
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=T1-1
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=NetR_1 Pin=R-1
+Added Pin To Net: NetName=NetR_1 Pin=T1-3
+Added Net: Name=NetR_1
+Added Pin To Net: NetName=VTR Pin=C-2
+Added Pin To Net: NetName=VTR Pin=JUMPER1-1
+Added Pin To Net: NetName=VTR Pin=JUMPER3-1
+Added Pin To Net: NetName=VTR Pin=U1-1
+Added Net: Name=VTR
+Added Member To Class: ClassName=Sch Member=Component 2R_A RES
+Added Member To Class: ClassName=Sch Member=Component 2R_B RES
+Added Member To Class: ClassName=Sch Member=Component C1 DES CAP
+Added Member To Class: ClassName=Sch Member=Component C2 DES CAP
+Added Member To Class: ClassName=Sch Member=Component C R1 PRESET
+Added Member To Class: ClassName=Sch Member=Component C R2 RES
+Added Member To Class: ClassName=Sch Member=Component C R3 RES
+Added Member To Class: ClassName=Sch Member=Component C R4 RES
+Added Member To Class: ClassName=Sch Member=Component C R5 RES
+Added Member To Class: ClassName=Sch Member=Component C R6 PRESET
+Added Member To Class: ClassName=Sch Member=Component C R7 RES
+Added Member To Class: ClassName=Sch Member=Component C R8 RES
+Added Member To Class: ClassName=Sch Member=Component C R9 RES
+Added Member To Class: ClassName=Sch Member=Component C R10 RES
+Added Member To Class: ClassName=Sch Member=Component C CAP
+Added Member To Class: ClassName=Sch Member=Component FUENTE BORNERA 3
+Added Member To Class: ClassName=Sch Member=Component J1 BORNERA 2
+Added Member To Class: ClassName=Sch Member=Component JUMPER1 JUMPER
+Added Member To Class: ClassName=Sch Member=Component JUMPER2 JUMPER
+Added Member To Class: ClassName=Sch Member=Component JUMPER3 JUMPER
+Added Member To Class: ClassName=Sch Member=Component R1 RES
+Added Member To Class: ClassName=Sch Member=Component R2 PRESET
+Added Member To Class: ClassName=Sch Member=Component R3_A RES
+Added Member To Class: ClassName=Sch Member=Component R3_B RES
+Added Member To Class: ClassName=Sch Member=Component R4 RES
+Added Member To Class: ClassName=Sch Member=Component R RES
+Added Member To Class: ClassName=Sch Member=Component T1 2N2222
+Added Member To Class: ClassName=Sch Member=Component T2 2N2222
+Added Member To Class: ClassName=Sch Member=Component T3 2N2222
+Added Member To Class: ClassName=Sch Member=Component U1 TL084ACN
+Added Room: Name=Sch
