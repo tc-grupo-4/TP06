@@ -1,0 +1,11 @@
+Added Component: Designator=J?(JUMPER2)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetJ?_1 Pin=J?-1
+Added Pin To Net: NetName=NetJ?_1 Pin=RS-2
+Added Net: Name=NetJ?_1
+Added Pin To Net: NetName=NetJ?_2 Pin=J?-2
+Added Pin To Net: NetName=NetJ?_2 Pin=OUT-2
+Added Pin To Net: NetName=NetJ?_2 Pin=U1-10
+Added Net: Name=NetJ?_2
+Added Member To Class: ClassName=Sheet1 Member=Component J? JUMPER
+Added Room: Name=Sheet1
